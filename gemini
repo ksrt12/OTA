@@ -1,18 +1,17 @@
 {
-"donate_url":"https:\/\/www.paypal.me\/ANUSHEK",
+"donate_url":"https:\/\/www.paypal.me\/ksrt12",
 "website_url":"https:\/\/sourceforge.net\/projects\/havoc-os\/",
 "news_url":"https:\/\/t.me\/Havoc_OS",
 "addons":[
 {"title":"GApps","summary":"Official Open GApps","url":"http:\/\/opengapps.org"},
 {"title":"Magisk","summary":"Systemless Root Installer","url":"https:\/\/forum.xda-developers.com\/apps\/magisk\/official-magisk-v7-universal-systemless-t3473445"}],
 "developer": "SKULSHADY",
-"developer_url": "https:\/\/t.me\/SKULSHADY",
-"forum_url": "https:\/\/forum.xda-developers.com\/oneplus-3\/oneplus-3--3t-cross-device-development\/rom-havoc-os-t3782811",
+"developer_url": "https:\/\/t.me\/ksrt12",
 "changelog": "",
-"filename":"Havoc-OS-v2.0-20181027-oneplus3-Official.zip",
-"build_date":"20181027-2112",
-"filesize":"609296444",
-"md5":"8c031cd88bd2411139e6aafaf688e118",
+"filename":"Havoc-OS-v2.0-201811??-gemini-ksrt12.zip",
+"build_date":"201811??-????",
+"filesize":"",
+"md5":"",
 "url":"https:\/\/sourceforge.net\/projects\/havoc-os\/files\/oneplus3\/Havoc-OS-v2.0-20181027-oneplus3-Official.zip\/download",
 "error":true
 }
