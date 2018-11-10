@@ -1,0 +1,384 @@
+====================
+     11-10-2018
+====================
+
+
+   * frameworks/base/
+93ca1332810 Fix One handed mode crash
+99302cccfa4 Revert "HWKeys: Fix annoying trouble with wakeup from hw keys"
+
+   * packages/apps/HavocSettings/
+691552d ru
+
+   * packages/apps/Settings/
+1e775d1330 fix
+c349b2eee2 Remove launch mode from ambient history activity
+c3d6bb295a Phone ringtone setting for Multi SIM device
+2eea33c7af Themes: Settings: Fix theming  zoom preview timestamp text color
+d0993f1ef0 Themes: Settings: expose msim color picker text colors
+d5b4330fb2 Themes: Settings: Expose storage summary text
+005d10a8c9 Themes: Settings: Expose storage icon colors
+302e706214 Remove weather activity
+ede73c5318 AmbientPlay: Introduce history manager [4/4]
+d0c4595368 Ambient Play settings improvements
+f5082f6065 Make batterysaver dark mode state configurable [2/2]
+e9e0c9c54c Merge tag 'android-9.0.0_r16' into pie
+4f6597076d Allow dismiss notifications with FP left/right swipe [2/2]
+
+   * packages/inputmethods/LatinIME/
+df4088273 LatinIME: Fix dicttool build
+
+   * system/bt/
+c1278b8d3 Run the wakelock JNI callbacks on the JNI thread
+7b4dea003 Fix out-of-bounds reading in btm_ble_vendor_capability_vsc_cmpl_cback
+
+   * system/sepolicy/
+8ca3f277 sepolicy: allow settings to read selinux status
+
+   * vendor/havoc/
+c3f4dbda fix perms
+f159ab46 add soong-havoc-generator
+0734b5cf Move kernel variable configuration to BoardConfigKernel
+42c00ca8 update qcom_target
+274f3c5a Move QC board variables earlie
+ef61932d Change the Walls
+b1c7f69d Weather: Add default permissions
+1758d87a WeatherClient: Bump revision to add support for new icons
+5f6e702f Update WeatherClient
+7d03bdd4 Add Substratum Signature
+aa9d5a6e vendor: build: Generate json file with zip info after build
+3c095af3 AmbientPlay: Introduce history manager [2/4]
+a076daf0 Ship WeatherClient
+eec6c78c vendor: Adaptive Icons 2.0
+b9ed6d25 vendor: Build telephony-ext
+1cf4a84b Fix ROM fingerprint
+
+====================
+     11-09-2018
+====================
+
+
+   * frameworks/base/
+09635b6aab5 Revert "hwui: Enable quicksilver"
+ad2df944b06 AmbientPlay: Animate ambient indication into view
+886585fd02d SystemUI: Animate the keyguard when charging
+f9cc5628379 Weather: Update condition icons
+fc791bd87ed Cleanup duplicate colors
+076f99f477e QS tiles customizer: respect user tiles columns value
+
+   * frameworks/havoc/
+6c7984f Init Havoc...
+
+   * packages/apps/HavocSettings/
+3f0d000 RoundCorners: Allow radius to reach 60
+
+   * system/netd/
+a774924 Merge tag 'android-9.0.0_r16' into pie
+e85f93d [3/3] NetD : Allow passing in interface names for wifi/data app restriction
+
+   * vendor/nxp/opensource/commonsys/external/libnfc-nci/
+ec66b5a Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
+
+   * vendor/nxp/opensource/commonsys/frameworks/
+608f6e0 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+1ed1ea79 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
+
+   * vendor/nxp/opensource/halimpl/
+b753c57 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
+
+   * vendor/nxp/opensource/hidlimpl/
+2259486 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
+
+   * vendor/nxp/opensource/interfaces/nfc/
+d2354e5 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
+
+====================
+     11-08-2018
+====================
+
+
+   * frameworks/base/
+81868789aa0 Phone ringtone setting for Multi SIM device
+724dd75635c OnTheGoTile: Fix active inactive states
+bd838ad8345 Themes: Remove color spans when using config_useDarkBgNotificationIconTinting
+158f9cc4934 Themes: Add Theme.DeviceDefault.Resolver.Exposed
+2c3706f5856 Themes: add bool to optimize notification icon colors on dark backgrounds
+508c8e52651 Themes: Expose notification icon colors
+900ba8abe81 Themes: Set UserIcons tintMode to SRC_ATOP
+cd952b8a15d Themes: Expose QS tiles and label colors
+a138747e5be Themes: SystemUI: expose screen pinning colors
+31521581e96 Themes: SystemUI: Expose QS edit item decoration background color
+c6d5ef73ef7 Themes: Allow Permission Icons to be fully themed
+1e58e9fabf0 Themes: Allow Immersive cling colors to be fully themed
+a8c1a13c4fe Themes: Expose resolver hardcoded colors
+bf56c6985b3 Themes: Expose toast & tooltip text colors for themes
+ef386b48b8b Themes: Expose Keyguard affordance circle background
+3e158ea78e3 Themes: Allow volume slider and thumb to work with custom images.
+f1f5a8a2d08 Themes: Expose Screenshot flash and background colors
+b2f148f474b Themes: Expose Keyboard Shortcuts Dialog
+113d3afba12 Themes: graphics: ADB "N" icon compatible with OMS7
+0bb53ff2f4c Themes: SystemUI: Expose switch bar title
+b8f94aa1d4e Themes: Allow Navbar ripple color to be themed
+3c1813f3291 Settings: Add Rounded corner strings to Settings.Secure
+abd509e654f RoundedCorners: Use even if resource values are 0
+920220dd257 Add back the curves
+066ffc72853 base: Lockscreen Date Fonts [1/2]
+c8f3bca4659 Fix Auto theme based on time
+42c14a397aa Status bar notification ticker [1/2]
+f75f924be39 Fixes crash when getting panel before setting components
+d93fcbd6e66 AmbientPlay: Introduce history manager [3/4]
+b5b5a8cf04a Cleanup Ambient Play tile
+2bcfd44a179 AmbientPlay: Move strings to fw/res
+86328566829 AmbientPlay: Rework
+c4a85b82b69 FingerprintService: add overlay to prevent cleanup of unused fingerprints
+107c8ca5f34 Revert "FingerprintService: add property to prevent cleanup of unused fingerprints"
+44b88a09cb3 SystemUI: Implement weather on lockscreen like Pixels
+be39ec8f436 Revert "Weather"
+da8c3972b93 Make batterysaver dark mode state configurable [1/2]
+fcea8922141 NightMode: Make night mode work on light theme
+
+   * hardware/havoc/telephony/
+aa38f35 Init Havoc...
+
+   * packages/apps/HavocSettings/
+11c95d7 RoundCornerPreferences: Evaluate framework values correctly
+1913a7f RoundCornerPreferences: Use frameworks default values
+4d60006 Settings: Add Runtime Rounded Corner preferences
+ae8800b Lockscreen Date Fonts [2/2]
+29a9885 Status bar notification ticker [2/2]
+
+   * packages/services/Telecomm/
+76e86755 Phone ringtone setting for Multi SIM device
+
+====================
+     11-07-2018
+====================
+
+
+   * bionic/
+d2cf6a5ea Merge tag 'android-9.0.0_r16' into pie
+
+   * external/perfetto/
+e851ed7a Merge tag 'android-9.0.0_r16' into pie
+
+   * external/sqlite/
+4c9d3a6 sqlite: upgrade to SQLite 3.24.0
+
+   * frameworks/av/
+ca5642856 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/base/
+fe29f9763a8 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/native/
+1ef1225ae Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/opt/net/ims/
+e01245f Merge tag 'android-9.0.0_r16' into pie-ims
+
+   * frameworks/opt/net/wifi/
+be3d6c085 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/opt/telephony/
+9afe9b93c Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/support/
+ba846be7ce Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/Bluetooth/
+9b6292ed Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/DocumentsUI/
+81614e68 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/HavocSettings/
+adfe86c Integrate Weather client [2/2]
+ba39c36 Revert "Weather"
+0690aaa Move in the remaining theme settings
+
+   * packages/apps/PackageInstaller/
+d923f175 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/SettingsIntelligence/
+4dc6a7a SettingsIntelligence: use HAVOC_FINGERPRINT for search index
+
+   * packages/apps/Updates/
+ba9c6a0 Test
+
+   * packages/inputmethods/LatinIME/
+c218837cc Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/providers/DownloadProvider/
+2f1ef50 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/providers/MediaProvider/
+1834b98d Merge tag 'android-9.0.0_r16' into pie
+baa53c2a MediaProvider: Add read storage permission
+
+   * packages/services/Telecomm/
+77897e6e Merge tag 'android-9.0.0_r16' into pie
+d59ef202 Revert "Telecomm: Make sensitive phone numbers not to be shown in call log history."
+
+   * packages/services/Telephony/
+bc248ece6 Merge tag 'android-9.0.0_r16' into pie
+
+   * system/bt/
+f95cc00a1 Merge tag 'android-9.0.0_r16' into pie
+
+   * system/core/
+d3a8d5109 metricslogger: fix ACTION_BATTERY_CAUSED_SHUTDOWN not matching proto
+
+   * system/extras/
+5044f8f3 Merge tag 'android-9.0.0_r16' into pie
+
+   * system/sepolicy/
+a09abd74 Merge tag 'android-9.0.0_r16' into pie
+
+   * system/vold/
+a3c8736 Merge tag 'android-9.0.0_r16' into pie
+
+====================
+     11-06-2018
+====================
+
+
+   * frameworks/av/
+5b787aae8 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+3d11813e4 CameraService: Allow new msg types for OP cam
+eaea1884d CameraService: Fix openCamera denial for OP cam
+cc9411ba4 Camera: Mark stream as ABANDONED if dequeueBuffer returns DEAD_OBJECT
+b982d12c7 Camera: Skip stream size check for whitelisted apps.
+
+   * frameworks/base/
+95b39b82491 hwui: build with full lto
+991b373ac70 Ambient Play improvements
+e4ea8bf886b SystemUI: small optimization for notification icon numbers
+e1f00608564 Show infinity for large notification counts
+5534d23e946 Status bar: Update notification count icons
+987b3e45856 SystemUI: Forward-port notification counters [1/2]
+3a38d5ed4f2 Fix current formating on lockscreen for devices, that report directly in Ampere. Shamelessly extracted from:   base: Lockscreen Charging info  (3/3)   by: xyyx <xyyx@mail.ru>
+9e5c7cd7b39 Reset WindowingMode of the orphaned TaskRecord
+8325634b188 SystemUI: Add switch for statusbar wifi data indicators [1/2]
+9df4e266587 Synchronize mPermissions to void NullPointerException
+80d72cf1c81 Stock navbar Pulse : allow to blacklist apps [1/2]
+e89884b79d8 Qs tiles no title: use bigger rows padding
+31adc8088ce FB: Clean up oneplus camera support
+662bf6fb9b5 FB: Add oneplus camera support
+365d2ea137e OMS: handle target or overlay package disabled
+b5286567477 OMS: try harder not to update assets if nothing changed
+6c2a9c54a94 SubstratumService: Rewrite installation method for Pie InstallSession API
+f37d73bc56b Unbreak public api by hiding substratum interfaces
+8ee2e3fbad3 Pie OMS: allow non-system overlays from Substratum
+27f9ac02c4e SubstratumService: Refactor & cleanup according to AOSP conventions
+d9e2478716b base: modify/define custom overlay management
+f2c5a5231a5 SubstratumService: unify permissions
+b7faaa52988 SubstratumService: allow CHANGE_OVERLAY_PACKAGES permission
+a7d7065ad2a base: Introduce SubstratumService
+35768852c72 OMS: StrictMode and files under /data/system/theme/
+b4dae108bfc Hold "volume up" during boot to disable all overlays
+a391160b1c5 ThemeSafety: Introduce App Crash Intent
+b73b7006193 ApplicationsState: add filter for Substratum overlays [2/2]
+3119441c6b8 Extras: Add dynamic theme sound effects support
+57870b93986 Extras: Add dynamic theme shutdown and boot animation support
+f4a013b3f4a Add back the mobile icon switch
+5e2350a009b Allow dismiss notifications with FP left/right swipe [1/2]
+30eb5402c8b GamingMode Tile: Show "What's This?" on long click.
+2ef7989e66b Notifications: Publish binder service for lights
+a70296511b2 platform priv-app-permissions: update used development/tools/privapp_permissions/privapp_permissions.py script
+8afc7be26e6 OpaLayout: Set PorterDuff mode to SRC_ATOP
+20e25ca4720 FWbase : Fix GA fc and saving the gesture cache
+8309170a8e6 Increase gesture anywhere width to 40px [1/2]
+6d7e45f284a Gesture Anywhere [1/3]
+6ea0a50ce64 HWKeys: Fix annoying trouble with wakeup from hw keys
+6a7c1da41fc Allow adjusting progress on touch events.
+6d204e1f005 Remove the property of touch optimization check.
+159904db00e MSIM: Get network operator name of default data sub.
+91cedbb135c NtpTrustedTime:Abstract forceSync and forceRefresh
+70636c8d133 SystemUI: Fixed traffic icon show in SUB1 while sending MMS on SUB2
+8b2537267c2 SystemUI: Fix NPE
+be2ae505839 SystemUI: Sort subscriptions for SPN
+f7bd6deee0e null check before accessing getCurrentScore()
+101b44268a0 Update network score from NetworkAgent
+202a4ca96b8 GnssLocationProvider to remember the Networks and connection types
+823fc176325 wifi: Add settings to allow delay_disconnect if needed.
+111bfd1fcff Add WIFI_COUNTRY_CODE_CHANGED_ACTION broadcast.
+86b85702521 Fix not-protected broadcast codeaurora.telecom.action.CALL_TYPE
+16945feac02 Make all activities resizable
+7181b2824ad StatusBarSignalPolicy: Why bro why
+72cdc12ce55 base: disable extra check for FLAG_WINDOW_IS_OBSCURED in adb auth
+f250b03ef4e base: fix check for keyguard in edge gestures
+30b4492aef8 ViewRootImpl: cleanup gestures handling
+5f44f4350da SystemUI: Fix mCallbacks is not thread-safe
+76042d01bac Remove call to expand QS panel while pressing the Airplane QS tile
+5a2190e7530 Google Pixel Weather Layout
+8c244ee5912 Revert "Keyguard Weather changes"
+044bec211a6 ScreenOff skip track: add Spotify/kdeconn/... remote session compatibility
+cf36ff9f07a Add back endQuickScrub call in ACTION.CANCEL (removed by mistake)
+2034c06ce97 Pulse: add back auto color based on albumart
+3a0db8b0d06 Navbar Pulse bringup
+335eab4750b Full nav gesture: home action on the whole bar and doubletap2sleep [1/2]
+
+   * packages/apps/HavocSettings/
+609e16d Forward-port notification counters
+e544d2b Pulse blacklist [2/2]
+4e0008c Add Pulse settings
+b003aa3 Gesture Anywhere [2/3]
+
+   * packages/providers/AmbientPlayHistoryProvider/
+b66a701 Automatic translation import
+
+   * system/sepolicy/
+ddb3b173 Android.mk: Remove the inconsequential warning
+887164d7 tee_listener isnt global
+c722581a p subs integration test
+5c616dd0 sepolicy: address denials related to recovery and first boot
+0e844609 Implement sepolicy rules for substratum theming in p release
+d53afe47 Introduce sepolicy exceptions for theme assets
+3c0b8bc8 Initial sepolicy rules for substratum service
+
+====================
+     11-05-2018
+====================
+
+
+   * packages/apps/HavocSettings/
+b8b0225 Add switch for statusbar wifi data indicators [2/2]
+
+   * packages/apps/Settings/
+2ef3cbfd95 Bring back selinux version
+09ee47c184 [1/3] Settings: per-app cellular data and wifi restrictions
+35da1f3ec9 UserSettings: Fix new user can not switch to owner or other new user
+37de408bb9 Make migrate option menu invisible when src volume is not mounted
+c23af52df4 Manage storage button is not showing in storage settings
+38e466d85b Revert "Ambient Play: Allow to configure the scan interval [2/2]"
+29c7000126 Settings: Introduce Substratum changes.
+e72fab8cab Gesture Anywhere [3/3]
+75eadb1ad8 Act as usb device when there is no hal, but we believe we are a device
+62a0377892 Full nav gesture: home action on the whole bar and doubletap2sleep [2/2]
+6e1fa8ce38 Allow to set a full gesture navbar (swipe left for back action) [2/2]
+ce24f7a401 Settings: : option to mute media with gesture [2/2]
+
+   * system/sepolicy/
+e954cb79 sepolicy: Add policy for edgegestureservice
+
+====================
+     11-04-2018
+====================
+
+
+   * frameworks/base/
+deb87385ee8 Nav full gesture: code improvements
+5d3e728a067 Allow to set a full gesture navbar (swipe left for back action) [1/2]
+032bfa4a3cc fw/b: option to mute media with gesture [1/2]
+b59b2a424ba Add a ripple effect to the power menu items
+4103cd0c5eb Keep recent tasks for more time in memory
+e608d3c5a0f storage: Set all sdcards to visible
+df67d06139d Improve QS dialog layout
+a53b6f83d3e Fix statusbar layout and padding
+
+   * packages/providers/AmbientPlayHistoryProvider/
+b1ae4ca Don't allow data cleaning
+a77c0af Hello world
+
