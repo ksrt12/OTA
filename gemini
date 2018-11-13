@@ -4,15 +4,15 @@
 "news_url":"https:\/\/t.me\/Havoc_OS",
 "addons":[
 {"title":"GApps","summary":"Official Open GApps","url":"http:\/\/opengapps.org"},
-{"title":"Magisk","summary":"Systemless Root Installer","url":"https:\/\/forum.xda-developers.com\/apps\/magisk\/official-magisk-v7-universal-systemless-t3473445"}],
-{"title":"Changelog","summary":"View changes","url":"https:\/\/raw.githubusercontent.com\/ksrt12\/OTA\/pie\/Havoc-OS-v2.0-20181109-gemini-ksrt12-Changelog.txt"}],
+{"title":"Magisk","summary":"Systemless Root Installer","url":"https:\/\/tiny.cc\/latestmagisk"}],
+{"title":"Changelog","summary":"View changes","url":"https:\/\/raw.githubusercontent.com\/ksrt12\/OTA\/pie\/Changelog"}],
 "developer": "ksrt12",
 "developer_url": "https:\/\/t.me\/ksrt12",
 "changelog": "",
-"filename":"Havoc-OS-v2.0-20181109-gemini-ksrt12.zip",
-"build_date":"20181109-2355",
-"filesize":"623832658",
-"md5":"7d6f91868f4bb6be63454a98efecd874",
-"url":"https:\/\/www.dropbox.com\/s\/u5lqf2jlq4kvzh6\/Havoc-OS-v2.0-20181109-gemini-ksrt12.zip?dl=1",
+"filename":"Havoc-OS-v2.0-20181113-gemini-ksrt12.zip",
+"build_date":"20181113-2321",
+"filesize":"614344564",
+"md5":"d6a766067a0b2409bb9905b12cc64860",
+"url":"https:\/\/www.dropbox.com\/s\/v92l6xgfhdpfdra\/Havoc-OS-v2.0-20181113-gemini-ksrt12.zip?dl=1",
 "error":true
 }

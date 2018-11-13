@@ -1,18 +1,191 @@
 ====================
+     11-14-2018
+====================
+
+
+   * frameworks/base/
+4f4457c0e37 Revert "SystemUI: Improve activity indicators layout"
+7c70d257fe2 Revert "Improve statusbar layout with activity indicators"
+0ae0024151f fix perms
+e8f46c712c4 Revert "hwui: Enable quicksilver"
+733de10e334 Update few drawables [1/2]
+e6cc999ca3c base: SystemUI: add tuner to hide qs drag handle
+0f813ee6420 LockSettingsService: Support for separate clear key api
+1f855145066 frameworks: base: Port password retention feature
+b28b221a577 Fix screen saver FC due to missing flag
+2fb52c8fb51 Add Lockscreen Clock & Date size [1/2]
+6941e97928c base: SystemUI: add tuner switch to hide qs info header
+17e7a860d9b lockscreen: Add option to pass swipe-up-to-unlock (1/2)
+0479a5c7098 core: Enable smart battery for everyone
+633061d73f6 base: fix checkapi
+abe8ee4b9b7 Fix StatusBar Brightness Control
+f15ac8760a5 Add more qs tiles style [1/3]
+cae23b822a0 Make carrier label's visibility gone
+8917e69d090 Refusing to enter PIP mode when activity destroyed
+3bf72f4329a Fix PIP media session listener for secondary users
+261eac8285e Fix the behavior of keyguard bouncer in a corner case
+5ecbacce5c8 VrManagerService: Solve the null pointer exception
+3ed30d55500 Improve statusbar layout with activity indicators
+f5d93d3ec19 SystemUI: Improve activity indicators layout
+6487cde1700 SystemUI: Fixes context for tiles without longClick
+ba6a91ce8ac ActivityManager: Fix display id JE issue
+8de19edc715 Activity: Fix class not found exception
+b168e8941aa am: Fix top activity resume with secure keyguard
+baac88ff882 Fix app shortcuts string when changing language during first boot
+a8b3ff9be16 SystemUI: Fix NPE when creates wifi tracker
+0930368392b Revert "NavigationBarView: Avoid NPE before mPanelView is created"
+b63fb1f6753 do not remove system when provider publish timeout
+bb127fe0d56 service: ResetListener in StorageManagerService
+5061278680e system_server:process: Crash on Android user-switching
+53193b2c3a6 Less boring heads up option [1/2]
+3d8606c7719 Brightness slider: Make it look not ugly
+78ae2e19472 Brightness slider: fixes and improvements
+
+   * packages/apps/DocumentsUI/
+ecf55b4b Update few drawables [2/2]
+
+   * packages/apps/HavocSettings/
+52ddaa1 ru
+11dff23 Refactor ambient settings
+5ad5c28 Disable wifi activity inidicators
+e1d85a2 Add Lockscreen Date & Clock Sizes [2/2]
+25438cb Add toggle for hiding QS drag handle [2/2]
+
+   * packages/apps/PackageInstaller/
+e5123941 Add MD2 icons
+
+   * system/bt/
+893bca832 Run the wakelock JNI callbacks on the JNI thread
+23f911355 Fix out-of-bounds reading in btm_ble_vendor_capability_vsc_cmpl_cback
+
+   * system/vold/
+d247f43 vold: Move QCOM HW FDE inclusion under custom namespace
+
+   * vendor/havoc/
+9702353f fix perms
+594d0728 update kernel task
+00a08305 Update Oreo QS drawables
+219eec8f repopick: Try to fast-forward first
+3fb459e2 verity_tool: Implement status getter
+74b4d2f5 kernel.mk: Support kernels that use LTO
+98813795 kernel: Remove kernel{x}config
+e568d6b9 kernel: Remove deprecated flag errors
+b7fe2471 Havoc: Move some kernel definitions to BoardConfigKernel
+a30dfc13 vendor/havoc: Remove kernel.mk headers generation
+8ee2c205 Havoc: Dynamically generate kernel headers using havoc generator
+2619daff vendor/havoc: Add soong generator module type
+add94195 soong_config: Add flag for crypto waiting on QSEE to start
+56d5b0c2 soong_config: Add flag for legacy HW FDE
+aed591e0 soong_config: Add new flags for HW FDE
+b52cd970 Add new Bootanimation
+f2eac633 Add more QS tiles style [2/3]
+47c61ba7 Add QS header styles [3/3]
+
+====================
+     11-13-2018
+====================
+
+
+   * frameworks/base/
+382374c6a52 Brightness slider: Vibrate after a long press
+a6cb2c181d7 Brightness Buttons: Improve touch area
+5509cf59c30 Improve the brightness footer slider animation when on 2nd QS page
+b2124c8fb4c Brightness slider: improve hide/show animation
+94583185eb3 Brightness buttons: make touch area more reliable
+5ff3ac23245 Brightness slider buttons: make them dynamic (auto and manual)
+b76217d0859 Brightness slider: fix FC and code cleanup
+b4cfa5903ef Make use of the brightness slider buttons
+73ea7f2312b Rework auto brightness implementation
+
+   * packages/apps/HavocSettings/
+648f488 RoundCorners: Fix default value for padding
+28ebe7c Add more QS tiles style [3/3]
+872b249 Add toggle for hiding QS header [2/2]
+6515ff8 Less boring heads up option [2/2]
+
+   * packages/apps/Settings/
+2dd72c28c7 Fix default settings for switches if AllowAllRotations enabled
+0fca4dd9c2 lockscreen: Forward port option to pass swipe-up-to-unlock [2/2]
+
+   * system/vold/
+305d9a6 vold: Wrapped key support for FBE
+0a1075a vold: Add Hardware FDE feature
+
+   * vendor/qcom/opensource/audio/
+ada8671 Merge tag 'LA.UM.7.4.r1-03900-8x98.0' into pie
+
+   * vendor/qcom/opensource/cryptfs_hw/
+804ea98 cryptfs_hw: Use generated kernel headers
+
+   * vendor/qcom/opensource/dataservices/
+1a8667b Merge tag 'LA.UM.7.4.r1-03900-8x98.0' into pie
+
+   * vendor/qcom/opensource/dpm/
+d0a4a5a Merge tag 'LA.UM.7.4.r1-03900-8x98.0' into pie
+
+   * vendor/qcom/opensource/interfaces/
+c317638 Add autogenerated blueprints
+
+====================
+     11-12-2018
+====================
+
+
+   * frameworks/base/
+f8a477bd395 Fix aosp partial screenshot
+4820af06e4f Aosp hidden partial screenshot code fixes
+642f39ed14d Themes: Fix autofill save dialog
+0ca9687d153 Add QS header styles [1/3]
+fcd54a6e5b3 Themes: Expose QS background color
+1e69e24d6f5 Revert "Add back the curves"
+827880cd11a Fix the Statusbar and QS panel layout
+bf290b1b45c Add Notification theme picker [1/3]
+
+   * packages/apps/HavocSettings/
+6ab79fd Add QS header styles [2/3]
+ded8456 Use "Jump to homescreen and back on theme change" for night mode
+f2c9eb3 RoundCorners: Increase padding limit
+4f2274a Revert "Restart SystemUI after changing theme"
+b62f35b Add Notification theme picker [2/3]
+
+   * packages/apps/Settings/
+316f528f2b Now playing history: Fix BG of entry dialog in Dark UI
+
+   * vendor/havoc/
+e2d5c64e Add Notification theme picker [3/3]
+3ad98dd2 Cleanup notification colors from primary themes
+79b1d9c0 Add QS edit item decoration background color
+1c0628df Change the Walls
+17b4331e Weather: Add default permissions
+3ed96bbf WeatherClient: Bump revision to add support for new icons
+56878b90 Update WeatherClient
+
+====================
+     11-11-2018
+====================
+
+
+   * frameworks/base/
+cc28c3ad0b0 base: Add MD2 style Switch
+1477855b512 [DNM][HACK] Persist user brightness model
+58f35e21f06 Fix One handed mode crash
+
+   * packages/apps/Settings/
+085b27ca82 Now Playing History MD2 redesign
+4ce3767014 Cleanup Android.mk
+
+   * vendor/havoc/
+a5ffad5a Add Substratum Signature
+
+====================
      11-10-2018
 ====================
 
 
    * frameworks/base/
-93ca1332810 Fix One handed mode crash
-99302cccfa4 Revert "HWKeys: Fix annoying trouble with wakeup from hw keys"
-
-   * packages/apps/HavocSettings/
-691552d ru
+7a96576bc58 Revert "HWKeys: Fix annoying trouble with wakeup from hw keys"
 
    * packages/apps/Settings/
-1e775d1330 fix
-c349b2eee2 Remove launch mode from ambient history activity
 c3d6bb295a Phone ringtone setting for Multi SIM device
 2eea33c7af Themes: Settings: Fix theming  zoom preview timestamp text color
 d0993f1ef0 Themes: Settings: expose msim color picker text colors
@@ -28,24 +201,10 @@ e9e0c9c54c Merge tag 'android-9.0.0_r16' into pie
    * packages/inputmethods/LatinIME/
 df4088273 LatinIME: Fix dicttool build
 
-   * system/bt/
-c1278b8d3 Run the wakelock JNI callbacks on the JNI thread
-7b4dea003 Fix out-of-bounds reading in btm_ble_vendor_capability_vsc_cmpl_cback
-
    * system/sepolicy/
 8ca3f277 sepolicy: allow settings to read selinux status
 
    * vendor/havoc/
-c3f4dbda fix perms
-f159ab46 add soong-havoc-generator
-0734b5cf Move kernel variable configuration to BoardConfigKernel
-42c00ca8 update qcom_target
-274f3c5a Move QC board variables earlie
-ef61932d Change the Walls
-b1c7f69d Weather: Add default permissions
-1758d87a WeatherClient: Bump revision to add support for new icons
-5f6e702f Update WeatherClient
-7d03bdd4 Add Substratum Signature
 aa9d5a6e vendor: build: Generate json file with zip info after build
 3c095af3 AmbientPlay: Introduce history manager [2/4]
 a076daf0 Ship WeatherClient
@@ -59,7 +218,6 @@ b9ed6d25 vendor: Build telephony-ext
 
 
    * frameworks/base/
-09635b6aab5 Revert "hwui: Enable quicksilver"
 ad2df944b06 AmbientPlay: Animate ambient indication into view
 886585fd02d SystemUI: Animate the keyguard when charging
 f9cc5628379 Weather: Update condition icons
@@ -75,24 +233,6 @@ fc791bd87ed Cleanup duplicate colors
    * system/netd/
 a774924 Merge tag 'android-9.0.0_r16' into pie
 e85f93d [3/3] NetD : Allow passing in interface names for wifi/data app restriction
-
-   * vendor/nxp/opensource/commonsys/external/libnfc-nci/
-ec66b5a Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
-
-   * vendor/nxp/opensource/commonsys/frameworks/
-608f6e0 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
-
-   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
-1ed1ea79 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
-
-   * vendor/nxp/opensource/halimpl/
-b753c57 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
-
-   * vendor/nxp/opensource/hidlimpl/
-2259486 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
-
-   * vendor/nxp/opensource/interfaces/nfc/
-d2354e5 Merge tag 'LA.UM.7.6.2.r1-03800-89xx.0'
 
 ====================
      11-08-2018
@@ -198,6 +338,9 @@ adfe86c Integrate Weather client [2/2]
 ba39c36 Revert "Weather"
 0690aaa Move in the remaining theme settings
 
+   * packages/apps/Nfc/
+0b62a438 Merge tag 'android-9.0.0_r16' into pie
+
    * packages/apps/PackageInstaller/
 d923f175 Merge tag 'android-9.0.0_r16' into pie
 
@@ -210,12 +353,9 @@ ba9c6a0 Test
    * packages/inputmethods/LatinIME/
 c218837cc Merge tag 'android-9.0.0_r16' into pie
 
-   * packages/providers/DownloadProvider/
-2f1ef50 Merge tag 'android-9.0.0_r16' into pie
-
    * packages/providers/MediaProvider/
-1834b98d Merge tag 'android-9.0.0_r16' into pie
-baa53c2a MediaProvider: Add read storage permission
+1834b98 Merge tag 'android-9.0.0_r16' into pie
+baa53c2 MediaProvider: Add read storage permission
 
    * packages/services/Telecomm/
 77897e6e Merge tag 'android-9.0.0_r16' into pie
@@ -362,23 +502,4 @@ ce24f7a401 Settings: : option to mute media with gesture [2/2]
 
    * system/sepolicy/
 e954cb79 sepolicy: Add policy for edgegestureservice
-
-====================
-     11-04-2018
-====================
-
-
-   * frameworks/base/
-deb87385ee8 Nav full gesture: code improvements
-5d3e728a067 Allow to set a full gesture navbar (swipe left for back action) [1/2]
-032bfa4a3cc fw/b: option to mute media with gesture [1/2]
-b59b2a424ba Add a ripple effect to the power menu items
-4103cd0c5eb Keep recent tasks for more time in memory
-e608d3c5a0f storage: Set all sdcards to visible
-df67d06139d Improve QS dialog layout
-a53b6f83d3e Fix statusbar layout and padding
-
-   * packages/providers/AmbientPlayHistoryProvider/
-b1ae4ca Don't allow data cleaning
-a77c0af Hello world
 
