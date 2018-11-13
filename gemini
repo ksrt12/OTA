@@ -4,7 +4,7 @@
 "news_url":"https:\/\/t.me\/Havoc_OS",
 "addons":[
 {"title":"GApps","summary":"Official Open GApps","url":"http:\/\/opengapps.org"},
-{"title":"Magisk","summary":"Systemless Root Installer","url":"https:\/\/tiny.cc\/latestmagisk"}],
+{"title":"Magisk","summary":"Systemless Root Installer","url":"https:\/\/tiny.cc\/latestmagisk"},
 {"title":"Changelog","summary":"View changes","url":"https:\/\/raw.githubusercontent.com\/ksrt12\/OTA\/pie\/Changelog"}],
 "developer": "ksrt12",
 "developer_url": "https:\/\/t.me\/ksrt12",
