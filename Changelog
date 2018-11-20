@@ -1,4 +1,20 @@
 ====================
+     11-21-2018
+====================
+
+
+   * device/xiaomi/gemini
+5a607f27 patches: HavocSettings: update translation
+16b3abd2 fix Night Light and Ambient Display & remove cnss-daemon
+f6f226a4 Merge remote-tracking branch 'SyberiaProject-Devices/9.0' into 9.0
+06a59f56 patches: Settings: update
+c74bf83e sepolicy: Address hal_audio_default denials
+2691d65f sepolicy: Make sure that all persist files are labeled
+c09ef739 Remove power-off alarm stuff from init extension
+2614ec39 msm8996-common: sepolicy: Silent rild denials
+b695d7d1 msm8996-common: rootdir: Remove /tombstones symlink creation
+
+====================
      11-19-2018
 ====================
 
@@ -11,9 +27,6 @@ b263630db Merge tag 'LA.UM.7.6.2.r1-04200-89xx.0' into HEAD
 
    * hardware/qcom/bt/
 c248b677 Merge tag 'LA.UM.7.6.2.r1-04200-89xx.0' into HEAD
-
-   * hardware/qcom/display-caf/msm8996/
-20ed3a16f Merge tag 'LA.UM.7.6.2.r1-04200-89xx.0' into HEAD
 
    * hardware/qcom/media-caf/msm8996/
 55e207499 Merge tag 'LA.UM.7.6.2.r1-04200-89xx.0' into HEAD
@@ -58,9 +71,28 @@ d00c908 Merge tag 'LA.UM.7.6.2.r1-04200-89xx.0' into HEAD
 ====================
 
 
+   * device/xiaomi/gemini
+6e745e55 Revert "msm8996-common: sepolicy: Address qti_init_shell denials"
+dc213900 add RU translation in packages/apps/Settings
+
 ====================
      11-17-2018
 ====================
+
+
+   * device/xiaomi/gemini
+9b2f0913 Merge remote-tracking branch 'https://github.com/LineageOS/android_device_xiaomi_msm8996-common' into 9.0
+6fef07b0 msm8996-common: sepolicy: Make sure that all persist files are labeled
+cd14a519 msm8996-common: sepolicy: Address thermal-engine denials
+5061a49e msm8996-common: sepolicy: Address hal_audio_default denials
+828a43a1 msm8996-common: sepolicy: Address qti_init_shell denials
+162dbc3f patches: Camera & AppOpsManager
+ff807da7 Revert "WFD: add hidl hal"
+2c580af6 Merge remote-tracking branch 'SyberiaProject-Devices/9.0' into 9.0
+27e19b00 rootdir: tune schedutil and boost settings
+cb645dfd Fix offline charger denials
+c54d7f85 Build Snap instead of Camera2
+ceb9f209 sepolicy: update some rules
 
 
    * frameworks/base/
@@ -81,6 +113,23 @@ be7548f3 Add more QS styles [3/3]
      11-16-2018
 ====================
 
+
+   * device/xiaomi/gemini
+9e6ea00d Health hal: implement cycle count backup/restore and battery learned capacity: backup/restore to/from persist data
+6d692692 patches: cleanup
+680b1458 msm8996-common: sepolicy: Address qti_init_shell denials
+5c5b2c3c msm8996-common: sepolicy: Address hal_audio_default denials
+6e0c1702 msm8996-common: sepolicy: Address thermal-engine denials
+0a969882 msm8996-common: sepolicy: Make sure that all persist files are labeled
+6b5e38c3 msm8996-common: sepolicy: Label sys.post_boot.parsed
+d44e18cb msm8996-common: sepolicy: Allow mm-qcamerad to search in camera data folders
+2abecabe msm8996-common: sepolicy: Fix persist_file related rules
+0e46ec4a msm8996-common: Health: Uprevision to 2.0
+f682f815 msm8996-common: Version upgrade for soundtrigger HAL to 2.1
+49c7bff5 msm8996-common: ST HAL upgrade for P compatibility
+08860483 msm8996-common: Move Audio HAL from 2.0 to 4.0
+afc33220 msm8996-common: HAL compatibility for P upgrade
+2c4ef558 msm8996-common: configs: Support 2 instances of "primary input"
 
    * device/qcom/sepolicy/
 fb4623c Allow charger access to /mnt/vendor
@@ -150,6 +199,143 @@ ef04d16 Settings: Change link from appops to privacy guard
      11-15-2018
 ====================
 
+
+   * device/xiaomi/gemini/
+899d2e1d msm8996-common: Update to security patch level from MIUI 8.11.1
+50834847 msm8996-common: Bump power-off alarm blobs to P
+f4e8931c GPS: switch to config from gps/etc
+84c59c9a Bring in GPS configs updates from B2N_sprout
+48a5d51d Reflect GPS stack update in the manifest
+6368d91e Uprev IMS HIDL to 1.4
+a1951053 Update framework compatibility matrix to be compatible with IMS HALs
+4af15615 Remove improveTouch HAL Entry from vendor framework manifest
+ceeb4ca6 IQtiRadio HIDL version update to 2.0
+a9e4e23b Update display config compatibility matrix
+5c1c1711 Add 1.0::IGnss/gnss_vendor to compatibility matirx
+7e6345cf Add vendor.qti.data.factory to framework compatibility matrix.
+4f535c15 Update display color 1.2 in framework compatibility matrix
+9c40a17d Update display config compatibility matrix
+9548b7c1 Add vendor HAL entries in framework compatibility matrix
+ff4fbaa7 Update compatibility matrix with Display HAL's
+bd654c1a Add factory hidl matrix
+4417c10e Add MATRIX file for vendor HAL's
+f4856f1d Move AtFwd hal from device to framework manifest.
+41931b64 Enable 64 bit DRM plugins compilation
+ae97462c restore: Enable Latency HAL
+d6465506 restore: Manifest change for Country Code FR
+53388f0d sepolicy: address imsrtp hal denials
+1e4c7808 sepolicy: address vendor_init denials
+e80535e5 sepolicy: address dpmd denial
+d74f44d0 sepolicy: address some camera denials
+fc1bfb3d sepolicy: address perfd denials
+d37c5067 sepolicy: address netmgr denials
+6d21c203 sepolicy: address healthd denial
+da75be90 Update references of firmware to /vendor/firmware_mnt
+f023f99a Revert "msm8996: bring msm_irqbalance"
+73c79a38 Cleanup GPS HAL
+1fbb38b0 Move offmode charging daemon away
+1868642f ueventd.qcom.rc: set permissions of /dev/qce device
+d18a9b6b Add SELinux policy for clearkey HIDL service.
+89f202f9 Create display folder under /mnt/vendor/persist
+6593d629 Set net_admin for cnss-daemon
+8bfd5f6a Creating directory mnt/vendor/persist/bluetooth
+8ea37703 Change time persist folder path
+7799228e Remove creating and accessing /data/media from vendor domain
+1de1bcad Set partitions for loop device.
+193c11b6 rootdir: Added a permissions for ODL char devices
+5c7b58b6 New HAL for passing RCS configuration to modem
+12a08fae New HAL for passing SIP call info headers to clients
+807e60d4 Update prefix of hwcomposer service
+3176208c Bluetooth: Increase number of SEPs to support SHO/Mcast
+4da2969c init: Create persist directory for hvdcp_opti
+1f5f0c95 Use build system to create mount point symlinks
+ed129752 Bind mount /mnt/vendor/persist to /persist for sensors
+1b3e9077 Update symlinks for new mount points
+19be57a1 Create mount point symlinks for backward compatibility
+35bf90f4 Moving persist mount point to /mnt/vendor/persist
+5fc70cb0 Mount dsp and firmware in vendor
+e8eb802d GPS: switch to config from gps/etc
+7f775400 Bring in GPS configs updates from B2N_sprout
+89184c02 Reflect GPS stack update in the manifest
+2fdc7c5b Uprev IMS HIDL to 1.4
+e1147810 Update framework compatibility matrix to be compatible with IMS HALs
+19f9637e Remove improveTouch HAL Entry from vendor framework manifest
+1e432800 IQtiRadio HIDL version update to 2.0
+0355fcaf Update display config compatibility matrix
+343ece2e Add 1.0::IGnss/gnss_vendor to compatibility matirx
+e6c93e43 Add vendor.qti.data.factory to framework compatibility matrix.
+35319629 Update display color 1.2 in framework compatibility matrix
+d462382c Update display config compatibility matrix
+9fd40d2a Add vendor HAL entries in framework compatibility matrix
+98cc056a Update compatibility matrix with Display HAL's
+22b3a830 Add factory hidl matrix
+660b39d8 Add MATRIX file for vendor HAL's
+d80ffbef Move AtFwd hal from device to framework manifest.
+9bb43f94 Enable 64 bit DRM plugins compilation
+d9bbbe75 restore: Enable Latency HAL
+6334d7bb restore: Manifest change for Country Code FR
+b39f05f6 Change qti service name to dataqti
+c288d19e Change service name hvdcp_opti to vendor.hvdcp_opti
+b5253698 Add "vendor" prefix to service name.
+0cea99b4 Move /bt_firmware mount point to /vendor/bt_firmware
+1dce2b9c Add vendor prefix to below services and properties
+d289160e Rename sensor service names by prefixing vendor.
+8392acbd Add vendor prefix to data connectivity
+01de4801 Change /data/time to /data/vendor/time
+e7269489 Change data properties to comply with Treble
+8d740bd8 Add vendor prefix to data vendor binaries
+3c3d5f02 Start loc_launcher as gps user
+5da356e7 Set permissions of /dev/byte-cntr device
+08c699b1 update sepolicy
+30ddaadd msm8996-common: Reflect GPS stack update in the manifest
+40dc4d90 msm8996-common: Import GPS configs updates from B2N_sprout
+837e1542 msm8996-common: Kang GPS blobs from B2N_sprout
+37338bdc msm8996-common: Moving location sockets from /data to /dev
+32ea3e1a msm8996-common: Update GPS HAL to P
+a46a5bb5 sepolicy: address imsrtp hal denials
+a2c2a198 sepolicy: address vendor_init denials
+966df6ac sepolicy: address dpmd denial
+4b793633 sepolicy: address gnss denial
+bd691386 sepolicy: address some camera denials
+6466879b sepolicy: address perfd denials
+4a48c257 sepolicy: address netmgr denials
+b7c0be03 sepolicy: address healthd denial
+e7b5e58d Update references of firmware to /vendor/firmware_mnt
+6214f5ca Revert "msm8996: bring msm_irqbalance"
+853c9aa6 Cleanup GPS HAL
+52a86345 Move offmode charging daemon away
+04bd3c0d ueventd.qcom.rc: set permissions of /dev/qce device
+0df6f454 Add SELinux policy for clearkey HIDL service.
+674b5ee4 Create display folder under /mnt/vendor/persist
+3439fecf Set net_admin for cnss-daemon
+82d3e179 Creating directory mnt/vendor/persist/bluetooth
+710719d3 Change time persist folder path
+9dcc5102 Remove creating and accessing /data/media from vendor domain
+41f4ce93 Set partitions for loop device.
+d62c27c6 rootdir: Added a permissions for ODL char devices
+e44e3308 New HAL for passing RCS configuration to modem
+5f311c3d New HAL for passing SIP call info headers to clients
+dac96a5b Update prefix of hwcomposer service
+2887792c Bluetooth: Increase number of SEPs to support SHO/Mcast
+9b5cbcef init: Create persist directory for hvdcp_opti
+6e0265f3 Use build system to create mount point symlinks
+2a7190eb Bind mount /mnt/vendor/persist to /persist for sensors
+6bf33941 Update symlinks for new mount points
+f748afa6 Create mount point symlinks for backward compatibility
+daa10955 Moving persist mount point to /mnt/vendor/persist
+d9293abc Mount dsp and firmware in vendor
+596688ce Change qti service name to dataqti
+6941cbdb Change service name hvdcp_opti to vendor.hvdcp_opti
+c2fdff98 Add "vendor" prefix to service name.
+0b6b5882 Move /bt_firmware mount point to /vendor/bt_firmware
+38c727ca Add vendor prefix to below services and properties
+3d0b3fed Rename sensor service names by prefixing vendor.
+f4012470 Add vendor prefix to data connectivity
+91b04dbf Change /data/time to /data/vendor/time
+e15bae83 Change data properties to comply with Treble
+57570677 Add vendor prefix to data vendor binaries
+d14c1d14 Start loc_launcher as gps user
+23418d68 Set permissions of /dev/byte-cntr device
 
    * packages/apps/Pulse/
 c7e937a Pulse: allow setting fading blocks opacity [2/3]
