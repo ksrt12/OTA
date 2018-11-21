@@ -1,7 +1,7 @@
 {
 "donate_url":"https:\/\/www.paypal.me\/ksrt12",
 "website_url":"https:\/\/github.com\/Havoc-OS",
-"news_url":"https:\/\/t.me\/Havoc_OS",
+"news_url":"https:\/\/t.me\/havoc_os_gemini",
 "addons":[
 {"title":"GApps","summary":"Official Open GApps","url":"http:\/\/opengapps.org"},
 {"title":"Magisk","summary":"Systemless Root Installer","url":"https:\/\/tiny.cc\/latestmagisk"},
@@ -13,6 +13,6 @@
 "build_date":"20181120-2200",
 "filesize":"620219381",
 "md5":"8af9b2dbbf029ce3c63b29c70e297003",
-"url":"https:\/\/www.dropbox.com\/s\/ikl102gdeabhz4o\/Havoc-OS-v2.0-20181120-gemini-ksrt12.zip?dl=1",
+"url":"https:\/\/sourceforge.net\/projects\/havoc-gemini\/files\/Havoc-OS-v2.0-20181120-gemini-ksrt12.zip\/download",
 "error":true
 }
