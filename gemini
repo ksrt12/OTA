@@ -3,8 +3,9 @@
 "website_url":"https:\/\/github.com\/Havoc-OS",
 "news_url":"https:\/\/t.me\/havoc_os_gemini",
 "addons":[
-{"title":"GApps","summary":"Official Open GApps","url":"http:\/\/opengapps.org"},
-{"title":"Magisk","summary":"Systemless Root Installer","url":"https:\/\/forum.xda-developers.com\/apps\/magisk\/official-magisk-v7-universal-systemless-t3473445"},
+{"title":"Firmware","summary":"Latest firmware for gemini","url":"https:\/\/sourceforge.net\/projects\/xiaomi-firmware-updater\/files\/Developer\/8.11.22\/gemini\/"},
+{"title":"Official Open GApps","summary":"arm64 | pico","url":"http:\/\/opengapps.org\/?arch=arm64?api=9.0?variant=pico"},
+{"title":"Magisk","summary":"Latest Stable v17.1","url":"https:\/\/github.com\/topjohnwu\/Magisk\/releases\/download\/v17.1\/Magisk-v17.1.zip"},
 {"title":"Changelog","summary":"View changes","url":"https:\/\/raw.githubusercontent.com\/ksrt12\/OTA\/pie\/Changelog"}],
 "developer": "ksrt12",
 "developer_url": "https:\/\/t.me\/ksrt12",
