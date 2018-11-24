@@ -9,11 +9,12 @@
 {"title":"Changelog","summary":"View changes","url":"https:\/\/raw.githubusercontent.com\/ksrt12\/OTA\/pie\/Changelog"}],
 "developer": "ksrt12",
 "developer_url": "https:\/\/t.me\/ksrt12",
+"forum_url": "https:\/\/forum.xda-developers.com\/mi-5\/development\/rom-havoc-os-2-0-t3866995",
 "changelog": "",
-"filename":"Havoc-OS-v2.0-20181120-gemini-ksrt12.zip",
-"build_date":"20181120-2200",
-"filesize":"620219381",
-"md5":"8af9b2dbbf029ce3c63b29c70e297003",
-"url":"https:\/\/sourceforge.net\/projects\/havoc-gemini\/files\/Havoc-OS-v2.0-20181120-gemini-ksrt12.zip\/download",
+"filename":"Havoc-OS-v2.0-20181123-gemini-Official.zip",
+"build_date":"20181123-2347",
+"filesize":"594130349",
+"md5":"8e87f61a3815b638ca2764c381fb713c",
+"url":"https:\/\/sourceforge.net\/projects\/havoc-os\/files\/gemini\/Havoc-OS-v2.0-20181123-gemini-Official.zip\/download",
 "error":true
 }

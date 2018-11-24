@@ -1,4 +1,49 @@
 ====================
+     11-24-2018
+====================
+
+
+   * device/xiaomi/gemini/
+10c6c5a5 Kand WFD blobs from Mi A2
+bd1553ff Update post processing blobs to P
+6138d6fa Update Peripheral manager to P
+31458062 Update bluetooth stack to P
+a3678764 Update HDR blobs to P
+a548fd96 Update Graphics from Jasmine
+a3292326 Update WiFi blob to P
+ef7316a5 Update media blobs to P
+12d8d720 overlay: use Pie qti-telephony-common
+33da48ce health: update persist folder path
+f88c505b readmac: update persist folder path
+d399e815 Bring inline proprietary blobs list
+f638e964 use tether automatic upstream selection
+5a1ea900 official now
+
+   * frameworks/base/
+084b0b61cc1 base: make old qti telephony optional [1/2]
+
+   * frameworks/opt/telephony/
+83ca4820d PhoneFactory: make old qti telephony optional [1/2]
+79ae3a420 TelephonyComponentFactory: Overload makeSubscriptionInfoUpdater
+80400a48e Make radio power off immediately after data cleanup is complete
+0109d1be6 Fix to release partial wakelock for SRVCC handover.
+
+====================
+     11-23-2018
+====================
+
+
+   * frameworks/av/
+86343378c av: camera: catch mad hals that mess up buffer time
+c44ef68d6 stagefright: add changes related to high-framerates in CameraSource
+
+   * frameworks/base/
+cbde033a986 Revert "Be more strict about triggering notification lights"
+
+   * packages/providers/WeatherProvider/
+de0c43e Unbreak the world
+
+====================
      11-21-2018
 ====================
 
