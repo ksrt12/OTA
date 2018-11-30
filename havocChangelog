@@ -1,4 +1,60 @@
 ====================
+     11-30-2018
+====================
+
+
+   * frameworks/base/
+cf313a9d59e Support the perflock request from system/priv apps whose domain are untrusted
+28966cacf54 Add Game boost & modify launchboostv2 invocation.
+6e3068676fd Disable swipe boost and preferred apps for certain cases
+db0347c8c6b Fling/Pre-fling Boost: Call perf boost from System Server context
+8250a8b1a90 BoostFramework: Clean up code
+884c50088a7 IOP : Adding support for UXPerf Class
+1b545f1f029 BoostFramework: Move property checks to pass sepolicy requirements.
+879215542f2 IOP/UXE: This change is to enable the IOP and UXE
+3f0eab6481c Precise new activity boost.
+c92e5c8f77e Reorder boosts for quick ramp up
+f16489cc3ef Add perf hint for screen rotation animation
+9bdf5d41470 Add perf hint for rotation latency
+fdd5c802080 framework/base: add parallel verifyV1
+8034bc35944 add perf_service into system_process
+7648aee89d9 BoostFramework: To Enhance performance.
+6c385c60a9f Keyguard: Don't listen for fingerprint when prox.sensor is covered
+aa153e6a2fa PowerManager: Allow to distinguish different keypresses
+
+   * hardware/qcom/audio-caf/msm8996/
+0141fef22 Merge tag 'LA.UM.7.6.2.r1-04300-89xx.0' into HEAD
+
+   * vendor/havoc/
+fc043cb1 Themes: SystemUI: expose screen pinning colors
+69f91fe4 Fix 'All caps' button issue
+
+====================
+     11-29-2018
+====================
+
+
+   * packages/apps/HavocSettings/
+17032c6 Rework hw button illumination
+
+   * packages/apps/Launcher3/
+08101671d AllAppsSearchBox: use rounded corners
+29cbcc869 Add AppDrawer option to change grid size
+
+====================
+     11-28-2018
+====================
+
+
+   * frameworks/base/
+4420565b60a try to fix button backlight
+0ffca6959cd try to fix gemini camera
+
+   * hardware/qcom/power/
+ebaa08e power: Remove 1.0 HAL remnants
+0ae8017 power: Return empty subsystems power stats and always use Power@1.1
+
+====================
      11-25-2018
 ====================
 

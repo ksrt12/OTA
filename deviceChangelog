@@ -1,4 +1,59 @@
 ====================
+     11-30-2018
+====================
+
+413bf2c7 update sepolicy & fix dsp mount
+f15f17c9 overlays: clean up
+
+====================
+     11-29-2018
+====================
+
+ce476ab6 Merge remote-tracking branch 'SyberiaProject-Devices/9.0' into 9.0
+b1a20d06 update overlays
+
+====================
+     11-28-2018
+====================
+
+ef5e2487 perf: enable UXE prefetcher
+dcc7d4b8 sepolicy: resolve spotted nfc denial
+d045781a sepolicy: adress qti perf denials
+229fce44 init.qcom.rc: /persist -> /mnt/vendor/persist
+a0377f08 update thermal engine to P
+a5ba7087 Switch back to vulkan 1.0
+3244cd80 update sensors_ssc from jasmine
+8cf8830f add missing wfd blob
+bb4aec4f Switch to qti perfd
+0d02cdaa rootdir: fix iop property
+6f38ba97 move perf props to generic properties
+a3ff9e7b Kang qti performance libs from OP6
+08dc6c12 power: switch to qti 1.1 power hal
+dbb83d82 Extend public libraries list
+fc07bacb Drop activity_recognition hal
+a5373c21 Update QTI bluetooth stack to P
+cbfe81c1 Create new directory for Bluetooth SoC dump
+fae3eb34 init.qcom.rc: create /mnt/persist/secnvm for sec_nvm service
+074248c0 Rename bt props for new HAL
+ad7ab156 rootdir: use CAF schedutil settings
+89ae32c0 sepolicy: resolve some more denials spotted on boottime
+
+====================
+     11-27-2018
+====================
+
+cde8f8ef Update sensors blobs to P
+2cac1e94 Revert "Bind mount /mnt/vendor/persist to /persist for sensors"
+efda35f9 rootdir: Use system group for per_mgr
+96c44658 sec_config: Allow sensors group process to QMI Sensor services
+8541d2df add tloc daemon to sec_config
+648e7c89 Allow xtwifi-client to access wake alarm
+f183e239 Address dac_override and dac_read_search issues in init.qcom.sh
+b55ae880 init: create vpp path in /mnt/vendor/persist/
+5a054b44 Revert "Update bluetooth stack to P"
+92bb58d2 update patches and overlays
+
+====================
      11-25-2018
 ====================
 
