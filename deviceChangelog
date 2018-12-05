@@ -1,4 +1,24 @@
 ====================
+     12-04-2018
+====================
+
+de6f11e2 msm8996-common: Whitelist org.codeaurora.ims package
+7bebc016 patches: update
+e6f4f4c2 android-9.0.0_r21 Android 9.0.0 release 21
+b9695619 readd system/sepolicy patch
+f20cbcfb Add SmartCardService blobs
+9553e219 qcom.power.rc: unset input_boost and schedtune boost
+c5c074af qti perf: update perfboost config from Poco
+108fe478 qti perf: move XML configs from vendor to device tree
+7366ff0b Update WFD blobs from daisy
+fc943ee9 msm8996-common: Fix thermal-engine dac_override denial.
+44728dc4 Update thermal-engine from daisy
+1dd0af72 Massive blob update from daisy
+f1f531d8 Label device-specific android_usb sysfs files.
+cb744169 rootdir: fix blkio cgroup creation
+c4c8b0db rebase patches
+
+====================
      11-30-2018
 ====================
 
