@@ -5,17 +5,17 @@
 "addons":[
 {"title":"Firmware","summary":"Latest firmware for gemini","url":"https:\/\/sourceforge.net\/projects\/xiaomi-firmware-updater\/files\/Developer\/8.11.22\/gemini\/"},
 {"title":"Official Open GApps","summary":"arm64 | pico","url":"http:\/\/opengapps.org\/?arch=arm64?api=9.0?variant=pico"},
-{"title":"Magisk","summary":"Latest Stable v17.1","url":"https:\/\/github.com\/topjohnwu\/Magisk\/releases\/download\/v17.1\/Magisk-v17.1.zip"},
+{"title":"Magisk","summary":"Latest Stable v18.0","url":"https:\/\/github.com\/topjohnwu\/Magisk\/releases\/download\/v18.0\/Magisk-v18.0.zip"},
 {"title":"Havoc Changelog","summary":"View Havoc-OS changes","url":"https:\/\/t.me\/Havoc_OS\/482"},
 {"title":"Device Changelog","summary":"View gemini changes","url":"https:\/\/raw.githubusercontent.com\/ksrt12\/OTA\/pie\/deviceChangelog"}],
 "developer": "ksrt12",
 "developer_url": "https:\/\/t.me\/joinchat\/FcGtNxIFpz7m0ghxVWFgbQ",
 "forum_url": "https:\/\/forum.xda-developers.com\/mi-5\/development\/rom-havoc-os-2-0-t3866995",
 "changelog": "",
-"filename":"Havoc-OS-v2.0-20181205-gemini-Official.zip",
+"filename":"Havoc-OS-v2.0-20181215-gemini-Official.zip",
 "build_date":"20181205-0017",
-"filesize":"576190258",
-"md5":"a9d12e022cf74d5fa5b6f304a2838f3f",
-"url":"https:\/\/sourceforge.net\/projects\/havoc-os\/files\/gemini\/Havoc-OS-v2.0-20181205-gemini-Official.zip\/download",
+"filesize":"578084138",
+"md5":"8aed065abbdad318ddf72e77b1c067b3",
+"url":"https:\/\/sourceforge.net\/projects\/havoc-os\/files\/gemini\/Havoc-OS-v2.0-20181215-gemini-Official.zip\/download",
 "error":true
 }

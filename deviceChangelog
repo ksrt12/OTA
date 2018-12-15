@@ -1,4 +1,52 @@
 ====================
+     12-15-2018
+====================
+
+ec943657 fix home wake up
+8eabab66 track system/sepolicy
+c1ffb055 schedutil: reset stock CAF values
+c39ed2c1 Unpin QPerformance blob
+d05281ba Allow appdomain to get vendor_camera_prop
+d98d3a24 update rfs symlinks
+bf268f17 Clean flash sensor bug fix
+c2b5235b Update ADSP and audio libs from jasmine
+f44f0c7a Update perf stack from daisy
+b538eb56 Kang ims.apk from daisy
+8be8bb40 Add additional gralloc bit
+db7c2c77 update tags android: 9.0.0_r22 caf: LA.UM.7.6.2.r1-04600-89xx.0
+
+====================
+     12-11-2018
+====================
+
+f7fb167a add power-libperfmgr
+848a6d6f build libaacwrapper
+
+====================
+     12-10-2018
+====================
+
+0e7c086f gpt-utils: use generated kernel headers
+af245b07 sepolicy: adress few denials update patches
+
+====================
+     12-09-2018
+====================
+
+bf64c157 add DISABLE_RILD_OEM_HOOK := false
+
+====================
+     12-08-2018
+====================
+
+d39bee47 rootdir: adjust schedutil, schedboost and cfq values
+34050ee6 qti perf: get rid of setting sched_boost
+2da9c47d sepolicy: adress few denials
+4fd3e053 camera prop: enable EIS
+93370e91 Update Camera HAL by eszdman
+ad1b3303 clean overlays
+
+====================
      12-04-2018
 ====================
 
