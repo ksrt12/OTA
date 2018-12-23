@@ -1,8 +1,47 @@
 ====================
+     12-23-2018
+====================
+
+65968cb9 improve russian translation
+a15fd6cd rebase patches
+
+====================
+     12-20-2018
+====================
+
+4980bc5b Update tftp_server blobs to P from daisy
+198ee290 config.fs: Add mapping for sensors daemon
+3cf0177c Add fqname 1.0::IGnss/gnss_vendor
+413000af boardconfig: Disable AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE
+6930927b Import msm_irqbalance from sailfish PPR2.181005.003
+
+====================
+     12-19-2018
+====================
+
+383a79c7 boardconfig: Enable audio perf hints
+f4ae9e0a remove cnss-daemon
+a1a99b1e gps: Fix 1.1 interface leftovers
+5583852c gps: Switch back to 89xx tags
+76f45d1e sepolicy: properly mark sensors files in persist partition
+87694d21 Switch to wahoo perf stack
+ae1d9587 sepolicy: address few more spotted denials
+cf025347 sepolicy: grant rw permission for sensors into persist partition
+
+====================
+     12-18-2018
+====================
+
+9991f8c3 Merge remote-tracking branch 'lineage/lineage-16.0' into 9.0
+4b030e8f sepolicy: adress few denials
+e92549e8 readd google Markup, Wellbeing and Turbo
+f64065e9 fix home wake up
+d91087da msm8996-common: Drop TARGET_EXFAT_DRIVER flag
+
+====================
      12-15-2018
 ====================
 
-ec943657 fix home wake up
 8eabab66 track system/sepolicy
 c1ffb055 schedutil: reset stock CAF values
 c39ed2c1 Unpin QPerformance blob
