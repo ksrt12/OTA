@@ -1,9 +1,40 @@
 ====================
+     12-31-2018
+====================
+
+54f9c6c0f update patches
+
+====================
+     12-30-2018
+====================
+
+2e4181997 Merge tag 'LA.UM.7.5.r1-04000-8x96.0' into 9.0
+
+====================
+     12-26-2018
+====================
+
+77a3ff96b sepolicy: mv perisit denials to qcom/common [1/2]
+2f8df7a1a msm8996-common: Enable B-services aging propagation
+
+====================
+     12-25-2018
+====================
+
+9097f5930 fix camera namespaces
+
+====================
+     12-24-2018
+====================
+
+f23e48d69 overlays: add new bools
+b13aa8fb9 rebase patches
+
+====================
      12-23-2018
 ====================
 
 65968cb9 improve russian translation
-a15fd6cd rebase patches
 
 ====================
      12-20-2018
