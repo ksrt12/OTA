@@ -1,5 +1,28 @@
 ====================
-     12-31-2018
+     01-07-2019
+====================
+
+07f64cde8 pull tag 'LA.UM.7.5.r1-04000-8x96.0' from https://source.codeaurora.org/quic/la/device/qcom/common
+6ff0e0e54 fix boring warnings
+
+====================
+     01-06-2019
+====================
+
+236df59fe msm8996-common: Set formattable flag only for ext4 partitions
+23578c147 msm8996-common: White-list telephony modules.
+7499a14eb msm8996-common: Update SELinux context for charger
+
+====================
+     01-02-2019
+====================
+
+b78962942 Merge tag 'LA.UM.7.5.r1-04000-8x96.0' into gps
+926a6bd3b GPS
+35e87aece LA.UM.7.5.r1-04000-8x96.0
+
+====================
+     01-01-2019
 ====================
 
 54f9c6c0f update patches
