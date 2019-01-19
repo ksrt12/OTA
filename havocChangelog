@@ -1,4 +1,162 @@
 ====================
+     01-19-2019
+====================
+
+
+   * frameworks/av/
+b743903c8 VolumeShaper: Parcelable should be initialized explicitly under Configuration
+92369878e cameraservice: Lazy loading of audio files can speed up camera startup
+c0186d173 Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback
+dba5395a3 SchedulingPolicyService: DL policy request through Binder
+e3c3e919c Revert "audioflinger: Fix audio for WifiDisplay"
+e879c1976 StagefrightRecorder: force 64-bit file-offsets for files > 4GB
+65b316868 CamcorderProfiles: Add new camcorder profiles
+bc0210554 Explicitly initialise base class in copy constructor
+a9463e6ad camera: Workaround for GCC-compiled HAL3 drivers
+aa46ad206 Camera: Add support for preview frame fd
+
+   * system/core/
+a36ab33e3 Allow adb root even in no debuggable builds
+
+====================
+     01-18-2019
+====================
+
+
+   * development/
+8e09e639b make-key: Enforce PBEv1 password-protected signing keys
+
+====================
+     01-14-2019
+====================
+
+
+   * prebuilts/clang/host/linux-x86/
+016f6a3 Fix a dir name typo (clang-346389c -> clang-r346389c).
+8aa9807 Update prebuilt Clang to r346389c.
+
+   * vendor/havoc/
+77902af6 New walls
+fff1596a Havoc 2.1
+261f6922 havoc-iosched: restorecon scheduler tuneables before touching them
+2d48ae1b config: Add Deskclock to power whitelist
+b51813b5 Remove deprecated ro.device.cache_dir
+4a414c1a Don't explicitly build uneeded packages
+34d7eff8 Disable art debug and enable minimize debug info
+2e63f225 vendor: Cleanup
+
+====================
+     01-13-2019
+====================
+
+
+   * development/
+0d9797de8 Remove useless build warning
+
+   * hardware/qcom/fm/
+63cd871 Automatic translation import
+
+   * packages/apps/FMRadio/
+62febd5 Automatic translation import
+
+====================
+     01-12-2019
+====================
+
+
+   * external/skia/
+ad8db00fbc external/skia: Take Fast Jpeg Decoding Path
+7ab7f34c16 skia: Silence a few warnings for cpp
+9bf9e75094 skia: Clean up -Wextra-semi-stmt warnings
+fd2fed1de4 libskia: Build using ThinLTO
+ffee60abcc fGpu is null when GrGpuResource::release
+ad11440a43 Fix native crash when some png bitmap decoded
+6b8bf6ad63 ARGB Blitter:  Remove unused variable
+b3b274845b skia: Use std::move() to prevent unnecessary copying
+ef3e29ebf9 Optimize the for loop in onGetYUV8Planes
+c49e6c60ec Skia performance optimize for bitmap
+
+   * external/vixl/
+187fa018 libvixl: Do not mark the module as VNDK or VNDK-SP
+
+   * frameworks/base/
+0bfd148b6ae Revert "hwui: Enable quicksilver"
+1d5f9b649a2 SystemUI: Fix too big spacing between QS icons in landscape on sw600dp
+
+   * packages/apps/HavocSettings/
+4bf1d31 Introduce lockscreen clock/date styles [2/2]
+5e65b89 Hide lockscreen items [2/2]
+d91a6eb Revert "Pocket judge"
+f465b35 Settings: Add double tap option to lockscreen shortcuts [2/2]
+3f2c1de Settings: Lockscreen shortcuts improvements [2/2]
+901ff21 Settings: add user configurable lockscreen shortcuts [2/2]
+d856c8a Ambient Visualizer [2/2]
+52b07cd RoundCorners: Update seekbars when framework values toggled
+4e07cea RoundCorners: Add fw values corner preferences
+
+   * packages/apps/SmartNavSettings/
+4fedaf8 Add translations
+
+====================
+     01-11-2019
+====================
+
+
+   * build/blueprint/
+759c5ac Fix issues found by `go vet`
+cf71e18 Add go.mod for go1.11 module support
+8a4bdfd Improve indentation for multi-line expressions
+4e9a653 Don't Cap the number of cpus for Go compiles
+
+   * frameworks/base/
+f28c740bc79 Remove unnecessary right padding from time picker
+fac99a19f77 SystemUI: Modify ime navigation bar layout
+e0666607577 fonts: Clean up absent fonts if EXCLUDE_SERIF_FONTS is true
+49d72eb28b3 base: fix signature spoofing and microg
+
+   * prebuilts/r8/
+6d0cefd r8: Update D8 and R8 to 1.4.21-dev
+1f114c8 r8: Update D8 and R8 to 1.4.20-dev
+
+====================
+     01-10-2019
+====================
+
+
+   * frameworks/av/
+9ad940b55 mediascanner: Accept .opus file extension.
+
+   * frameworks/base/
+276053af4c4 Force disable PlayServices OTA checks
+1df1c811072 Bring back vendor mismatch message
+59225f9e093 Dynamically tell the user which vendor image is needed
+e99cb1dde34 Show a more descriptive message when vendor.img is out of date
+e942a18343c Full gesture navbar: fix swipe to back glitches
+263916d36f2 Lockscreen analog clock: improve minute hands looking
+3723d9a6fc5 Auto switch to a dark analog clock when using dark system theme
+0fae1823ef6 Always use standard small clock when pulsing on new notifications
+3429c0fdbf7 Lockscreen clock styles: Fix bottom margins & ambient display/AOD visibility
+4629100d935 Lockscreen items/clocks: KeyguardSliceView improvements/cleanup
+fb102ee7615 Lockscreen clock styles: Move everything to the keyguard [1/2]
+aa603264528 Lockscreen/ambient analog clock: improve design
+9d48e25dbc4 Ensure the clockview is aligned correctly each time
+1e947e2a5b5 Remove the 0 from the 12 hour format from the 'Digital (bold)' option
+35b97f412e1 Keyguard items: code improvements
+3310b54ac69 Introduce lockscreen clock/date styles [1/2]
+901190bc2ec Always keep clock/date & other items visible while dozing
+ba795ea32c2 Hide lockscreen items [1/2]
+f0ee6f4b8d5 Add support for the .opus file format
+ad2c3ced517 fix deadlock of binder thread and ActivityManager
+3c4035afad2 Fix deadlock in AcitivityManagerService
+4991d37a2ad hwui: fix mmap leak of graphicsstats service
+2ad23abfc78 Fix memory leak caused by SystemUIDialog
+659dadae01d widget: Fix DateTimeView fc issue
+b7617c080cd Update sound/vibrate notification key only when it actually buzz/beep
+303520f587f Check if notification is valid before it finally vibrates
+5e835477da8 SurfaceControl: Unbreak public API after pie-gsi merge
+e530a393f24 Enable Binder Proxy Tracking by Uid only on eng builds
+
+====================
      01-07-2019
 ====================
 

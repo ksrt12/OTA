@@ -1,4 +1,12 @@
 ====================
+     01-19-2019
+====================
+
+81ddaa543 caf tag: LA.UM.7.6.2.r1-05700-89xx.0
+9f61f0630 msm8996-common: gps: Disable xtwifi related services
+96cb463ac update init.qcom.rc
+
+====================
      01-13-2019
 ====================
 
