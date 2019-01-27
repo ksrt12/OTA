@@ -6,7 +6,7 @@
     {
       "title":"Firmware",
       "summary":"Latest firmware for gemini",
-      "url":"https:\/\/sourceforge.net\/projects\/xiaomi-firmware-updater\/files\/Developer\/8.11.22\/gemini\/"
+      "url":"https://github.com/XiaomiFirmwareUpdater/firmware_xiaomi_gemini/releases/download/stable-25.01.2019/fw_gemini_miui_MI5Global_V10.2.2.0.OAAMIXM_d16c808eba_8.0.zip"
     },
     {
       "title":"Official Open GApps",
@@ -32,9 +32,10 @@
   "developer": "Stepan Kazakov (ksrt12)",
   "developer_url": "https:\/\/t.me\/HavocGeminiBugreport",
   "forum_url": "https:\/\/forum.xda-developers.com\/mi-5\/development\/rom-havoc-os-2-0-t3866995",
-  "filename":"Havoc-OS-v2.1-20190121-gemini-Official.zip",
-  "build_date":"20190121-1851",
-  "filesize":"593174568",
-  "md5":"fa2f2da7e58213c69cd1dea4f578bb4c",
-  "url":"https:\/\/sourceforge.net\/projects\/havoc-os\/files\/gemini\/Havoc-OS-v2.1-20190121-gemini-Official.zip\/download"
+  "changelog": "\n* Linux kernel v3.18.133\n* Add toggle torch proximity check\n* Update SDM blobs from LA.UM.7.5.r1-03700-8x96.0* fix answering from home key",
+  "filename":"Havoc-OS-v2.1-20190127-gemini-Official.zip",
+  "build_date":"20190127-0000",
+  "filesize":"593260700",
+  "md5":"7f5a98ca6f9de5b53eb5a796edbb0c98",
+  "url":"https:\/\/sourceforge.net\/projects\/havoc-os\/files\/gemini\/Havoc-OS-v2.1-20190127-gemini-Official.zip\/download"
 }

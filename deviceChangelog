@@ -1,4 +1,16 @@
 ====================
+     01-27-2019
+====================
+
+349f17262 gemini: Set MIUI 8.11.15 as the currently required firmware version
+1d298618b gemini: Do not cleanup unused fingerprints
+b139f57c0 gemini: overlay: Update fingerprint dot location
+ff6b93f03 msm8996-common: readmac: Convert symbolic permissions to octal
+8e746901d Update SDM blobs from LA.UM.7.5.r1-03700-8x96.0
+7aee2432d update props & generate_gemini_info.sh
+d8fe8cb9a add toggle torch proximity check
+
+====================
      01-22-2019
 ====================
 

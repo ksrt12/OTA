@@ -1,4 +1,30 @@
 ====================
+     01-24-2019
+====================
+
+
+   * system/connectivity/wificond/
+f35faba Merge tag 'LA.UM.7.6.2.r1-05700-89xx.0' of https://source.codeaurora.org/quic/la/platform/system/connectivity/wificond into HEAD
+
+   * system/connectivity/wifilogd/
+8088113 Merge tag 'LA.UM.7.6.2.r1-05700-89xx.0' of https://source.codeaurora.org/quic/la/platform/system/connectivity/wifilogd into HEAD
+
+====================
+     01-23-2019
+====================
+
+
+   * frameworks/base/
+642a729 fix answer from home key
+d4afe6b toggle torch proximity check [1/2]
+
+   * packages/apps/HavocSettings/
+62707d6 toggle torch proximity check [2/2]
+
+   * system/core/
+d5d2ec593 liblog: Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+
+====================
      01-19-2019
 ====================
 
