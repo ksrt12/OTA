@@ -1,7 +1,7 @@
 {
-  "donate_url":"https:\/\/www.paypal.me\/ksrt12",
-  "website_url":"https:\/\/github.com\/Havoc-OS",
-  "news_url":"https:\/\/t.me\/havoc_os_gemini",
+  "donate_url":"https://www.paypal.me/ksrt12",
+  "website_url":"https://github.com/Havoc-OS",
+  "news_url":"https://t.me/havoc_os_gemini",
   "addons":[
     {
       "title":"Firmware",
@@ -11,31 +11,31 @@
     {
       "title":"Official Open GApps",
       "summary":"arm64 | pico",
-      "url":"http:\/\/opengapps.org\/?arch=arm64?api=9.0?variant=pico"
+      "url":"http://opengapps.org/?arch=arm64?api=9.0?variant=pico"
     },
     {
       "title":"Magisk",
-      "summary":"Latest Stable v18.0",
-      "url":"https:\/\/github.com\/topjohnwu\/Magisk\/releases\/download\/v18.0\/Magisk-v18.0.zip"
+      "summary":"Latest Stable v18.1",
+      "url":"https://github.com/topjohnwu/Magisk/releases/download/v18.1/Magisk-v18.1.zip"
     },
     {
       "title":"Havoc Changelog",
       "summary":"View Havoc-OS changes",
-      "url":"https:\/\/t.me\/Havoc_OS\/627"
+      "url":"https://t.me/Havoc_OS/678"
     },
     {
       "title":"Device Changelog",
       "summary":"View gemini changes",
-      "url":"https:\/\/raw.githubusercontent.com\/ksrt12\/OTA\/pie\/deviceChangelog"
+      "url":"https://raw.githubusercontent.com/ksrt12/OTA/pie/deviceChangelog"
     }
   ],
   "developer": "Stepan Kazakov (ksrt12)",
-  "developer_url": "https:\/\/t.me\/HavocGeminiBugreport",
-  "forum_url": "https:\/\/forum.xda-developers.com\/mi-5\/development\/rom-havoc-os-2-0-t3866995",
-  "changelog": "\n* Linux kernel v3.18.133\n* Add toggle torch proximity check\n* Update SDM blobs from LA.UM.7.5.r1-03700-8x96.0* fix answering from home key",
-  "filename":"Havoc-OS-v2.1-20190127-gemini-Official.zip",
-  "build_date":"20190127-0000",
-  "filesize":"593260700",
-  "md5":"7f5a98ca6f9de5b53eb5a796edbb0c98",
-  "url":"https:\/\/sourceforge.net\/projects\/havoc-os\/files\/gemini\/Havoc-OS-v2.1-20190127-gemini-Official.zip\/download"
+  "developer_url": "https://t.me/HavocGeminiBugreport",
+  "forum_url": "https://forum.xda-developers.com/mi-5/development/rom-havoc-os-2-0-t3866995",
+  "changelog": "\n - Android TAG: 9.0.0_r33n\ - CAF TAG: LA.UM.7.5.r1-04100-8x96.0\n - Fixed Signature Spoofing\n - add Lawnchair\n - kernel: add DTS Eagle\n - partly fixed wireless display",
+  "filename":"Havoc-OS-v2.2-20190208-gemini-Official.zip",
+  "build_date":"20190208-1257",
+  "filesize":"615800072",
+  "md5":"9756e6121fb60eb4c482e51d68d850bc",
+  "url":"https://sourceforge.net/projects/havoc-gemini/files/Havoc-OS-v2.2-20190208-gemini-Official.zip/download"
 }

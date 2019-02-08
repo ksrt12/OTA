@@ -1,4 +1,429 @@
 ====================
+     02-08-2019
+====================
+
+
+   * frameworks/base/
+1af4d73d6d87 Revert "hwui: Enable quicksilver"
+8c2894039688 Fix minutes in full accent clock
+dc0e01a39653 SystemUI: Fix Lockscreen not dismissing with AOD enabled
+fb1a98fa7fe7 Implement per-app thermal control [2/3]
+768aef9e027a SystemUI: Add optional notch friendly VoLTE icon
+75b3bb7ccce4 StatusBarSignalPolicy: Fix missing provisioned in equals and copyTo
+78fdd5f8f6cb StatusBarSignalPolicy: Sync with lineage
+cb3c850ea0a2 ActivityRecord: add fw boost after r33 merge
+ebf4d27285f6 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
+46b8c6b82fd5 Merge tag 'android-9.0.0_r33' into pie
+
+   * frameworks/native/
+9a0953e79 media: Add support for level 6-6.2 for AVC
+
+====================
+     02-07-2019
+====================
+
+
+   * development/
+86865adca Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * external/f2fs-tools/
+f2dba35 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/gps/
+5dc7ab48 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/DocumentsUI/
+f7f98bda Theme improvements
+074de58f Use white navbar for DocumentsUI as well
+21855582 DocumentsUI: Thematize navbar on dark theme
+c4b814d2 Theme: Make sure swipe refresh follows the system theme
+
+   * system/vold/
+724757c vold: Fix build
+3841df6 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
+
+====================
+     02-06-2019
+====================
+
+   * art/
+d4daa2214c Merge tag 'android-9.0.0_r33' into pie
+
+   * bootable/recovery/
+79df274d Merge remote-tracking branch 'AOSP/pie-gsi' into pie
+
+   * build/kati/
+bc2319a Merge tag 'android-9.0.0_r33' into pie
+
+   * external/perfetto/
+358eed14 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
+
+   * external/skia/
+40a3402492 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
+96660a66af Merge tag 'android-9.0.0_r33' into pie
+
+   * frameworks/av/
+ec4035e41a Merge tag 'android-9.0.0_r33' into pie
+
+   * frameworks/native/
+b012bf593 Merge tag 'android-9.0.0_r33' into pie
+
+   * frameworks/opt/net/wifi/
+0cca8cdab Merge tag 'android-9.0.0_r33' into pie
+
+   * hardware/havoc/interfaces/
+d78ccbe aw2013: lets not crash service on missing LED
+
+   * hardware/nxp/nfc/
+30bc03a Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/Bluetooth/
+88081626 Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/CellBroadcastReceiver/
+8b65a10 Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/Contacts/
+c0a911bb4 Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/DeskClock/
+0f401a1f2 Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/Dialer/
+d077fda57 Show phone number on bottom row if number type is present.
+4149ae2a8 Improve contacts layout
+b00d88f53 Incoming call screen & incall screen: contact name on 2 lines
+
+   * packages/apps/DocumentsUI/
+d9cb80ae Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/HavocSettings/
+977c9a1 Add more lockscreen clock styles
+bdc8bcf Settings: PA PIE Controls 3.0 [3/3]
+0ba8a00 Settings: add Cookie QS style [3/3]
+5c3e589 Settings: qs status bar header image [2/4]
+
+   * packages/apps/Messaging/
+98538d4 Messaging - Breathing missedcall/sms/voicemail [4/5]
+d9f9511 Messaging: adaptive icon
+006cdae Messaging: define app category
+18cb82c Messaging: Add "Mark as read" quick action for message notifications
+9735ed6 Fix compilation warnings
+9399924 Pixelize all things
+d88efb6 Vectorized checkmark drawable
+9a3caaf Allow app disable
+dd339d2 Fixed vcard handling
+d74f6e5 Use light navigation bar
+5627280 Add 'new message' shortcut using the API introduced in sdk25
+e351286 Messaging: Fix crash of blocked participant list activity
+8f41e9b Messaging: Don't crash on unsupported shared content type
+9320190 MediaPicker: Check for NPE
+67ee0fd Messaging: fix bad recycle on sending two mms in a row
+b01e266 Use app settings for conversation settings if no custom set
+1be5d6e Messaging app crashes after a few MMS
+b7d9778 Fixed storage permission issue for attachments
+8b91c24 Added support for video and audio mms attachments
+c519dcc Play an audible notification on receiving a class zero message.
+dfc1805 Messaging: Implement saved video attachments in MMS
+f4c8d1c Messaging App is crashing when storage memory is full
+9c9d5c7 Fix menu item highlight color.
+5975d91 Messaging: Toggable keyboard emoticons access
+575c3fd MessageQueue: Process pending messages per subscription
+f7b7f1d Messaging: change Avatar fontFamily to sans-serif-medium
+1eea49d Messaging: Implement option for swipe right to delete.
+2b80a2a Change theme for the open source license dialog
+
+   * packages/apps/Nfc/
+bacf6891 Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/PackageInstaller/
+0dea7339 Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/Settings/
+ffbc7cfc9a Settings: Change some dashboard icon colors
+46d9273eea Implement per-app thermal control [1/3]
+5e4140f1a5 Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/apps/ThermalController/
+4bd4118 Implement per-app thermal control [3/3]
+
+   * packages/inputmethods/LatinIME/
+478017a2f Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/providers/DownloadProvider/
+8e88f4b Merge tag 'android-9.0.0_r33' into pie
+
+   * packages/providers/MediaProvider/
+635ad6d Merge tag 'android-9.0.0_r33' into pie
+
+   * prebuilts/clang/host/linux-x86/
+96d7796 Update prebuilt Clang to r349610.
+
+   * prebuilts/r8/
+fb1e50b r8: Update D8 and R8 to 1.5.3-dev
+719f130 r8: Update D8/R8 to version 1.5.2-dev
+3082fe5 r8: Update D8/R8 to version 1.4.25
+
+   * system/bt/
+28193950c Merge tag 'android-9.0.0_r33' into pie
+
+   * system/core/
+6218aad8d init: increase thermal shutdown timeout to 3s
+040df4144 Read memory stats from /proc/pid/stat file.
+85dc66575 lmkd: Implement pid purge command to clear old pids when zygote restarts
+
+   * system/extras/
+98741355 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
+17acc62e Merge tag 'android-9.0.0_r33' into pie
+
+   * system/netd/
+75b20f7 Merge tag 'android-9.0.0_r33' into pie
+
+   * system/vold/
+5262b8f vold: Fix FDE flags
+
+   * vendor/havoc/
+e6da3c38 Remove proxy for Koodo
+387e14f6 soong: Fix FDE flags
+aaf714dd Havoc 2.2
+711c9287 WallpaperPicker: Materialize the delete icon
+e531999a overlay: header image tweaks [2/2]
+c4a6304f soong_config: Add flag for msm8974 1440p EGL workaround
+00bc5894 overlay: Fix icon mask
+886e157b overlay: qs status bar header image [4/4]
+29d81dd0 vendor: add Cookie QS style [1/3]
+63fe3ad5 overlay: Disable pixel migrate service
+08670cd0 Update sim colors [4/4]
+ce8c181c overlay: Show LTE icon instead of 4G on all devices
+4c417846 overlay: Enable HSPA icon on all devices
+
+====================
+     02-05-2019
+====================
+
+
+   * frameworks/base/
+80e465634bb5 Fix the distorted clock hands
+a056cd686938 Hide analog clocks while pulsing new notifications
+fa7e6368903c Add sneeky analog clock (1/2)
+b02c9d562847 Add Spectrum clock (1/2)
+5b89f7e4b67d Add dot Analog clock [1/2]
+e3f95a04b627 Let's use bold in accent clocks
+0af797beaf30 Add stock clocks with accent color
+0da2c0f51995 Add in analog clock with numbers
+86e08f09c668 LS: Add spidey clock style [1/2]
+e6b7598a17bc base: QS header improvements
+860c7c39e5be base: SystemUI: header image tweaks [1/2]
+ee362f6df8a3 Revert "Check if notification is valid before it finally vibrates"
+
+   * packages/apps/DocumentsUI/
+18af6766 DocumentsUI: Expose some layouts for themes
+
+   * packages/apps/OmniStyle/
+ffd7046 OmniStyle: Use settings icon
+61926a7 OmniStyle: Add itsaalex poison headers
+
+   * packages/apps/Settings/
+219a2222f8 Themes: Convert sync icons to vector so they theme correctly
+294aeb605b Settings: Bring back Uptime
+
+====================
+     02-04-2019
+====================
+
+
+   * frameworks/av/
+cdbd8e1d4e CameraService: Fix missing torch state callback
+04be413c84 libstagefright: Allow HFR-60 in HAL-3 recording
+a505431f2a stagefrightrecorder: don't modify timeOffset in surface source case
+8d1c4e3fb4 cameraservice: Lazy loading of audio files can speed up camera startup
+044bb9ca31 Camera: Add extensions to CameraClient
+242b91f6c4 Revert "Camera: Add support for ZSL burst mode."
+062e821933 Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback
+6b605996ed Camera:CameraService: Added lock on mHIDLMemPoolId in QDataCallback..
+eb634efb87 Camera: Add support for preview frame fd
+
+   * frameworks/base/
+b270f550028f Carrier Label: Bring back the scroll (marquee) effect
+e49554499600 Slim recents: cleaner enable
+99c768da7820 base: Fix signature spoofing
+44c9719bd23e screenrecord: add support for 18:9 resolutions
+7e40b01a1bed Frameworks: PA PIE Controls 3.0 [1/3]
+2e902f10e7a1 LatinIME: fix navigation bar for expanded desktop
+e58bd9744ef8 AD Visualizer: Use white when cutom color not enabled
+2b24279d498f Remove the check of mService when BluetoothHidDevice doUnbind
+75064f2ad194 SystemUI: Fix FC after disabling navbar and unlocking phone
+e4ab861a0af0 PrivacyGuard: Pull in more changes from lineage
+c57d310d9c5c Update boot image profile to include Object.wait()
+03df155ce821 AccountManagerService: Fix ConnectionRecord Leak
+78c3ef924428 ActivityRecord: .app must not be null when you call .setVisible
+ee22f038c7b0 Get new surface if it was released from setWindowStopped
+330d51651627 Pass correct preserve window value to performStop
+65d90a3f4a6b Fix to hide phone number printed in the log
+2e150c147255 AppOpsManager: Fix bluetooth scan op permission
+9c28f4acfd41 Update sim colors [1/4]
+e449795c86df base: add Cookie QS style [2/3]
+d9d8bf75daac Screenrecorder: don't show tmp in some apps and improve code
+4d23d383297c Revert "Screenrecord: removed scanning the tmp file"
+565ff1e4e2cd base: Keyguard: Hide check button when using PIN quick unlock
+48684cb54f7e MicroG: Allow location providers also outside of /system
+c0684ad9a34d UiModeManagerService: Store messaging night state on Settings class
+ba879191344c fwb: Fix animation issue when opening Messaging app
+0a7eab95f472 base: qs status bar header image [1/4]
+2ab706f9befa Add synchronization for invokeForAllObservers call
+eba5334c1222 SystemUI: Fix an issue where jumping to black after screen turned on
+a9113efe293b SystemUI: Fix NPE when DozeService is destroyed
+954a490c27f3 UXE: Recents app detection & Refactor
+63076fbade3f uxe: Check memory pressure before starting empty app.
+80d136704c4e framework/base: optimize multi-thread code
+ce6be28fdd0a AlarmManagerService: Add null check to QCNsrmAlarmExtension call
+2e4edc38df3f base: Add additional builtins to scan ids.
+7ed1b6eeef80 EdgeGestureService: silence debug logging
+cd0698b94d63 EdgeGestureService: add more sensitivity steps
+bee2775cdae6 Add ChargingStarted + InCallNotif to AudioPackage
+3c783af8356e RecentsIconPack: Fallback to default icons on icon pack removal
+
+   * packages/apps/DocumentsUI/
+1d356f2c DocumentsUI: Fix actionbar color when selecting items
+
+   * packages/apps/OmniStyle/
+79f391b OmniStyle: Add 'Space' headers
+5cc5faa OmniStyle: Add 'Colorful' headers
+be4f9ad OmniStyle: Remove theme chooser
+b3552e1 OmniStyle: Remove omni headers
+40ae12d OmniStyle: Remove translations
+a37f47c OmniStyle: Remove weather images
+c7eeac6 OmniStyle: Remove wallpaper settings
+dfb6484 OmniStyle: qs status bar header image [3/4]
+
+   * packages/apps/PackageInstaller/
+1f32083c PackageInstaller: Change header color to match Settings
+
+   * packages/apps/SmartNav/
+b513d9a Allow home action on keyguard
+3163af8 Intercept one handed mode gesture
+
+   * packages/providers/WeatherProvider/
+108e29d Force stop application if running for more than 60 seconds
+
+====================
+     02-03-2019
+====================
+
+
+   * external/sqlite/
+15d4747 sqlite: Remove useless function of tokenize
+
+   * frameworks/base/
+f7c4274d9c33 Fix disappearing home/recents button
+bd39d6442990 DefaultPermissionGrantPolicy: grant Google sounds picker storage perms
+5e663e1a858b WeatherClient: Conditionally allow query when adding observer
+8c84690db5df Fix system ui crash when pinning screen
+455a196a6a10 Revert "Auto switch to a dark analog clock when using dark system theme"
+44567b69814b base: Add support for DiracSound FX
+128d666afc5f base: App picker Tile
+c54f501c3562 Dark theme: Fix notification channel info text color
+
+   * frameworks/native/
+e47e59dd2 libs: ui: Fix shadow-field warnings
+7324cc994 [HAX] remove stylus shit from touchscreen input
+0b6290bd6 APP may display abnormally in landscape LCM
+05b546a2f sf: Workaround BufferLayer::setBuffers issue on 1440p msm8974
+
+   * packages/apps/Settings/
+8f72fcedd9 Update sim colors [2/4]
+60fb89c649 StorageSummaryPreference: Nuke hardcoded color
+51baf217fe StorageSettings: Use pixel color in storage bar / icon
+3a72abdabd Settings: PA PIE Controls 3.0 [2/3]
+676c2e09ca Settings: Power detail pages: Finish off the rest of the icon tinting
+d204f7dd02 Settings: fix icon tinting in power detail pages
+4613c85712 Settings: Add preference for EdgeGestureService [2/3]
+ff6b4b5cc4 Settings: Remove obsolete LOCAL_JACK_ENABLED
+fbdf6aa4cb Settings: Add FINE_LOCATION for Bluetooth scans
+
+   * packages/providers/WeatherProvider/
+c99fc2f WeatherProvider: Update google play services libs
+
+   * prebuilts/build-tools/
+bc02ab9 build-tools: Update regular and asan ninja to v1.9.0
+853ff9a build-tools: Update using latest source and clang-9
+
+   * prebuilts/go/linux-x86/
+fe272e35 go: Update prebuilts/source to version 1.12beta2
+
+   * system/core/
+3697e521d reboot: only run fsck when detecting filesystem inconsistency
+
+   * vendor/huawei/kiwi/
+197c0cd kiwi: Add build rule for QPerformance jar
+f2ee195 kiwi: Refresh makefiles
+
+====================
+     02-02-2019
+====================
+
+
+   * kernel/huawei/kiwi/
+49a4846de2f tcp_output: set initial TCP window size to 64K (speed improvement)
+2064e868fbc tcp_westwood : Tune-up
+7b4435c0a7d ANDROID: sdcardfs: fix potential crash when reserved_mb is not zero
+751da73f46d ANDROID: sdcardfs: Fix sdcardfs to stop creating cases-sensitive duplicate entries.
+9fd919cf4d2 ANDROID: sdcardfs: Set num in extension_details during make_item
+560cf2f1b56 ANDROID: sdcardfs: Hold i_mutex for i_size_write
+
+====================
+     02-01-2019
+====================
+
+
+   * kernel/huawei/kiwi/
+434ec1c3f18 msm: thermal: Configure core sensor id on emergency frequency init
+c17987a5e80 thermal-core: Fix invalid sensor data being accepted
+fb293e46d8a msm: thermal: Update the hotplug initialization
+5d2c2fe638b msm: thermal: Check cpu variables are initialized before setting threshold
+5cabae3337c msm: thermal: Check clients request just after frequency thread init
+37ce0d2abdb Tweaked MSM-Thermal
+8f9bedc652e drivers: msm_thermal: Optimizations and fixes
+
+   * packages/apps/ThermalController/
+c475703 Update README.md
+1e7c2c7 Initial commit
+
+====================
+     01-31-2019
+====================
+
+
+   * frameworks/base/
+d3ecd46659e3 Merge "Informing app idle listeners on enabled state changes." into pie-gsi
+546a799e6def Informing app idle listeners on enabled state changes.
+
+   * vendor/huawei/kiwi/
+7f4a8b7 kiwi: Update recovery blobs
+
+====================
+     01-30-2019
+====================
+
+
+   * external/icu/
+0d011198e DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.
+9e0ab1daa DO NOT MERGE: Update Android ICU tzdata from 2018g to 2018i.
+ca0fde0a8 Revert "Update Android ICU tzdata from 2018g to 2018i"
+
+   * kernel/huawei/kiwi/
+cda0f4d913e kiwi: defconfig: Enable USB fast charge
+50a376e6d7e arm64: topology: fix cpu power calculation
+0d3710d1ac8 drivers: clk: Add custom voltage control
+ba26fde36dc drivers: misc: Implement USB fast charge mode
+8ad64ef77d5 drivers: SMB1360: Increase charging current limit
+
+   * system/timezone/
+378350a DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.
+a545fe9 DO NOT MERGE: Update Android tzdata from 2018g to 2018i.
+9477ff8 Revert "Update Android tzdata from 2018g to 2018i"
+
+====================
      01-24-2019
 ====================
 

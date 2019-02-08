@@ -1,4 +1,40 @@
 ====================
+     02-08-2019
+====================
+
+7fd09c9b6 Update google prebuilts to PQ2A.190205.003
+
+====================
+     02-07-2019
+====================
+
+c2ba6a0cb Havoc 2.2
+c4e62999c Revert "Revert "gemini: removing AUDIO_OUTPUT_FLAG_RAW""
+6a719e8c9 Android 9.0.0 Release 33 (PQ2A.190205.003)
+143d38098 Android 9.0.0 Release 31 (PQ2A.190205.001)
+
+====================
+     02-04-2019
+====================
+
+1e9fad46d Revert "msm8996-common: readmac: Convert symbolic permissions to octal"
+
+====================
+     02-01-2019
+====================
+
+b1abba912 Reset MSA/MSB capabilities for APQ targets.
+fc7b4e9ec caf tag: LA.UM.7.5.r1-04100-8x96.0
+ff593c4cb DragonTC clang version 9.0.0-20190131 (based on LLVM 9.0.0svn)
+b7c8c301e fix pico gapps 27012019 permissions
+
+====================
+     01-30-2019
+====================
+
+0a7f81a3d build Lawnchair
+
+====================
      01-27-2019
 ====================
 
