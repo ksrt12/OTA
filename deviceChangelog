@@ -1,3 +1,29 @@
+
+====================
+     02-18-2019
+====================
+
+d3d18d711 update patches to lastest havoc sources
+
+====================
+     02-17-2019
+====================
+
+138e0b884 DragonTC clang version 9.0.0-20190216 (based on LLVM 9.0.0svn)
+
+====================
+     02-15-2019
+====================
+
+5bbb1227e update tools/generate_gemini_info.sh
+
+====================
+     02-12-2019
+====================
+
+be058055f move google prebuilts to vendor/havoc
+01c8ff696 Unofficial from now
+
 ====================
      02-08-2019
 ====================

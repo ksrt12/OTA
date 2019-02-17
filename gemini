@@ -6,7 +6,7 @@
     {
       "title":"Firmware",
       "summary":"Latest firmware for gemini",
-      "url":"https://github.com/XiaomiFirmwareUpdater/firmware_xiaomi_gemini/releases/download/stable-25.01.2019/fw_gemini_miui_MI5Global_V10.2.2.0.OAAMIXM_d16c808eba_8.0.zip"
+      "url":"https://github.com/XiaomiFirmwareUpdater/firmware_xiaomi_gemini/releases"
     },
     {
       "title":"Official Open GApps",
@@ -21,7 +21,7 @@
     {
       "title":"Havoc Changelog",
       "summary":"View Havoc-OS changes",
-      "url":"https://t.me/Havoc_OS/678"
+      "url":"https://t.me/Havoc_OS/679"
     },
     {
       "title":"Device Changelog",
@@ -32,10 +32,10 @@
   "developer": "Stepan Kazakov (ksrt12)",
   "developer_url": "https://t.me/HavocGeminiBugreport",
   "forum_url": "https://forum.xda-developers.com/mi-5/development/rom-havoc-os-2-0-t3866995",
-  "changelog": "\n - Android TAG: 9.0.0_r33n\ - CAF TAG: LA.UM.7.5.r1-04100-8x96.0\n - Fixed Signature Spoofing\n - add Lawnchair\n - kernel: add DTS Eagle\n - partly fixed wireless display",
-  "filename":"Havoc-OS-v2.2-20190208-gemini-Official.zip",
-  "build_date":"20190208-1257",
-  "filesize":"615800072",
-  "md5":"9756e6121fb60eb4c482e51d68d850bc",
-  "url":"https://sourceforge.net/projects/havoc-gemini/files/Havoc-OS-v2.2-20190208-gemini-Official.zip/download"
+  "changelog": "\n * Added new ambient display implementation\n * Added theme background color picker\n * Added AOD on charge\n * Added accent option for QS panel\n * Added haptic feedback duration for OP gestures\n * Reorganised Havoc Settings\n * Improved UI\n * Removed ambient music from lockscreen\n * Fixed toasts with RTL languages\n * Fixed QS gradient when custom header is disabled\n * Fixed music ticker glitches\n * Fixed compact navbar layout\n * Fixed autofill dialog on dark themes\n * Fixed wellbeing dark theme",
+  "filename":"Havoc-OS-v2.2-20190217-2302-gemini-Unofficial.zip",
+  "build_date":"20190217-2302",
+  "filesize":"614922770",
+  "md5":"f0340653d26c027c4d55af0624335d62",
+  "url":"https://sourceforge.net/projects/havoc-gemini/files/Havoc-OS-v2.2-20190217-2302-gemini-Unofficial.zip/download"
 }

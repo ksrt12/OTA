@@ -1,4 +1,207 @@
 ====================
+     02-16-2019
+====================
+
+
+   * packages/apps/CustomDoze/
+0452be9 CustomDoze: Add option to show AOD on charge only [2/2]
+
+   * packages/apps/Settings/
+d9ced87d78 Make advanced battery info opt-in
+
+====================
+     02-15-2019
+====================
+
+
+   * frameworks/base/
+a2e313930f04 QS Header: Fix gradient view after device is rotated
+3872fed0762f Fix action bar font family on material themes
+5c3f50a87b6d OP like gestures: more tweaks [1/2]
+fd40f27a42af Animate visibility change for Keyguard Inidication Area
+cc08f31daf41 base: QS: Allow coloring bg with accent [1/2]
+438073d5bb41 base: Custom theming [1/3]
+b6b1d90a157f base: Cleanup themes
+f31daadb4180 base: Nuke Theme tile
+89bbfa4e5914 base: Force white bg on autofill dialog
+b3ac49d2de41 base: Cleanup colors
+6bc8db0eefbd Improve Volume dialog timeout
+a3c30fa4f012 NetworkTraffic: Make QS header net monitor play nice with the scrim
+c65e639b38be Keyguard: Avoid starting FP authentication right after cancelling
+
+   * packages/apps/HavocSettings/
+97ea53a OP like gestures: more tweaks [2/2]
+81e36bb QS: Allow coloring bg with accent [2/2]
+e343c7d Settings: Custom theming [2/3]
+0b448ee Settings: Cleanup themes
+89986d1 Carrier label: Ensure the dialog matches other dialogs
+dae4672 Set a text length on the carrier label
+eed94d8 Settings: Switch logic of some settings
+5355bfd Settings: Cleanup
+fb39ae1 Settings: Adapt for vendor_support
+
+   * packages/apps/Settings/
+bd9413dd4b Make home button wake up opt-in [2/2]
+a881072ec2 PrivacyGuard: Add missing permission icons
+b4b3557fc6 Themes: Expose suggestion and condition cards
+1fcfbd1103 Revert "Use colorPrimary for search bar and suggestion background"
+9c593f3a23 Settings: Cleanup themes
+
+   * vendor/support/
+c71504b Color Picker: Remove OnClick listener to fix disabling
+
+   * vendor/themes/
+7e5f8b0 themes: Custom theming [3/3]
+
+====================
+     02-14-2019
+====================
+
+
+   * vendor/themes/
+2e567a1 Switch to vendor_themes [2/2]
+
+====================
+     02-13-2019
+====================
+
+
+   * packages/apps/Settings/
+86b874f41e Settings: Expose searchbar background color
+
+   * packages/apps/SettingsIntelligence/
+4a49462 Themes: Expose search bar
+
+====================
+     02-12-2019
+====================
+
+
+   * frameworks/av/
+d8d570e5cf Visualizer: fix native crash when visualizer release
+
+   * frameworks/native/
+5dc13aee1 Revert "sf: Add support for multiple displays"
+
+   * hardware/ril-caf/
+b475875 Encode the Number of MNC Digits in CellIdentity
+
+   * packages/apps/Settings/
+e5f88c5c2c Improve accent picker layout
+
+====================
+     02-11-2019
+====================
+
+
+   * vendor/support/
+46945fe Extend custom seekbar preferences
+
+====================
+     02-10-2019
+====================
+
+   * art/
+016b254b71 Revert "Assume all x86/x86_64 hosts support at least sse4.x/popcount."
+
+   * external/sqlite/
+81b4df7 sqlite: upgrade to SQLite 3.27.1
+171e89a sqlite: upgrade to SQLite 3.27.0
+
+   * frameworks/base/
+0ea8646adf0e Visualizer: fix native crash when visualizer release
+06afffac8fa3 Clear all lingering notifications when network is disconnected
+700fb81f2d0e Rounded Corner: Code improvement and clean up
+8d5be0ea2db8 base: SystemUI: fix compact navbar layout placing of rotate button
+5a67654f31cf base: add option to enable AOD on charging only [1/2]
+f5dd7ed222c9 Revert "display: Add support for multiple displays."
+bc5cc676356c base: Switch logic of some settings
+
+====================
+     02-09-2019
+====================
+
+
+   * device/qcom/sepolicy-legacy/
+35ecc09 Display: Remove vendor property context for lcd density
+2304abb legacy: Label some more sysfs_net
+12e1f42 common: Allow webview_zygote to read /dev/ion
+37d02ce sepolicy: legacy: add additional usb charging path label
+78ac369 legacy: Label msm8916 sysfs_disk_stat
+3cfd890 legacy: Label msm8916 sysfs_android_usb
+df16578 sepolicy: Add vendor prefix to FM properties
+3507982 legacy: Label msm8916 sysfs_{battery,usb}_supply
+5f7b17f common: relabel /sys/module/tcp_cubic for netmgrd access
+7df6c91 common: grant cnss-daemon access to sysfs_net
+de12171 common: grant netmgrd access to sysfs_net nodes
+ddb2abf common: label /sys/devices/virtual/net/* as sysfs_net
+9f8cc09 common: allow sensors HIDL HAL to access /dev/sensors
+548752e common: grant DRM HIDL HAL ownership access to /data/{misc,vendor}/media/
+cbc73fd sepolicy: Add permissions for LCD brightness control
+d6b9b76 sepolicy: Allow mm-qcamerad use appdomain fd
+b7d2adf sepolicy: Label msm8974 devfreq sysfs
+d6e44fa sepolicy: Label msm_pm sysfs as sysfs_msm_perf
+835d67c sepolicy: Label msm8974 leds-qpnp sysfs
+bcce192 sepolicy: Label msm8974 lcd-backlight sysfs
+3f9a830 sepolicy: Label msm8974 sysfs_ssr_toggle
+a74e87f sepolicy: Label sysfs_android_usb
+e9302a4 sepolicy: Label sysfs_disk_stat nodes
+181e026 sepolicy: Label more qpnp-charger sysfs as sysfs_battery_supply
+ae0bc3e Use new vendor_wifi_prop label for bluetooth_loader
+ceb9004 wcnss-service: Add sepolicy to access "vendor.wlan." property
+3f0cdea sepolicy: Add vendor wifi prop in vendor partition access
+ff0a5d4 Revert "sepolicy: Allow wcnss_service to set wlan.driver properties"
+86b27fa legacy: Label /sys/devices/mdp.0/caps
+17deac3 sepolicy: Fix label of qpnp-charger sysfs
+6ef96d7 sepolicy: Add type vendor_display_prop for legacy devices
+2432980 sepolicy: Add additional restricted permissions to vendor_init
+
+   * frameworks/base/
+111e7a2692e2 Ambient music: code cleanup and glitch fixes
+7c38da299c08 Ambient music: show on lockscreen only for Google's Now Playing
+2994bf09a67d Revert "base: screen off animation config [1/2]"
+5538177e71b2 Revert "Blacklist apps in the ChooserAcitivity (e.g. Share button) [1/2]"
+d73f7b18ae15 base: Update colors
+8875526fdc38 SystemUI: Cleanup strings
+e5a78faf09d0 base: Disable SmartPixels
+a93015502bc9 base: Disable AOD by default
+758ae39bed0a Revert "Volume wake/skip track: Make it work independently"
+729406785098 base: Make home button wake up opt-in [1/2]
+afc42d698b60 base: Enable home button wake
+449333eb8b6a Utils: Add method to check for CustomDoze
+4df132afe6f0 base: Add CustomDoze
+4e2b242c6b99 Ambient brightness values: use a custom system setting [1/2]
+173735795580 Revert "Allow tuning ambient display with sensors [1/3]"
+b3b00dd592f7 base: Fix the bug that toasts show only icons in RTL layout.
+6966261f3ef7 Statusbar clock: restore qsheader check within a saved instance
+a302fbb29c3f NotificationEntryManager: Fix ClassCastException
+1763c839fd8a StatusBar: Silence logspam
+53c711de2e20 Fix minutes in full accent clock
+48cffb441fd9 Add wellbeing dark theme
+682fb819666c SystemUI: Fix Lockscreen not dismissing with AOD enabled
+57c46c1ab713 Implement per-app thermal control [2/3]
+2769a8e1a984 SystemUI: Add optional notch friendly VoLTE icon
+
+   * hardware/broadcom/libbt/
+0919027 libbt: Align Samsung CID strings to those created by macloader
+
+   * packages/apps/Settings/
+6a1ce0b4fd Move in pin ripple settings
+
+====================
+     02-08-2019
+====================
+
+
+   * vendor/support/
+099eef4 Add GlobalSettingsMasterSwitchPreference
+62d5730 Add SecureSettingsMasterSwitchPreference
+c7c2eb0 Fix MasterSwitchPreference
+d4663b9 MasterSwitchPreference: isChecked doesn't rely on existence of switch
+9777a00 Add SystemSettingsMasterSwitchPreference
+
+
+====================
      02-08-2019
 ====================
 
