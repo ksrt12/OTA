@@ -21,7 +21,7 @@
     {
       "title":"Havoc Changelog",
       "summary":"View Havoc-OS changes",
-      "url":"https://t.me/Havoc_OS/679"
+      "url":"https://t.me/Havoc_OS/797"
     },
     {
       "title":"Device Changelog",
@@ -32,10 +32,10 @@
   "developer": "Stepan Kazakov (ksrt12)",
   "developer_url": "https://t.me/HavocGeminiBugreport",
   "forum_url": "https://forum.xda-developers.com/mi-5/development/rom-havoc-os-2-0-t3866995",
-  "changelog": "\n * Added new ambient display implementation\n * Added theme background color picker\n * Added AOD on charge\n * Added accent option for QS panel\n * Added haptic feedback duration for OP gestures\n * Reorganised Havoc Settings\n * Improved UI\n * Removed ambient music from lockscreen\n * Fixed toasts with RTL languages\n * Fixed QS gradient when custom header is disabled\n * Fixed music ticker glitches\n * Fixed compact navbar layout\n * Fixed autofill dialog on dark themes\n * Fixed wellbeing dark theme",
-  "filename":"Havoc-OS-v2.2-20190217-2302-gemini-Unofficial.zip",
-  "build_date":"20190217-2302",
-  "filesize":"614922770",
-  "md5":"f0340653d26c027c4d55af0624335d62",
-  "url":"https://sourceforge.net/projects/havoc-gemini/files/Havoc-OS-v2.2-20190217-2302-gemini-Unofficial.zip/download"
+  "changelog": "\n * Added Grid recents\n * Added option to hide Multiuser switch on lockscreen\n * Added a slider for changing statusbar padding\n * Added Auto hide clock\n * Improved statusbar padding\n * Improved some features for notch\n * Improved power button flashlight gesture\n * Improved Night mode\n * Improved Dark theme\n * Improved full gesture navbar\n * Forced date to be always visible in QS header\n * Fixed blank notifications on ambient display",
+  "filename":"Havoc-OS-v2.2-20190225-2359-gemini-Unofficial.zip",
+  "build_date":"20190225-2359",
+  "filesize":"614885129",
+  "md5":"85b08c29a781d38b84b32c7e9015126c",
+  "url":"https://sourceforge.net/projects/havoc-gemini/files/gemini/Havoc-OS-v2.2-20190225-2359-gemini-Unofficial.zip/download"
 }

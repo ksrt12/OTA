@@ -1,4 +1,230 @@
 ====================
+     02-26-2019
+====================
+
+
+   * vendor/themes/
+9e2e0e5 themes: Add Gboard overlay [2/2]
+
+====================
+     02-25-2019
+====================
+
+   * art/
+26cc4b2497 Merge tag 'LA.UM.7.6.2.r1-06900-89xx.0' of https://source.codeaurora.org/quic/la/platform/art into HEAD
+
+   * external/google/
+85e1568 Elmyra: cleanup here and there
+
+   * external/skia/
+7c325d1870 Merge branch '9.0' of https://github.com/syberia-project/platform_external_skia into HEAD
+
+   * frameworks/base/
+19ead65ca7d8 toggle torch proximity check [1/2]
+c8453e8958d7 show bt battery for all devices
+0dee3c2af4a3 change battery save color
+61bd39334b2b fix answer from home key
+72c44b7485d4 proximity check for all wake keys
+aabb46c336d3 Havoc Build Date [1/2]
+889f775d4847 fix button backlight
+913fce234cc4 fix priv-apps permissions
+
+   * packages/apps/Dialer/
+d0da1cda2 Revert "Fix in-call buttons layout"
+
+   * packages/apps/HavocSettings/
+cc09c55 toggle torch proximity check [2/2]
+e06edb4 Rework hw button illumination
+
+   * packages/apps/Settings/
+fa93a5dc24 my colors
+06db99574b Havoc Build Date [2/2]
+f819eadb15 DeviceInfoSettings: Bring back CAF/AOSP tags
+9e354af83e Settings: Fix empty summary for VPN and SIM Card
+6df440d96b Settings: change default night light brightness (1/2)
+
+   * packages/apps/Updates/
+8caf537 my OTA
+
+   * system/core/
+854a7c854 Allow adb root even in no debuggable builds
+
+   * vendor/nxp/opensource/interfaces/nfc/
+1b170d8 Merge tag 'LA.UM.7.6.2.r1-06900-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/interfaces/opensource/nfc into HEAD
+
+   * vendor/support/
+e27a7ae add variables for buttom backlight
+
+====================
+     02-24-2019
+====================
+
+
+   * external/google/
+631c4f9 SmartNav: Fix NPE when navbar is not set to stock mode
+3660e55 NavigationBarEffect code cleanup
+
+   * frameworks/base/
+ca8c6104ca08 Revert "hwui: Enable quicksilver"
+a77af47fa395 base: Expose system icon area weight
+90c4917b7446 ColorDisplayService: change default night light brightness (2/2)
+09178d597ee9 Revert "SettingsProvider: Hide sensitive notification content"
+7f7397a5926b Do not apply date customization to QS clock
+da232a14c257 SystemUI: Always show date in QS header
+4c3edba2a899 Clock: Always show time in the quickstatusbar
+6201be3b2f19 Network traffic: Retain our notch check
+8488689a7981 Notch friendly carrier label [1/2]
+464870aa236e base: Link more things to a common dimen
+dfe80a3631e5 SystemUI: Make recents grid view accept more than 8 tasks
+cc2416b7f3fd Revert "Disable grid recents [1/2]"
+93f52c600c98 base: Supress telephony crashing platform
+660321a6a5c9 am: Avoid scheduling service restart twice
+
+   * packages/apps/Settings/
+5cfd4c9fb6 Revert "Add advanced battery info"
+
+   * packages/apps/SmartNav/
+cdf4c2d Navigator: Add isFullGestureMode method
+
+====================
+     02-23-2019
+====================
+
+
+   * external/skia/
+986a6682e5 Revert "Add rect-parameter to makeImageSnapshot and stop using chromium config options"
+
+   * packages/apps/HavocSettings/
+cfd9c6a Notch friendly carrier label [2/2]
+ebaa809 Revert "Disable grid recents [2/2]"
+
+   * packages/apps/SmartNavSettings/
+969aefb Disable all gestures when navbar enabled
+
+   * prebuilts/r8/
+464e98b r8: Update D8 and R8 to 1.5.7-dev
+c6b5efe r8: Update D8 and R8 to 1.5.5-dev
+
+====================
+     02-22-2019
+====================
+
+
+   * external/google/
+b4392eb CustomActions: Use settings provider to store value [1/3]
+cc43074 Actions: Add ringer modes
+
+   * frameworks/base/
+45121b7ad82e base: screenrecord: update notif text for high aspect ratio devices
+ff4183f79789 Method to detect a notch'd device
+4de71f44a260 VisualizerView: Don't add null end actions to animators
+de500e780864 SystemUI: grant missing READ_PHONE_STATE permission
+8ffc6beff336 Add option to auto hide status-bar clock [1/2]
+3569714248c0 Power button flashlight: allow to skip proximity check per device
+3f4b100ac2a5 Power button flashlight toggle: add proximity sensor check
+c16e1135cd0c Allow doubletap/longpress power to toggle torch [1/3]
+6951113ac70e Revert "Power button flashlight"
+b8996e01e8ba Helper functions for SmartActions action binding [1/2]
+add97549b526 CustomActions: Use settings provider to store value [2/3]
+b50d9bb23389 ActionUtils: Improve ringer modes
+1f4ea0125c35 ActionUtils: Ringer modes
+4a7bd4288f57 GlobalActions: avoid multiple power dialog animations
+f0a7dd196535 VolumeDialog: avoid multiple animations on touch spam
+5a42a3820103 base: Add optional OP cam support
+4f934073f70f Revert "FB: Add oneplus camera support"
+46f2805eb759 SystemUI: Fix an issue where unlocking the SIM PIN failed
+fda7e758b9e8 Unbreak ambient display while Heads up is disabled
+c5d7fed4a0ac SystemUI: Make dark theme switch more sane
+
+   * packages/apps/HavocSettings/
+89da9bb Add option to auto hide status-bar clock [2/2]
+e8d9d79 Allow to doubletap or longpress power to toggle flashlight [3/3]
+b9d9719 Revert "Power button flashlight"
+c1e9ef9 CustomActions: Use settings provider to store value [3/3]
+6711ad3 CustomActions: Add ringer modes
+
+   * packages/apps/Settings/
+69ad162c58 LEDs: Add "All Apps" to LED per-app list. Also make it the default.
+9bb267258c Allow to doubletap or longpress power to toggle flashlight [2/3]
+83c218b65f Revert "Make batterysaver dark mode state configurable [2/2]"
+
+   * packages/apps/SmartNavSettings/
+003e47b SmartActions backend support [2/2]
+
+   * vendor/support/
+18ca7c5 AppPicker: Import from external/google for other uses
+
+====================
+     02-21-2019
+====================
+
+
+   * external/google/
+fbb8dc9 SquishyNavbar: If power saver is on, don't allow feedback
+5845815 CustomActions: Add support to launch applications [1/2]
+80650a5 CustomActions: Screen off availability
+
+   * external/libjpeg-turbo/
+2432a51 libjpeg-turbo: update to 2.0.2
+
+   * frameworks/av/
+d7907ee8f7 CameraService: Default to HAL1 for OPCam if not specified
+
+   * frameworks/base/
+92d5986cc521 SystemUI: Refresh themes on dirty flash
+e2e65cbc78cf ThermalController: Send out active package broadcast only if allowed
+35c0429fd1a0 WeatherClient: Fix horrible allocation abuse
+1f585d49acd4 ActionUtils: cleanup screen On action code
+520ea63d80b4 ActionUtils: Add screen on action
+89b9fd2e19b2 framework: Grant READ_WEATHER permission
+
+   * packages/apps/HavocSettings/
+9295968 CustomActions: Add support to launch applications [2/2]
+
+   * packages/providers/WeatherProvider/
+0120a37 WeatherChannelApi: Fix allocation abuse
+
+====================
+     02-20-2019
+====================
+
+
+   * external/google/
+5f82801 elmyra: Adapt to smartnav changes
+3565b65 Init Havoc...
+
+   * frameworks/base/
+986eb612d725 Keyguard: Multiuser switch [1/2]
+a5bce5a1db98 Full gestures navbar: add missing haptic feedback events
+e967e4baa595 Full gestures navbar: don't break IME navbar button
+23a1818729fd BrightnessDialog: dismiss on focus lost
+1801a6da387f Avoid Ambient indicator overlap with multiple keyguard notifications
+83e65469005b base: wake from aod on unplug if we show on charging only
+c94ba2041647 SystemUI: Decrease padding for statusbar icons
+9ae2241d7081 base: Allow tuning extra padding for status bar
+2579557c12b7 base: Remove round corner padding from statusbar
+9295032b4d03 SystemUI: Network traffic improvements
+7a76587eb734 Only inherit Elmyra for Pixel devices
+badc0cd9a92c Active edge settings 1/?
+1daceaba6992 Elmyra: Move to external repo
+05ab8ab277d7 Elmyra: initial base for the service porting
+
+   * packages/apps/HavocSettings/
+106efdf Settings: Multiuser switch [2/2]
+27bbb35 Allow tuning extra padding for status bar
+e6a5125 Add a footer to Active Edge settings
+5a2825e Only inherit Elmyra for Pixel devices
+b6c8757 Active edge settings 3/?
+
+====================
+     02-19-2019
+====================
+
+
+   * packages/apps/HavocSettings/
+9753b45 BatteryLight: Fix NPE
+
+====================
      02-16-2019
 ====================
 
