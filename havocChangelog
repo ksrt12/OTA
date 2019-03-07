@@ -1,1143 +1,343 @@
 ====================
-     02-26-2019
+     03-08-2019
 ====================
 
-
-   * vendor/themes/
-9e2e0e5 themes: Add Gboard overlay [2/2]
-
-====================
-     02-25-2019
-====================
-
-   * art/
-26cc4b2497 Merge tag 'LA.UM.7.6.2.r1-06900-89xx.0' of https://source.codeaurora.org/quic/la/platform/art into HEAD
-
-   * external/google/
-85e1568 Elmyra: cleanup here and there
-
-   * external/skia/
-7c325d1870 Merge branch '9.0' of https://github.com/syberia-project/platform_external_skia into HEAD
 
    * frameworks/base/
-19ead65ca7d8 toggle torch proximity check [1/2]
-c8453e8958d7 show bt battery for all devices
-0dee3c2af4a3 change battery save color
-61bd39334b2b fix answer from home key
-72c44b7485d4 proximity check for all wake keys
-aabb46c336d3 Havoc Build Date [1/2]
-889f775d4847 fix button backlight
-913fce234cc4 fix priv-apps permissions
-
-   * packages/apps/Dialer/
-d0da1cda2 Revert "Fix in-call buttons layout"
+7b812043499a Keyguard: Don't listen for fingerprint when prox.sensor is covered
+a56d2508b2d3 show bt battery for all devices
+02983b2019b5 change battery save color
+e5c11428ef26 fix answer from home key
+dd49bfdc0625 toggle torch proximity check [1/2]
+e857e26e14fe proximity check for all wake keys
+c7a53ff8f40d Havoc Build Date [1/2]
+753106c3da9c fix button backlight
+f2a5cfa356eb fix priv-apps permissions
+f11a55d79a23 Revert "hwui: Enable quicksilver"
+721ee3d68c5e Automagically set night mode when dark or black theme is turned on
+0143a72a9947 Revert "base: Add Gboard overlay [1/2]"
 
    * packages/apps/HavocSettings/
-cc09c55 toggle torch proximity check [2/2]
-e06edb4 Rework hw button illumination
+afa4225 toggle torch proximity check [2/2]
+f401726 Rework hw button illumination
+918e35b Settings: Fixes
+dd44649 Settings: Add back About section
 
    * packages/apps/Settings/
-fa93a5dc24 my colors
-06db99574b Havoc Build Date [2/2]
-f819eadb15 DeviceInfoSettings: Bring back CAF/AOSP tags
-9e354af83e Settings: Fix empty summary for VPN and SIM Card
-6df440d96b Settings: change default night light brightness (1/2)
+56b5263a62 Havoc Build Date [2/2]
+23d5cc4ee9 DeviceInfoSettings: Bring back CAF/AOSP tags
+3076d7e0e2 my colors
+40dafa984a Changelog: Fix title on actionbar
+046443c5f6 Changelog: Add left padding
+091dc40239 Settings: update changelog activity * improve code
+48aec6ce33 Changelog: Fix text selection with dot
+40c4c9ccce Changelog: clean and make themeable before: https://imgur.com/a/ylSQG after: https://imgur.com/a/GdnPN
+8dbd4b8fe8 Changelog: prettify
+c651d5971b Settings: Changelog
 
-   * packages/apps/Updates/
-8caf537 my OTA
+   * packages/apps/SmartNavSettings/
+23f249b Settings: Fixes
+
+   * vendor/themes/
+d58d9db themes: Fix volume panel footer bg
+52c3f50 Revert "themes: Add Gboard overlay [2/2]"
+
+====================
+     03-07-2019
+====================
+
+
+   * hardware/nxp/nfc/
+c310d47 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/nxp/nfc into HEAD
+
+   * hardware/nxp/secure_element/
+8585787 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/nxp/secure_element into HEAD
+
+   * packages/apps/Nfc/
+0c4a6522 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/packages/apps/Nfc into HEAD
 
    * system/core/
-854a7c854 Allow adb root even in no debuggable builds
+d08ffcc4a Allow adb root even in no debuggable builds
 
-   * vendor/nxp/opensource/interfaces/nfc/
-1b170d8 Merge tag 'LA.UM.7.6.2.r1-06900-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/interfaces/opensource/nfc into HEAD
+   * system/nfc/
+d469ef3 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/system/nfc into HEAD
 
-   * vendor/support/
-e27a7ae add variables for buttom backlight
-
-====================
-     02-24-2019
-====================
-
-
-   * external/google/
-631c4f9 SmartNav: Fix NPE when navbar is not set to stock mode
-3660e55 NavigationBarEffect code cleanup
-
-   * frameworks/base/
-ca8c6104ca08 Revert "hwui: Enable quicksilver"
-a77af47fa395 base: Expose system icon area weight
-90c4917b7446 ColorDisplayService: change default night light brightness (2/2)
-09178d597ee9 Revert "SettingsProvider: Hide sensitive notification content"
-7f7397a5926b Do not apply date customization to QS clock
-da232a14c257 SystemUI: Always show date in QS header
-4c3edba2a899 Clock: Always show time in the quickstatusbar
-6201be3b2f19 Network traffic: Retain our notch check
-8488689a7981 Notch friendly carrier label [1/2]
-464870aa236e base: Link more things to a common dimen
-dfe80a3631e5 SystemUI: Make recents grid view accept more than 8 tasks
-cc2416b7f3fd Revert "Disable grid recents [1/2]"
-93f52c600c98 base: Supress telephony crashing platform
-660321a6a5c9 am: Avoid scheduling service restart twice
-
-   * packages/apps/Settings/
-5cfd4c9fb6 Revert "Add advanced battery info"
-
-   * packages/apps/SmartNav/
-cdf4c2d Navigator: Add isFullGestureMode method
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+f0d81de2 fix build warnings
 
 ====================
-     02-23-2019
+     03-06-2019
 ====================
 
 
    * external/skia/
-986a6682e5 Revert "Add rect-parameter to makeImageSnapshot and stop using chromium config options"
+7f877d0300 Merge branch '9.0' of https://github.com/syberia-project/platform_external_skia into HEAD
 
-   * packages/apps/HavocSettings/
-cfd9c6a Notch friendly carrier label [2/2]
-ebaa809 Revert "Disable grid recents [2/2]"
+   * frameworks/av/
+a3a06f02cf Merge tag 'android-9.0.0_r34' into pie
 
-   * packages/apps/SmartNavSettings/
-969aefb Disable all gestures when navbar enabled
+   * frameworks/base/
+cafce7535485 Merge tag 'android-9.0.0_r34' into pie
+c4ce24fec895 base: Fix camera hal1 prop
+
+   * hardware/nxp/nfc/
+1a42707 Merge tag 'android-9.0.0_r34' into pie
+
+   * packages/apps/Bluetooth/
+0461c553 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Bluetooth into HEAD
+
+   * packages/apps/CarrierConfig/
+348518b Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_CarrierConfig into HEAD
+
+   * packages/apps/CellBroadcastReceiver/
+16720e7 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver into HEAD
+
+   * packages/apps/Dialer/
+29837d5e3 Revert "Fix in-call buttons layout"
+
+   * packages/apps/DocumentsUI/
+5b111000 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_DocumentsUI into HEAD
+
+   * packages/apps/EmergencyInfo/
+cadec59 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_EmergencyInfo into HEAD
+
+   * packages/apps/Nfc/
+45f22999 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Nfc into HEAD
+
+   * packages/apps/PackageInstaller/
+29e48bf4 Merge tag 'android-9.0.0_r34' into pie
+
+   * packages/apps/Updater/
+4b882eb my OTA
+b4c8ff5 Updater: Assume older Android version to be incompatible
 
    * prebuilts/r8/
-464e98b r8: Update D8 and R8 to 1.5.7-dev
-c6b5efe r8: Update D8 and R8 to 1.5.5-dev
+2e25531 r8: Update D8 and R8 to 1.5.9-dev
+
+   * system/bt/
+b3c794b73 Merge tag 'android-9.0.0_r34' into pie
+
+   * system/core/
+6f9956b09 Export maximum number of fds/ints in a native_handle.
+
+   * system/libhwbinder/
+3a1f28e Merge tag 'android-9.0.0_r34' into pie
+
+   * system/tools/hidl/
+30d29fd Merge tag 'android-9.0.0_r34' into pie
 
 ====================
-     02-22-2019
-====================
-
-
-   * external/google/
-b4392eb CustomActions: Use settings provider to store value [1/3]
-cc43074 Actions: Add ringer modes
-
-   * frameworks/base/
-45121b7ad82e base: screenrecord: update notif text for high aspect ratio devices
-ff4183f79789 Method to detect a notch'd device
-4de71f44a260 VisualizerView: Don't add null end actions to animators
-de500e780864 SystemUI: grant missing READ_PHONE_STATE permission
-8ffc6beff336 Add option to auto hide status-bar clock [1/2]
-3569714248c0 Power button flashlight: allow to skip proximity check per device
-3f4b100ac2a5 Power button flashlight toggle: add proximity sensor check
-c16e1135cd0c Allow doubletap/longpress power to toggle torch [1/3]
-6951113ac70e Revert "Power button flashlight"
-b8996e01e8ba Helper functions for SmartActions action binding [1/2]
-add97549b526 CustomActions: Use settings provider to store value [2/3]
-b50d9bb23389 ActionUtils: Improve ringer modes
-1f4ea0125c35 ActionUtils: Ringer modes
-4a7bd4288f57 GlobalActions: avoid multiple power dialog animations
-f0a7dd196535 VolumeDialog: avoid multiple animations on touch spam
-5a42a3820103 base: Add optional OP cam support
-4f934073f70f Revert "FB: Add oneplus camera support"
-46f2805eb759 SystemUI: Fix an issue where unlocking the SIM PIN failed
-fda7e758b9e8 Unbreak ambient display while Heads up is disabled
-c5d7fed4a0ac SystemUI: Make dark theme switch more sane
-
-   * packages/apps/HavocSettings/
-89da9bb Add option to auto hide status-bar clock [2/2]
-e8d9d79 Allow to doubletap or longpress power to toggle flashlight [3/3]
-b9d9719 Revert "Power button flashlight"
-c1e9ef9 CustomActions: Use settings provider to store value [3/3]
-6711ad3 CustomActions: Add ringer modes
-
-   * packages/apps/Settings/
-69ad162c58 LEDs: Add "All Apps" to LED per-app list. Also make it the default.
-9bb267258c Allow to doubletap or longpress power to toggle flashlight [2/3]
-83c218b65f Revert "Make batterysaver dark mode state configurable [2/2]"
-
-   * packages/apps/SmartNavSettings/
-003e47b SmartActions backend support [2/2]
-
-   * vendor/support/
-18ca7c5 AppPicker: Import from external/google for other uses
-
-====================
-     02-21-2019
-====================
-
-
-   * external/google/
-fbb8dc9 SquishyNavbar: If power saver is on, don't allow feedback
-5845815 CustomActions: Add support to launch applications [1/2]
-80650a5 CustomActions: Screen off availability
-
-   * external/libjpeg-turbo/
-2432a51 libjpeg-turbo: update to 2.0.2
-
-   * frameworks/av/
-d7907ee8f7 CameraService: Default to HAL1 for OPCam if not specified
-
-   * frameworks/base/
-92d5986cc521 SystemUI: Refresh themes on dirty flash
-e2e65cbc78cf ThermalController: Send out active package broadcast only if allowed
-35c0429fd1a0 WeatherClient: Fix horrible allocation abuse
-1f585d49acd4 ActionUtils: cleanup screen On action code
-520ea63d80b4 ActionUtils: Add screen on action
-89b9fd2e19b2 framework: Grant READ_WEATHER permission
-
-   * packages/apps/HavocSettings/
-9295968 CustomActions: Add support to launch applications [2/2]
-
-   * packages/providers/WeatherProvider/
-0120a37 WeatherChannelApi: Fix allocation abuse
-
-====================
-     02-20-2019
-====================
-
-
-   * external/google/
-5f82801 elmyra: Adapt to smartnav changes
-3565b65 Init Havoc...
-
-   * frameworks/base/
-986eb612d725 Keyguard: Multiuser switch [1/2]
-a5bce5a1db98 Full gestures navbar: add missing haptic feedback events
-e967e4baa595 Full gestures navbar: don't break IME navbar button
-23a1818729fd BrightnessDialog: dismiss on focus lost
-1801a6da387f Avoid Ambient indicator overlap with multiple keyguard notifications
-83e65469005b base: wake from aod on unplug if we show on charging only
-c94ba2041647 SystemUI: Decrease padding for statusbar icons
-9ae2241d7081 base: Allow tuning extra padding for status bar
-2579557c12b7 base: Remove round corner padding from statusbar
-9295032b4d03 SystemUI: Network traffic improvements
-7a76587eb734 Only inherit Elmyra for Pixel devices
-badc0cd9a92c Active edge settings 1/?
-1daceaba6992 Elmyra: Move to external repo
-05ab8ab277d7 Elmyra: initial base for the service porting
-
-   * packages/apps/HavocSettings/
-106efdf Settings: Multiuser switch [2/2]
-27bbb35 Allow tuning extra padding for status bar
-e6a5125 Add a footer to Active Edge settings
-5a2825e Only inherit Elmyra for Pixel devices
-b6c8757 Active edge settings 3/?
-
-====================
-     02-19-2019
-====================
-
-
-   * packages/apps/HavocSettings/
-9753b45 BatteryLight: Fix NPE
-
-====================
-     02-16-2019
-====================
-
-
-   * packages/apps/CustomDoze/
-0452be9 CustomDoze: Add option to show AOD on charge only [2/2]
-
-   * packages/apps/Settings/
-d9ced87d78 Make advanced battery info opt-in
-
-====================
-     02-15-2019
-====================
-
-
-   * frameworks/base/
-a2e313930f04 QS Header: Fix gradient view after device is rotated
-3872fed0762f Fix action bar font family on material themes
-5c3f50a87b6d OP like gestures: more tweaks [1/2]
-fd40f27a42af Animate visibility change for Keyguard Inidication Area
-cc08f31daf41 base: QS: Allow coloring bg with accent [1/2]
-438073d5bb41 base: Custom theming [1/3]
-b6b1d90a157f base: Cleanup themes
-f31daadb4180 base: Nuke Theme tile
-89bbfa4e5914 base: Force white bg on autofill dialog
-b3ac49d2de41 base: Cleanup colors
-6bc8db0eefbd Improve Volume dialog timeout
-a3c30fa4f012 NetworkTraffic: Make QS header net monitor play nice with the scrim
-c65e639b38be Keyguard: Avoid starting FP authentication right after cancelling
-
-   * packages/apps/HavocSettings/
-97ea53a OP like gestures: more tweaks [2/2]
-81e36bb QS: Allow coloring bg with accent [2/2]
-e343c7d Settings: Custom theming [2/3]
-0b448ee Settings: Cleanup themes
-89986d1 Carrier label: Ensure the dialog matches other dialogs
-dae4672 Set a text length on the carrier label
-eed94d8 Settings: Switch logic of some settings
-5355bfd Settings: Cleanup
-fb39ae1 Settings: Adapt for vendor_support
-
-   * packages/apps/Settings/
-bd9413dd4b Make home button wake up opt-in [2/2]
-a881072ec2 PrivacyGuard: Add missing permission icons
-b4b3557fc6 Themes: Expose suggestion and condition cards
-1fcfbd1103 Revert "Use colorPrimary for search bar and suggestion background"
-9c593f3a23 Settings: Cleanup themes
-
-   * vendor/support/
-c71504b Color Picker: Remove OnClick listener to fix disabling
-
-   * vendor/themes/
-7e5f8b0 themes: Custom theming [3/3]
-
-====================
-     02-14-2019
-====================
-
-
-   * vendor/themes/
-2e567a1 Switch to vendor_themes [2/2]
-
-====================
-     02-13-2019
-====================
-
-
-   * packages/apps/Settings/
-86b874f41e Settings: Expose searchbar background color
-
-   * packages/apps/SettingsIntelligence/
-4a49462 Themes: Expose search bar
-
-====================
-     02-12-2019
-====================
-
-
-   * frameworks/av/
-d8d570e5cf Visualizer: fix native crash when visualizer release
-
-   * frameworks/native/
-5dc13aee1 Revert "sf: Add support for multiple displays"
-
-   * hardware/ril-caf/
-b475875 Encode the Number of MNC Digits in CellIdentity
-
-   * packages/apps/Settings/
-e5f88c5c2c Improve accent picker layout
-
-====================
-     02-11-2019
-====================
-
-
-   * vendor/support/
-46945fe Extend custom seekbar preferences
-
-====================
-     02-10-2019
+     03-05-2019
 ====================
 
    * art/
-016b254b71 Revert "Assume all x86/x86_64 hosts support at least sse4.x/popcount."
+e5b1f29adb Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/art into HEAD
 
-   * external/sqlite/
-81b4df7 sqlite: upgrade to SQLite 3.27.1
-171e89a sqlite: upgrade to SQLite 3.27.0
+   * frameworks/av/
+95a03429db av: Fix Derp
 
-   * frameworks/base/
-0ea8646adf0e Visualizer: fix native crash when visualizer release
-06afffac8fa3 Clear all lingering notifications when network is disconnected
-700fb81f2d0e Rounded Corner: Code improvement and clean up
-8d5be0ea2db8 base: SystemUI: fix compact navbar layout placing of rotate button
-5a67654f31cf base: add option to enable AOD on charging only [1/2]
-f5dd7ed222c9 Revert "display: Add support for multiple displays."
-bc5cc676356c base: Switch logic of some settings
+   * vendor/support/
+d2d1947 add variables for buttom backlight
 
 ====================
-     02-09-2019
+     03-04-2019
+====================
+
+
+   * frameworks/av/
+67f618d25b effects: Initialize volume at -96
+
+   * frameworks/base/
+1981ac20dfca SystemUI: Remove unused resources
+d86b25fd0ae6 SystemUI: OneHandMode QS tile
+e382a6dac638 SystemUI: Update SoundTile
+1a54bf6bc23d SystemUI: Update ScreenRecord tile
+610d899a3d75 SystemUI: Update OnTheGo tile
+9b36c4a9ecd0 base: migrate isServiceRunning check to HavocUtils
+b7e78c7f6dc5 UpdateEngine: Add perf mode binder interface
+49930c4e622e SystemUI: Fix Powermenu layout
+23d59883f578 Network Traffic: Add more customizations and improvement [2/2]
+f55a341cd962 base: Add Gboard overlay [1/2]
+1c92e0339711 SystemUI: Fix margin for small QS icons
+9c3cf7428f98 base: Expose system icon area weight
+601cae9a1f19 ColorDisplayService: change default night light brightness (2/2)
+e48751dfc82c Revert "SettingsProvider: Hide sensitive notification content"
+e6eaa3ac460a Do not apply date customization to QS clock
+70f75f83b332 SystemUI: Always show date in QS header
+cb6399f11d22 Clock: Always show time in the quickstatusbar
+ab520a10b74a Network traffic: Retain our notch check
+f81c5b02f563 Notch friendly carrier label [1/2]
+31b7ddc1c326 base: Link more things to a common dimen
+1103cbd0ba2f SystemUI: Make recents grid view accept more than 8 tasks
+85049f58bf73 Revert "Disable grid recents [1/2]"
+fa7abbf51fdb base: Supress telephony crashing platform
+01ac1bc1a81a am: Avoid scheduling service restart twice
+675549bac3b5 base: screenrecord: update notif text for high aspect ratio devices
+e4cffa346a55 Method to detect a notch'd device
+0f806af7f38e VisualizerView: Don't add null end actions to animators
+ebcd84dc5fc4 SystemUI: grant missing READ_PHONE_STATE permission
+b7c983d2d326 base: Fix Auto-hide clock overlapping on keyguard
+e5d10d6c1b39 Add option to auto hide status-bar clock [1/2]
+19d7631f254d Power button flashlight: allow to skip proximity check per device
+e48dac2c66a2 Power button flashlight toggle: add proximity sensor check
+5ae948fb0418 Allow doubletap/longpress power to toggle torch [1/3]
+456b598393c6 Revert "Power button flashlight"
+0a7e24b81a14 Helper functions for SmartActions action binding [1/2]
+97e79d9bc1df CustomActions: Use settings provider to store value [2/3]
+4653509aff81 ActionUtils: Improve ringer modes
+3f54a935f646 ActionUtils: Ringer modes
+
+====================
+     03-03-2019
+====================
+
+
+   * external/bash/
+a40f251 bash: Silence all build warnings
+
+   * external/openssh/
+729a9063 openssh: Silence build warnings
+
+   * external/rsync/
+4a30b87d rsync: Silence build warnings
+
+   * packages/apps/Bluetooth/
+d559f31b Bluetooth: Remove unused string resources
+364b045b Fix generating id in android namespace
+
+   * packages/apps/Updater/
+2fe39a6 Updater: Nuke Lineage's website on installation blocked dialog
+789988b Updater: Always show preferences
+4008406 Updater: Add changelog dialog
+c9efcc7 Updater: Don't check version before install
+fd0e37c Updater: Pixel UI redesign
+c7eb31e Updater: Theme actionbar text too
+
+====================
+     03-02-2019
+====================
+
+
+   * external/sqlite/
+c23543f sqlite: upgrade to SQLite 3.27.2
+
+   * frameworks/base/
+d9ac335ea88b VolumeDialog: avoid multiple animations on touch spam
+
+   * hardware/qcom/display-caf/msm8916/
+197a40e hwc: Remove _vendor from libbfqio
+
+   * hardware/qcom/fm/
+1b4078d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * packages/apps/HavocSettings/
+84201f0 Settings: Increase rounded content padding
+88e53ec Network Traffic: Add more customizations and improvement [1/2]
+
+   * packages/providers/WeatherProvider/
+46e8f56 WeatherProvider: Fix conditions
+
+====================
+     03-01-2019
+====================
+
+
+   * packages/apps/Updater/
+1be7297 Updater: Use accent for actionbar items
+e3567d8 Updater: Expose the lower background color
+d33726f Init Havoc...
+
+====================
+     02-28-2019
+====================
+
+
+   * external/wpa_supplicant_8/
+f1e24465 wpa_supplicant: Disable EAP_PROXY
+6cba6c5f Merge tag 'android-9.0.0_r33' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into 9.0
+
+====================
+     02-27-2019
 ====================
 
 
    * device/qcom/sepolicy-legacy/
-35ecc09 Display: Remove vendor property context for lcd density
-2304abb legacy: Label some more sysfs_net
-12e1f42 common: Allow webview_zygote to read /dev/ion
-37d02ce sepolicy: legacy: add additional usb charging path label
-78ac369 legacy: Label msm8916 sysfs_disk_stat
-3cfd890 legacy: Label msm8916 sysfs_android_usb
-df16578 sepolicy: Add vendor prefix to FM properties
-3507982 legacy: Label msm8916 sysfs_{battery,usb}_supply
-5f7b17f common: relabel /sys/module/tcp_cubic for netmgrd access
-7df6c91 common: grant cnss-daemon access to sysfs_net
-de12171 common: grant netmgrd access to sysfs_net nodes
-ddb2abf common: label /sys/devices/virtual/net/* as sysfs_net
-9f8cc09 common: allow sensors HIDL HAL to access /dev/sensors
-548752e common: grant DRM HIDL HAL ownership access to /data/{misc,vendor}/media/
-cbc73fd sepolicy: Add permissions for LCD brightness control
-d6b9b76 sepolicy: Allow mm-qcamerad use appdomain fd
-b7d2adf sepolicy: Label msm8974 devfreq sysfs
-d6e44fa sepolicy: Label msm_pm sysfs as sysfs_msm_perf
-835d67c sepolicy: Label msm8974 leds-qpnp sysfs
-bcce192 sepolicy: Label msm8974 lcd-backlight sysfs
-3f9a830 sepolicy: Label msm8974 sysfs_ssr_toggle
-a74e87f sepolicy: Label sysfs_android_usb
-e9302a4 sepolicy: Label sysfs_disk_stat nodes
-181e026 sepolicy: Label more qpnp-charger sysfs as sysfs_battery_supply
-ae0bc3e Use new vendor_wifi_prop label for bluetooth_loader
-ceb9004 wcnss-service: Add sepolicy to access "vendor.wlan." property
-3f0cdea sepolicy: Add vendor wifi prop in vendor partition access
-ff0a5d4 Revert "sepolicy: Allow wcnss_service to set wlan.driver properties"
-86b27fa legacy: Label /sys/devices/mdp.0/caps
-17deac3 sepolicy: Fix label of qpnp-charger sysfs
-6ef96d7 sepolicy: Add type vendor_display_prop for legacy devices
-2432980 sepolicy: Add additional restricted permissions to vendor_init
-
-   * frameworks/base/
-111e7a2692e2 Ambient music: code cleanup and glitch fixes
-7c38da299c08 Ambient music: show on lockscreen only for Google's Now Playing
-2994bf09a67d Revert "base: screen off animation config [1/2]"
-5538177e71b2 Revert "Blacklist apps in the ChooserAcitivity (e.g. Share button) [1/2]"
-d73f7b18ae15 base: Update colors
-8875526fdc38 SystemUI: Cleanup strings
-e5a78faf09d0 base: Disable SmartPixels
-a93015502bc9 base: Disable AOD by default
-758ae39bed0a Revert "Volume wake/skip track: Make it work independently"
-729406785098 base: Make home button wake up opt-in [1/2]
-afc42d698b60 base: Enable home button wake
-449333eb8b6a Utils: Add method to check for CustomDoze
-4df132afe6f0 base: Add CustomDoze
-4e2b242c6b99 Ambient brightness values: use a custom system setting [1/2]
-173735795580 Revert "Allow tuning ambient display with sensors [1/3]"
-b3b00dd592f7 base: Fix the bug that toasts show only icons in RTL layout.
-6966261f3ef7 Statusbar clock: restore qsheader check within a saved instance
-a302fbb29c3f NotificationEntryManager: Fix ClassCastException
-1763c839fd8a StatusBar: Silence logspam
-53c711de2e20 Fix minutes in full accent clock
-48cffb441fd9 Add wellbeing dark theme
-682fb819666c SystemUI: Fix Lockscreen not dismissing with AOD enabled
-57c46c1ab713 Implement per-app thermal control [2/3]
-2769a8e1a984 SystemUI: Add optional notch friendly VoLTE icon
-
-   * hardware/broadcom/libbt/
-0919027 libbt: Align Samsung CID strings to those created by macloader
-
-   * packages/apps/Settings/
-6a1ce0b4fd Move in pin ripple settings
-
-====================
-     02-08-2019
-====================
-
-
-   * vendor/support/
-099eef4 Add GlobalSettingsMasterSwitchPreference
-62d5730 Add SecureSettingsMasterSwitchPreference
-c7c2eb0 Fix MasterSwitchPreference
-d4663b9 MasterSwitchPreference: isChecked doesn't rely on existence of switch
-9777a00 Add SystemSettingsMasterSwitchPreference
-
-
-====================
-     02-08-2019
-====================
-
-
-   * frameworks/base/
-1af4d73d6d87 Revert "hwui: Enable quicksilver"
-8c2894039688 Fix minutes in full accent clock
-dc0e01a39653 SystemUI: Fix Lockscreen not dismissing with AOD enabled
-fb1a98fa7fe7 Implement per-app thermal control [2/3]
-768aef9e027a SystemUI: Add optional notch friendly VoLTE icon
-75b3bb7ccce4 StatusBarSignalPolicy: Fix missing provisioned in equals and copyTo
-78fdd5f8f6cb StatusBarSignalPolicy: Sync with lineage
-cb3c850ea0a2 ActivityRecord: add fw boost after r33 merge
-ebf4d27285f6 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
-46b8c6b82fd5 Merge tag 'android-9.0.0_r33' into pie
-
-   * frameworks/native/
-9a0953e79 media: Add support for level 6-6.2 for AVC
-
-====================
-     02-07-2019
-====================
-
-
-   * development/
-86865adca Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
-
-   * external/f2fs-tools/
-f2dba35 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
-
-   * hardware/qcom/gps/
-5dc7ab48 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
-
-   * packages/apps/DocumentsUI/
-f7f98bda Theme improvements
-074de58f Use white navbar for DocumentsUI as well
-21855582 DocumentsUI: Thematize navbar on dark theme
-c4b814d2 Theme: Make sure swipe refresh follows the system theme
-
-   * system/vold/
-724757c vold: Fix build
-3841df6 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
-
-====================
-     02-06-2019
-====================
-
-   * art/
-d4daa2214c Merge tag 'android-9.0.0_r33' into pie
-
-   * bootable/recovery/
-79df274d Merge remote-tracking branch 'AOSP/pie-gsi' into pie
-
-   * build/kati/
-bc2319a Merge tag 'android-9.0.0_r33' into pie
-
-   * external/perfetto/
-358eed14 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
-
-   * external/skia/
-40a3402492 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
-96660a66af Merge tag 'android-9.0.0_r33' into pie
-
-   * frameworks/av/
-ec4035e41a Merge tag 'android-9.0.0_r33' into pie
-
-   * frameworks/native/
-b012bf593 Merge tag 'android-9.0.0_r33' into pie
-
-   * frameworks/opt/net/wifi/
-0cca8cdab Merge tag 'android-9.0.0_r33' into pie
-
-   * hardware/havoc/interfaces/
-d78ccbe aw2013: lets not crash service on missing LED
-
-   * hardware/nxp/nfc/
-30bc03a Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/Bluetooth/
-88081626 Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/CellBroadcastReceiver/
-8b65a10 Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/Contacts/
-c0a911bb4 Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/DeskClock/
-0f401a1f2 Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/Dialer/
-d077fda57 Show phone number on bottom row if number type is present.
-4149ae2a8 Improve contacts layout
-b00d88f53 Incoming call screen & incall screen: contact name on 2 lines
-
-   * packages/apps/DocumentsUI/
-d9cb80ae Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/HavocSettings/
-977c9a1 Add more lockscreen clock styles
-bdc8bcf Settings: PA PIE Controls 3.0 [3/3]
-0ba8a00 Settings: add Cookie QS style [3/3]
-5c3e589 Settings: qs status bar header image [2/4]
-
-   * packages/apps/Messaging/
-98538d4 Messaging - Breathing missedcall/sms/voicemail [4/5]
-d9f9511 Messaging: adaptive icon
-006cdae Messaging: define app category
-18cb82c Messaging: Add "Mark as read" quick action for message notifications
-9735ed6 Fix compilation warnings
-9399924 Pixelize all things
-d88efb6 Vectorized checkmark drawable
-9a3caaf Allow app disable
-dd339d2 Fixed vcard handling
-d74f6e5 Use light navigation bar
-5627280 Add 'new message' shortcut using the API introduced in sdk25
-e351286 Messaging: Fix crash of blocked participant list activity
-8f41e9b Messaging: Don't crash on unsupported shared content type
-9320190 MediaPicker: Check for NPE
-67ee0fd Messaging: fix bad recycle on sending two mms in a row
-b01e266 Use app settings for conversation settings if no custom set
-1be5d6e Messaging app crashes after a few MMS
-b7d9778 Fixed storage permission issue for attachments
-8b91c24 Added support for video and audio mms attachments
-c519dcc Play an audible notification on receiving a class zero message.
-dfc1805 Messaging: Implement saved video attachments in MMS
-f4c8d1c Messaging App is crashing when storage memory is full
-9c9d5c7 Fix menu item highlight color.
-5975d91 Messaging: Toggable keyboard emoticons access
-575c3fd MessageQueue: Process pending messages per subscription
-f7b7f1d Messaging: change Avatar fontFamily to sans-serif-medium
-1eea49d Messaging: Implement option for swipe right to delete.
-2b80a2a Change theme for the open source license dialog
-
-   * packages/apps/Nfc/
-bacf6891 Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/PackageInstaller/
-0dea7339 Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/Settings/
-ffbc7cfc9a Settings: Change some dashboard icon colors
-46d9273eea Implement per-app thermal control [1/3]
-5e4140f1a5 Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/apps/ThermalController/
-4bd4118 Implement per-app thermal control [3/3]
-
-   * packages/inputmethods/LatinIME/
-478017a2f Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/providers/DownloadProvider/
-8e88f4b Merge tag 'android-9.0.0_r33' into pie
-
-   * packages/providers/MediaProvider/
-635ad6d Merge tag 'android-9.0.0_r33' into pie
-
-   * prebuilts/clang/host/linux-x86/
-96d7796 Update prebuilt Clang to r349610.
-
-   * prebuilts/r8/
-fb1e50b r8: Update D8 and R8 to 1.5.3-dev
-719f130 r8: Update D8/R8 to version 1.5.2-dev
-3082fe5 r8: Update D8/R8 to version 1.4.25
-
-   * system/bt/
-28193950c Merge tag 'android-9.0.0_r33' into pie
-
-   * system/core/
-6218aad8d init: increase thermal shutdown timeout to 3s
-040df4144 Read memory stats from /proc/pid/stat file.
-85dc66575 lmkd: Implement pid purge command to clear old pids when zygote restarts
-
-   * system/extras/
-98741355 Merge remote-tracking branch 'AOSP/pie-gsi' into pie
-17acc62e Merge tag 'android-9.0.0_r33' into pie
-
-   * system/netd/
-75b20f7 Merge tag 'android-9.0.0_r33' into pie
-
-   * system/vold/
-5262b8f vold: Fix FDE flags
-
-   * vendor/havoc/
-e6da3c38 Remove proxy for Koodo
-387e14f6 soong: Fix FDE flags
-aaf714dd Havoc 2.2
-711c9287 WallpaperPicker: Materialize the delete icon
-e531999a overlay: header image tweaks [2/2]
-c4a6304f soong_config: Add flag for msm8974 1440p EGL workaround
-00bc5894 overlay: Fix icon mask
-886e157b overlay: qs status bar header image [4/4]
-29d81dd0 vendor: add Cookie QS style [1/3]
-63fe3ad5 overlay: Disable pixel migrate service
-08670cd0 Update sim colors [4/4]
-ce8c181c overlay: Show LTE icon instead of 4G on all devices
-4c417846 overlay: Enable HSPA icon on all devices
-
-====================
-     02-05-2019
-====================
-
-
-   * frameworks/base/
-80e465634bb5 Fix the distorted clock hands
-a056cd686938 Hide analog clocks while pulsing new notifications
-fa7e6368903c Add sneeky analog clock (1/2)
-b02c9d562847 Add Spectrum clock (1/2)
-5b89f7e4b67d Add dot Analog clock [1/2]
-e3f95a04b627 Let's use bold in accent clocks
-0af797beaf30 Add stock clocks with accent color
-0da2c0f51995 Add in analog clock with numbers
-86e08f09c668 LS: Add spidey clock style [1/2]
-e6b7598a17bc base: QS header improvements
-860c7c39e5be base: SystemUI: header image tweaks [1/2]
-ee362f6df8a3 Revert "Check if notification is valid before it finally vibrates"
-
-   * packages/apps/DocumentsUI/
-18af6766 DocumentsUI: Expose some layouts for themes
-
-   * packages/apps/OmniStyle/
-ffd7046 OmniStyle: Use settings icon
-61926a7 OmniStyle: Add itsaalex poison headers
-
-   * packages/apps/Settings/
-219a2222f8 Themes: Convert sync icons to vector so they theme correctly
-294aeb605b Settings: Bring back Uptime
-
-====================
-     02-04-2019
-====================
-
-
-   * frameworks/av/
-cdbd8e1d4e CameraService: Fix missing torch state callback
-04be413c84 libstagefright: Allow HFR-60 in HAL-3 recording
-a505431f2a stagefrightrecorder: don't modify timeOffset in surface source case
-8d1c4e3fb4 cameraservice: Lazy loading of audio files can speed up camera startup
-044bb9ca31 Camera: Add extensions to CameraClient
-242b91f6c4 Revert "Camera: Add support for ZSL burst mode."
-062e821933 Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback
-6b605996ed Camera:CameraService: Added lock on mHIDLMemPoolId in QDataCallback..
-eb634efb87 Camera: Add support for preview frame fd
-
-   * frameworks/base/
-b270f550028f Carrier Label: Bring back the scroll (marquee) effect
-e49554499600 Slim recents: cleaner enable
-99c768da7820 base: Fix signature spoofing
-44c9719bd23e screenrecord: add support for 18:9 resolutions
-7e40b01a1bed Frameworks: PA PIE Controls 3.0 [1/3]
-2e902f10e7a1 LatinIME: fix navigation bar for expanded desktop
-e58bd9744ef8 AD Visualizer: Use white when cutom color not enabled
-2b24279d498f Remove the check of mService when BluetoothHidDevice doUnbind
-75064f2ad194 SystemUI: Fix FC after disabling navbar and unlocking phone
-e4ab861a0af0 PrivacyGuard: Pull in more changes from lineage
-c57d310d9c5c Update boot image profile to include Object.wait()
-03df155ce821 AccountManagerService: Fix ConnectionRecord Leak
-78c3ef924428 ActivityRecord: .app must not be null when you call .setVisible
-ee22f038c7b0 Get new surface if it was released from setWindowStopped
-330d51651627 Pass correct preserve window value to performStop
-65d90a3f4a6b Fix to hide phone number printed in the log
-2e150c147255 AppOpsManager: Fix bluetooth scan op permission
-9c28f4acfd41 Update sim colors [1/4]
-e449795c86df base: add Cookie QS style [2/3]
-d9d8bf75daac Screenrecorder: don't show tmp in some apps and improve code
-4d23d383297c Revert "Screenrecord: removed scanning the tmp file"
-565ff1e4e2cd base: Keyguard: Hide check button when using PIN quick unlock
-48684cb54f7e MicroG: Allow location providers also outside of /system
-c0684ad9a34d UiModeManagerService: Store messaging night state on Settings class
-ba879191344c fwb: Fix animation issue when opening Messaging app
-0a7eab95f472 base: qs status bar header image [1/4]
-2ab706f9befa Add synchronization for invokeForAllObservers call
-eba5334c1222 SystemUI: Fix an issue where jumping to black after screen turned on
-a9113efe293b SystemUI: Fix NPE when DozeService is destroyed
-954a490c27f3 UXE: Recents app detection & Refactor
-63076fbade3f uxe: Check memory pressure before starting empty app.
-80d136704c4e framework/base: optimize multi-thread code
-ce6be28fdd0a AlarmManagerService: Add null check to QCNsrmAlarmExtension call
-2e4edc38df3f base: Add additional builtins to scan ids.
-7ed1b6eeef80 EdgeGestureService: silence debug logging
-cd0698b94d63 EdgeGestureService: add more sensitivity steps
-bee2775cdae6 Add ChargingStarted + InCallNotif to AudioPackage
-3c783af8356e RecentsIconPack: Fallback to default icons on icon pack removal
-
-   * packages/apps/DocumentsUI/
-1d356f2c DocumentsUI: Fix actionbar color when selecting items
-
-   * packages/apps/OmniStyle/
-79f391b OmniStyle: Add 'Space' headers
-5cc5faa OmniStyle: Add 'Colorful' headers
-be4f9ad OmniStyle: Remove theme chooser
-b3552e1 OmniStyle: Remove omni headers
-40ae12d OmniStyle: Remove translations
-a37f47c OmniStyle: Remove weather images
-c7eeac6 OmniStyle: Remove wallpaper settings
-dfb6484 OmniStyle: qs status bar header image [3/4]
-
-   * packages/apps/PackageInstaller/
-1f32083c PackageInstaller: Change header color to match Settings
-
-   * packages/apps/SmartNav/
-b513d9a Allow home action on keyguard
-3163af8 Intercept one handed mode gesture
-
-   * packages/providers/WeatherProvider/
-108e29d Force stop application if running for more than 60 seconds
-
-====================
-     02-03-2019
-====================
-
-
-   * external/sqlite/
-15d4747 sqlite: Remove useless function of tokenize
-
-   * frameworks/base/
-f7c4274d9c33 Fix disappearing home/recents button
-bd39d6442990 DefaultPermissionGrantPolicy: grant Google sounds picker storage perms
-5e663e1a858b WeatherClient: Conditionally allow query when adding observer
-8c84690db5df Fix system ui crash when pinning screen
-455a196a6a10 Revert "Auto switch to a dark analog clock when using dark system theme"
-44567b69814b base: Add support for DiracSound FX
-128d666afc5f base: App picker Tile
-c54f501c3562 Dark theme: Fix notification channel info text color
-
-   * frameworks/native/
-e47e59dd2 libs: ui: Fix shadow-field warnings
-7324cc994 [HAX] remove stylus shit from touchscreen input
-0b6290bd6 APP may display abnormally in landscape LCM
-05b546a2f sf: Workaround BufferLayer::setBuffers issue on 1440p msm8974
-
-   * packages/apps/Settings/
-8f72fcedd9 Update sim colors [2/4]
-60fb89c649 StorageSummaryPreference: Nuke hardcoded color
-51baf217fe StorageSettings: Use pixel color in storage bar / icon
-3a72abdabd Settings: PA PIE Controls 3.0 [2/3]
-676c2e09ca Settings: Power detail pages: Finish off the rest of the icon tinting
-d204f7dd02 Settings: fix icon tinting in power detail pages
-4613c85712 Settings: Add preference for EdgeGestureService [2/3]
-ff6b4b5cc4 Settings: Remove obsolete LOCAL_JACK_ENABLED
-fbdf6aa4cb Settings: Add FINE_LOCATION for Bluetooth scans
-
-   * packages/providers/WeatherProvider/
-c99fc2f WeatherProvider: Update google play services libs
-
-   * prebuilts/build-tools/
-bc02ab9 build-tools: Update regular and asan ninja to v1.9.0
-853ff9a build-tools: Update using latest source and clang-9
-
-   * prebuilts/go/linux-x86/
-fe272e35 go: Update prebuilts/source to version 1.12beta2
-
-   * system/core/
-3697e521d reboot: only run fsck when detecting filesystem inconsistency
-
-   * vendor/huawei/kiwi/
-197c0cd kiwi: Add build rule for QPerformance jar
-f2ee195 kiwi: Refresh makefiles
-
-====================
-     02-02-2019
-====================
-
-
-   * kernel/huawei/kiwi/
-49a4846de2f tcp_output: set initial TCP window size to 64K (speed improvement)
-2064e868fbc tcp_westwood : Tune-up
-7b4435c0a7d ANDROID: sdcardfs: fix potential crash when reserved_mb is not zero
-751da73f46d ANDROID: sdcardfs: Fix sdcardfs to stop creating cases-sensitive duplicate entries.
-9fd919cf4d2 ANDROID: sdcardfs: Set num in extension_details during make_item
-560cf2f1b56 ANDROID: sdcardfs: Hold i_mutex for i_size_write
-
-====================
-     02-01-2019
-====================
-
-
-   * kernel/huawei/kiwi/
-434ec1c3f18 msm: thermal: Configure core sensor id on emergency frequency init
-c17987a5e80 thermal-core: Fix invalid sensor data being accepted
-fb293e46d8a msm: thermal: Update the hotplug initialization
-5d2c2fe638b msm: thermal: Check cpu variables are initialized before setting threshold
-5cabae3337c msm: thermal: Check clients request just after frequency thread init
-37ce0d2abdb Tweaked MSM-Thermal
-8f9bedc652e drivers: msm_thermal: Optimizations and fixes
-
-   * packages/apps/ThermalController/
-c475703 Update README.md
-1e7c2c7 Initial commit
-
-====================
-     01-31-2019
-====================
-
-
-   * frameworks/base/
-d3ecd46659e3 Merge "Informing app idle listeners on enabled state changes." into pie-gsi
-546a799e6def Informing app idle listeners on enabled state changes.
-
-   * vendor/huawei/kiwi/
-7f4a8b7 kiwi: Update recovery blobs
-
-====================
-     01-30-2019
-====================
-
-
-   * external/icu/
-0d011198e DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.
-9e0ab1daa DO NOT MERGE: Update Android ICU tzdata from 2018g to 2018i.
-ca0fde0a8 Revert "Update Android ICU tzdata from 2018g to 2018i"
-
-   * kernel/huawei/kiwi/
-cda0f4d913e kiwi: defconfig: Enable USB fast charge
-50a376e6d7e arm64: topology: fix cpu power calculation
-0d3710d1ac8 drivers: clk: Add custom voltage control
-ba26fde36dc drivers: misc: Implement USB fast charge mode
-8ad64ef77d5 drivers: SMB1360: Increase charging current limit
-
-   * system/timezone/
-378350a DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.
-a545fe9 DO NOT MERGE: Update Android tzdata from 2018g to 2018i.
-9477ff8 Revert "Update Android tzdata from 2018g to 2018i"
-
-====================
-     01-24-2019
-====================
-
-
-   * system/connectivity/wificond/
-f35faba Merge tag 'LA.UM.7.6.2.r1-05700-89xx.0' of https://source.codeaurora.org/quic/la/platform/system/connectivity/wificond into HEAD
-
-   * system/connectivity/wifilogd/
-8088113 Merge tag 'LA.UM.7.6.2.r1-05700-89xx.0' of https://source.codeaurora.org/quic/la/platform/system/connectivity/wifilogd into HEAD
-
-====================
-     01-23-2019
-====================
-
-
-   * frameworks/base/
-642a729 fix answer from home key
-d4afe6b toggle torch proximity check [1/2]
-
-   * packages/apps/HavocSettings/
-62707d6 toggle torch proximity check [2/2]
-
-   * system/core/
-d5d2ec593 liblog: Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
-
-====================
-     01-19-2019
-====================
-
-
-   * frameworks/av/
-b743903c8 VolumeShaper: Parcelable should be initialized explicitly under Configuration
-92369878e cameraservice: Lazy loading of audio files can speed up camera startup
-c0186d173 Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback
-dba5395a3 SchedulingPolicyService: DL policy request through Binder
-e3c3e919c Revert "audioflinger: Fix audio for WifiDisplay"
-e879c1976 StagefrightRecorder: force 64-bit file-offsets for files > 4GB
-65b316868 CamcorderProfiles: Add new camcorder profiles
-bc0210554 Explicitly initialise base class in copy constructor
-a9463e6ad camera: Workaround for GCC-compiled HAL3 drivers
-aa46ad206 Camera: Add support for preview frame fd
-
-   * system/core/
-a36ab33e3 Allow adb root even in no debuggable builds
-
-====================
-     01-18-2019
-====================
-
-
-   * development/
-8e09e639b make-key: Enforce PBEv1 password-protected signing keys
-
-====================
-     01-14-2019
-====================
-
-
-   * prebuilts/clang/host/linux-x86/
-016f6a3 Fix a dir name typo (clang-346389c -> clang-r346389c).
-8aa9807 Update prebuilt Clang to r346389c.
-
-   * vendor/havoc/
-77902af6 New walls
-fff1596a Havoc 2.1
-261f6922 havoc-iosched: restorecon scheduler tuneables before touching them
-2d48ae1b config: Add Deskclock to power whitelist
-b51813b5 Remove deprecated ro.device.cache_dir
-4a414c1a Don't explicitly build uneeded packages
-34d7eff8 Disable art debug and enable minimize debug info
-2e63f225 vendor: Cleanup
-
-====================
-     01-13-2019
-====================
-
-
-   * development/
-0d9797de8 Remove useless build warning
+8cd0ca1 sepolicy: Resolve cameraserver denials
+18203e2 legacy: Resolve hal_camera_default denials
+2310fa8 sepolicy: Label vendor.post_boot.parsed
+78c6497 sepolicy: Resolve hal_nfc denials
+6447cb7 legacy: Resolve rome BT denials
+6185be5 sepolicy: Correctly label display.qservice per SoC
+62e0e65 Revert "legacy: allow init to read /proc/device-tree"
+21dd2e0 legacy: Label /data/misc/display again
+9f1e187 legacy: Ignore neverallows
 
    * hardware/qcom/fm/
-63cd871 Automatic translation import
-
-   * packages/apps/FMRadio/
-62febd5 Automatic translation import
-
-====================
-     01-12-2019
-====================
-
-
-   * external/skia/
-ad8db00fbc external/skia: Take Fast Jpeg Decoding Path
-7ab7f34c16 skia: Silence a few warnings for cpp
-9bf9e75094 skia: Clean up -Wextra-semi-stmt warnings
-fd2fed1de4 libskia: Build using ThinLTO
-ffee60abcc fGpu is null when GrGpuResource::release
-ad11440a43 Fix native crash when some png bitmap decoded
-6b8bf6ad63 ARGB Blitter:  Remove unused variable
-b3b274845b skia: Use std::move() to prevent unnecessary copying
-ef3e29ebf9 Optimize the for loop in onGetYUV8Planes
-c49e6c60ec Skia performance optimize for bitmap
-
-   * external/vixl/
-187fa018 libvixl: Do not mark the module as VNDK or VNDK-SP
-
-   * frameworks/base/
-0bfd148b6ae Revert "hwui: Enable quicksilver"
-1d5f9b649a2 SystemUI: Fix too big spacing between QS icons in landscape on sw600dp
-
-   * packages/apps/HavocSettings/
-4bf1d31 Introduce lockscreen clock/date styles [2/2]
-5e65b89 Hide lockscreen items [2/2]
-d91a6eb Revert "Pocket judge"
-f465b35 Settings: Add double tap option to lockscreen shortcuts [2/2]
-3f2c1de Settings: Lockscreen shortcuts improvements [2/2]
-901ff21 Settings: add user configurable lockscreen shortcuts [2/2]
-d856c8a Ambient Visualizer [2/2]
-52b07cd RoundCorners: Update seekbars when framework values toggled
-4e07cea RoundCorners: Add fw values corner preferences
-
-   * packages/apps/SmartNavSettings/
-4fedaf8 Add translations
-
-====================
-     01-11-2019
-====================
-
-
-   * build/blueprint/
-759c5ac Fix issues found by `go vet`
-cf71e18 Add go.mod for go1.11 module support
-8a4bdfd Improve indentation for multi-line expressions
-4e9a653 Don't Cap the number of cpus for Go compiles
-
-   * frameworks/base/
-f28c740bc79 Remove unnecessary right padding from time picker
-fac99a19f77 SystemUI: Modify ime navigation bar layout
-e0666607577 fonts: Clean up absent fonts if EXCLUDE_SERIF_FONTS is true
-49d72eb28b3 base: fix signature spoofing and microg
-
-   * prebuilts/r8/
-6d0cefd r8: Update D8 and R8 to 1.4.21-dev
-1f114c8 r8: Update D8 and R8 to 1.4.20-dev
-
-====================
-     01-10-2019
-====================
-
-
-   * frameworks/av/
-9ad940b55 mediascanner: Accept .opus file extension.
-
-   * frameworks/base/
-276053af4c4 Force disable PlayServices OTA checks
-1df1c811072 Bring back vendor mismatch message
-59225f9e093 Dynamically tell the user which vendor image is needed
-e99cb1dde34 Show a more descriptive message when vendor.img is out of date
-e942a18343c Full gesture navbar: fix swipe to back glitches
-263916d36f2 Lockscreen analog clock: improve minute hands looking
-3723d9a6fc5 Auto switch to a dark analog clock when using dark system theme
-0fae1823ef6 Always use standard small clock when pulsing on new notifications
-3429c0fdbf7 Lockscreen clock styles: Fix bottom margins & ambient display/AOD visibility
-4629100d935 Lockscreen items/clocks: KeyguardSliceView improvements/cleanup
-fb102ee7615 Lockscreen clock styles: Move everything to the keyguard [1/2]
-aa603264528 Lockscreen/ambient analog clock: improve design
-9d48e25dbc4 Ensure the clockview is aligned correctly each time
-1e947e2a5b5 Remove the 0 from the 12 hour format from the 'Digital (bold)' option
-35b97f412e1 Keyguard items: code improvements
-3310b54ac69 Introduce lockscreen clock/date styles [1/2]
-901190bc2ec Always keep clock/date & other items visible while dozing
-ba795ea32c2 Hide lockscreen items [1/2]
-f0ee6f4b8d5 Add support for the .opus file format
-ad2c3ced517 fix deadlock of binder thread and ActivityManager
-3c4035afad2 Fix deadlock in AcitivityManagerService
-4991d37a2ad hwui: fix mmap leak of graphicsstats service
-2ad23abfc78 Fix memory leak caused by SystemUIDialog
-659dadae01d widget: Fix DateTimeView fc issue
-b7617c080cd Update sound/vibrate notification key only when it actually buzz/beep
-303520f587f Check if notification is valid before it finally vibrates
-5e835477da8 SurfaceControl: Unbreak public API after pie-gsi merge
-e530a393f24 Enable Binder Proxy Tracking by Uid only on eng builds
-
-====================
-     01-07-2019
-====================
-
-   * hardware/qcom/display-caf/msm8996
-c7b925cf0 sdm: restrict flush for secure transitions
-5afb86937 hwc2: Fix interlace flag setting to SDM layers
-f13b441ba build vendor.display.config@1.6
-effd89cc5 sdm: Do not reset safemode for single app layer usecases.
-8d71023f5 sdm: Replace strncpy with strlcpy
-44fb002f3 gralloc: Query GPU capability before allocating protected buffer
-9303d5906 display: libmemtrack: use KGSL sysfs instead debugfs to get gfx meminfo
-fa554a858 hwc2: Close previous acquire fence fd before assigning new fd.
-0ed530aa9 hwc2: Cache external hotplug event during boot up
-
-====================
-     01-05-2019
-====================
+f44384a Automatic translation import
 
    * packages/apps/Bluetooth/
-49546dd6 Remove duplicate permission
+99da10d1 Automatic translation import
 
-   * packages/providers/WeatherProvider/
-181123f WeatherProvider: Remove unnecessary manifest declaration
+   * packages/apps/CellBroadcastReceiver/
+6ca28b4 Automatic translation import
 
-   * system/extras/
-23852a61 ext4_utils: Fix FS creation for filesystems with exactly 32768 blocks.
+   * packages/apps/CertInstaller/
+bb8806e Automatic translation import
 
-====================
-     01-01-2019
-====================
+   * packages/apps/DocumentsUI/
+02da8bc0 Automatic translation import
 
-   * system/bt/
-65a5f0c26 Bluetooth: Ensure to release wake lock during turn off
+   * packages/apps/EmergencyInfo/
+4c0429e Automatic translation import
 
-====================
-     12-31-2018
-====================
+   * packages/apps/FMRadio/
+33e0f38 Automatic translation import
 
-   * frameworks/av/
-ab8e24a4d MTP: Add support of ObjectInfoChanged Event
+   * packages/apps/HTMLViewer/
+4f3d2a2 Automatic translation import
 
-   * frameworks/base/
-43306cf9294 Revert "hwui: Enable quicksilver"
-f1b076fb143 Change long click intent for smart pixels tile
-2532ef3c8d1 Network traffic: fix indicator not hiding on lost connection
-a5e55741f1b Add button to AppErrorDialog to upload crash information to dogbin
-efac99ef03f core: Fix switching fragment appears white screen
-9d4e66dd5f7 SystemUI: Keyguard: Check for a null errString
-7cafc638b13 Proximity check on wake fixes
-feb35c631e2 MTP: Add support of ObjectInfoChanged Event
-f558496396e Revert "Change the listening logic of MtpStorageManager"
-ed4a63590da AMS: Fix the null pointer exception in MainHandler:handleMessage
-4317b819d38 AMS: Uncatch the IllegalStateException cause process crash
-fd9d0592407 AMS: Fix the Deadlocks exception in UiHandler
-57fbaa7019d AMS: Fix the null pointer exception in IntentResolver
-f2a0aec7551 hiddenapi: add crc32 intrinsic methods to light-greylist
-af9c64130e2 SystemUI: special feature improvements
-61e8afb0436 SystemUI: add handling of special features
-1e3b0d07e2b StatusBar: corners: Fix dp evaluation
-a2a490461a2 ScreenDecorations: corners: Fixes for pie
-e327f954c4a StatusBar: Port in restore fw values to corner settings
+   * packages/apps/KeyChain/
+b9e2ade Automatic translation import
 
-   * packages/apps/HavocSettings/
-d8f0be7 RoundCorners: Update seekbars when framework values toggled
-4041f4f RoundCorners: Add fw values corner preferences
-1009dae Add toggles for Fun stuff
-a7a7ef8 Settings cleanup
-037f7bb settings: Switch styles [2/3]
-230713e Cleanup QS rows & columns count
-f66dba8 settings: QS themes [2/3]
-7f4a7b3 Network traffic location [2/2]
-0cf9747 Stock Recents/Overview icon pack support [2/2]
+   * packages/apps/ManagedProvisioning/
+34f61939 Automatic translation import
 
-   * packages/apps/Settings/
-abcd2161c5 Settings cleanup
+   * packages/apps/Nfc/
+1be41703 Automatic translation import
 
-   * packages/providers/WeatherProvider/
-fe8dc30 Weather client: fix refresh at boot and improve/cleanup code [2/2]
+   * packages/apps/PhoneCommon/
+7fa4dbf Automatic translation import
 
-   * vendor/havoc/
-b42fac09 New walls
-f579b1a5 vendor: Switch styles [3/3]
-478339c7 vendor: Black theme fixes
-fcd1a7d6 vendor: QS themes [3/3]
+   * packages/apps/SafetyRegulatoryInfo/
+67a84d6 Automatic translation import
 
-====================
-     12-30-2018
-====================
+   * packages/apps/StorageManager/
+e381bd7 Automatic translation import
 
-   * frameworks/base/
-cda9484c9cd Weather client: switch to vector drawables
-ac609ccbb11 Weather client: fix refresh at boot and improve/cleanup code [1/2]
-dd66412a986 base: Switch styles [1/3]
-ed8fadd2590 base: Add OOS style switches
+   * packages/apps/Tag/
+21c21c0 Automatic translation import
 
-====================
-     12-29-2018
-====================
+   * packages/apps/Terminal/
+a22a21d Automatic translation import
 
-   * frameworks/base/
-ea617da50a7 base: QS count improvements
-2aa3306f144 base: QS rows & columns customization
-8dfe3adb391 Cleanup QS rows & columns count
+   * packages/apps/TvSettings/
+263066a4 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+4eb92ca6b Automatic translation import
+
+   * packages/apps/Updater/
+2849967 Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+efb671b Automatic translation import
+
+   * packages/services/BuiltInPrintService/
+17c9346 Automatic translation import
+
+   * packages/services/Mms/
+600a172 Automatic translation import
+
+   * vendor/qcom/opensource/thermal-engine/
+3e8495d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 

@@ -1,14 +1,66 @@
 ====================
-     03-07-2019
+     03-08-2019
 ====================
 
 
    * frameworks/base/
-a2622a40d530 Revert "Revert "SettingsProvider: Hide sensitive notification content""
-0de40b558ca9 Revert "SystemUI: Fix margin for small QS icons"
+7b812043499a Keyguard: Don't listen for fingerprint when prox.sensor is covered
+a56d2508b2d3 show bt battery for all devices
+02983b2019b5 change battery save color
+e5c11428ef26 fix answer from home key
+dd49bfdc0625 toggle torch proximity check [1/2]
+e857e26e14fe proximity check for all wake keys
+c7a53ff8f40d Havoc Build Date [1/2]
+753106c3da9c fix button backlight
+f2a5cfa356eb fix priv-apps permissions
+f11a55d79a23 Revert "hwui: Enable quicksilver"
+721ee3d68c5e Automagically set night mode when dark or black theme is turned on
+0143a72a9947 Revert "base: Add Gboard overlay [1/2]"
+
+   * packages/apps/HavocSettings/
+afa4225 toggle torch proximity check [2/2]
+f401726 Rework hw button illumination
+918e35b Settings: Fixes
+dd44649 Settings: Add back About section
+
+   * packages/apps/Settings/
+56b5263a62 Havoc Build Date [2/2]
+23d5cc4ee9 DeviceInfoSettings: Bring back CAF/AOSP tags
+3076d7e0e2 my colors
+40dafa984a Changelog: Fix title on actionbar
+046443c5f6 Changelog: Add left padding
+091dc40239 Settings: update changelog activity * improve code
+48aec6ce33 Changelog: Fix text selection with dot
+40c4c9ccce Changelog: clean and make themeable before: https://imgur.com/a/ylSQG after: https://imgur.com/a/GdnPN
+8dbd4b8fe8 Changelog: prettify
+c651d5971b Settings: Changelog
+
+   * packages/apps/SmartNavSettings/
+23f249b Settings: Fixes
+
+   * vendor/themes/
+d58d9db themes: Fix volume panel footer bg
+52c3f50 Revert "themes: Add Gboard overlay [2/2]"
+
+====================
+     03-07-2019
+====================
+
+
+   * hardware/nxp/nfc/
+c310d47 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/nxp/nfc into HEAD
+
+   * hardware/nxp/secure_element/
+8585787 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/nxp/secure_element into HEAD
+
+   * packages/apps/Nfc/
+0c4a6522 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/packages/apps/Nfc into HEAD
 
    * system/core/
 d08ffcc4a Allow adb root even in no debuggable builds
+
+   * system/nfc/
+d469ef3 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/system/nfc into HEAD
 
    * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
 f0d81de2 fix build warnings
@@ -18,39 +70,39 @@ f0d81de2 fix build warnings
 ====================
 
 
+   * external/skia/
+7f877d0300 Merge branch '9.0' of https://github.com/syberia-project/platform_external_skia into HEAD
+
    * frameworks/av/
 a3a06f02cf Merge tag 'android-9.0.0_r34' into pie
 
    * frameworks/base/
-3250a9d8943d Keyguard: Don't listen for fingerprint when prox.sensor is covered
-c0883ee6f33e show bt battery for all devices
-851291425c80 change battery save color
-c8f680861b63 fix answer from home key
-52e5b5d5bf63 toggle torch proximity check [1/2]
-5b135be2df42 proximity check for all wake keys
-ddbffdd9c971 Havoc Build Date [1/2]
-6abeaf8a5720 fix button backlight
-a7dcc650f526 fix priv-apps permissions
-04e01fa85b4b Revert "hwui: Enable quicksilver"
 cafce7535485 Merge tag 'android-9.0.0_r34' into pie
 c4ce24fec895 base: Fix camera hal1 prop
 
    * hardware/nxp/nfc/
-c310d47 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/nxp/nfc into HEAD
 1a42707 Merge tag 'android-9.0.0_r34' into pie
 
-   * hardware/nxp/secure_element/
-8585787 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/nxp/secure_element into HEAD
+   * packages/apps/Bluetooth/
+0461c553 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Bluetooth into HEAD
+
+   * packages/apps/CarrierConfig/
+348518b Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_CarrierConfig into HEAD
+
+   * packages/apps/CellBroadcastReceiver/
+16720e7 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver into HEAD
 
    * packages/apps/Dialer/
 29837d5e3 Revert "Fix in-call buttons layout"
 
-   * packages/apps/HavocSettings/
-019f805 toggle torch proximity check [2/2]
-88d43bb Rework hw button illumination
+   * packages/apps/DocumentsUI/
+5b111000 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_DocumentsUI into HEAD
+
+   * packages/apps/EmergencyInfo/
+cadec59 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_EmergencyInfo into HEAD
 
    * packages/apps/Nfc/
-0c4a6522 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/packages/apps/Nfc into HEAD
+45f22999 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Nfc into HEAD
 
    * packages/apps/PackageInstaller/
 29e48bf4 Merge tag 'android-9.0.0_r34' into pie
@@ -71,9 +123,6 @@ b3c794b73 Merge tag 'android-9.0.0_r34' into pie
    * system/libhwbinder/
 3a1f28e Merge tag 'android-9.0.0_r34' into pie
 
-   * system/nfc/
-d469ef3 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/system/nfc into HEAD
-
    * system/tools/hidl/
 30d29fd Merge tag 'android-9.0.0_r34' into pie
 
@@ -84,37 +133,8 @@ d469ef3 Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/q
    * art/
 e5b1f29adb Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/platform/art into HEAD
 
-   * external/skia/
-7f877d0300 Merge branch '9.0' of https://github.com/syberia-project/platform_external_skia into HEAD
-
    * frameworks/av/
 95a03429db av: Fix Derp
-
-   * packages/apps/Bluetooth/
-0461c553 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Bluetooth into HEAD
-
-   * packages/apps/CarrierConfig/
-348518b Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_CarrierConfig into HEAD
-
-   * packages/apps/CellBroadcastReceiver/
-16720e7 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_CellBroadcastReceiver into HEAD
-
-   * packages/apps/DocumentsUI/
-5b111000 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_DocumentsUI into HEAD
-
-   * packages/apps/EmergencyInfo/
-cadec59 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_EmergencyInfo into HEAD
-
-   * packages/apps/HavocSettings/
-eb6ed68 Settings: Fixes
-
-   * packages/apps/Nfc/
-45f22999 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Nfc into HEAD
-
-   * packages/apps/Settings/
-b8eddd4928 Havoc Build Date [2/2]
-8f48890f44 DeviceInfoSettings: Bring back CAF/AOSP tags
-02d2399a88 my colors
 
    * vendor/support/
 d2d1947 add variables for buttom backlight
@@ -166,9 +186,6 @@ e48dac2c66a2 Power button flashlight toggle: add proximity sensor check
 97e79d9bc1df CustomActions: Use settings provider to store value [2/3]
 4653509aff81 ActionUtils: Improve ringer modes
 3f54a935f646 ActionUtils: Ringer modes
-
-   * packages/apps/HavocSettings/
-c553cbf Settings: Add back About section
 
 ====================
      03-03-2019
@@ -261,9 +278,6 @@ f44384a Automatic translation import
    * packages/apps/Bluetooth/
 99da10d1 Automatic translation import
 
-   * packages/apps/Camera2/
-3881ba411 Automatic translation import
-
    * packages/apps/CellBroadcastReceiver/
 6ca28b4 Automatic translation import
 
@@ -326,21 +340,4 @@ efb671b Automatic translation import
 
    * vendor/qcom/opensource/thermal-engine/
 3e8495d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-====================
-     02-26-2019
-====================
-
-
-   * external/p7zip/
-b3b6f89 p7zip: Silence all warnings
-
-   * external/unrar/
-9b2e2b9 unrar: Silence more build warnings
-
-   * external/zip/
-c4117e1 zip: Silence build warnings
-
-   * vendor/themes/
-9e2e0e5 themes: Add Gboard overlay [2/2]
 
