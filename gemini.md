@@ -1,4 +1,108 @@
 ====================
+     03-15-2019
+====================
+
+
+   * frameworks/base/
+a3f0a127f7d5 Revert "hwui: Enable quicksilver"
+1321215e4602 Re-add WPS implementation (2/3)
+d2ceb722e112 base: Fix less frequent notification sounds value
+357ab2a80459 base: Add vibrate util methods
+de6005fee923 base: Turn on display if Doze On Charge is Enabled
+c2ce0cd906e9 Volume panel: Add notification volume row if unlinked
+1c43a913abd0 Code improvements for expanded volume panel
+
+   * frameworks/opt/net/wifi/
+1d20bcb7d Re-add WPS implementation (3/3)
+
+   * packages/apps/Settings/
+7fc597f456 Re-add WPS implementation (1/3)
+
+====================
+     03-14-2019
+====================
+
+
+   * frameworks/base/
+a64871a54dae Volume panel: Visual improvements
+9e04b0d26950 base: Redo expanded volume panel for 9.x
+f55f113a75b4 Volume panel: Do the same with less
+6491c1a654e9 Volume panel: Fixes for unlinked notifications
+
+====================
+     03-13-2019
+====================
+
+
+   * frameworks/base/
+d0e8013be14d Revert "Extended audio panel [1/2]"
+
+====================
+     03-12-2019
+====================
+
+
+   * frameworks/base/
+69cdb751566b base: Code improvements QS footer visibilities
+4ccfc811e872 BatteryMeterView: Fix logcat spam
+
+====================
+     03-10-2019
+====================
+
+
+   * frameworks/base/
+c4d1cdb8bd6a WeatherClient: Check boot completed prop
+ca8b6dca106b OP gestures: fix APP switch triggering
+
+   * kernel/xiaomi/msm8996pro/
+e9638f6b06cc sjit
+3595e34d3c69 chpick and build lol
+
+   * vendor/themes/
+11a8a23 themes: Update GBoard MD2 themes
+
+====================
+     03-09-2019
+====================
+
+
+   * frameworks/base/
+9824ee03058d Show mobile icons with left-to-right in order of slot index
+8e39919ff56b Revert "SystemUI: Sort subscriptions in reversed order"
+a3d60dd7a956 Revert "base: SystemUI: tuner: fix reorder of mobile slots"
+4e7c92f11142 Keyguard: Remove carrier text for disabled SIMs
+2e5f0162db8d Code improvements for "SystemUI: Refresh themes on dirty flash"
+
+====================
+     03-08-2019
+====================
+
+
+   * frameworks/base/
+721ee3d68c5e Automagically set night mode when dark or black theme is turned on
+0143a72a9947 Revert "base: Add Gboard overlay [1/2]"
+
+   * packages/apps/HavocSettings/
+918e35b Settings: Fixes
+dd44649 Settings: Add back About section
+
+   * packages/apps/Settings/
+40dafa984a Changelog: Fix title on actionbar
+046443c5f6 Changelog: Add left padding
+091dc40239 Settings: update changelog activity * improve code
+48aec6ce33 Changelog: Fix text selection with dot
+40c4c9ccce Changelog: clean and make themeable before: https://imgur.com/a/ylSQG after: https://imgur.com/a/GdnPN
+8dbd4b8fe8 Changelog: prettify
+c651d5971b Settings: Changelog
+
+   * packages/apps/SmartNavSettings/
+23f249b Settings: Fixes
+
+   * vendor/themes/
+52c3f50 Revert "themes: Add Gboard overlay [2/2]"
+
+====================
      03-08-2019
 ====================
 
