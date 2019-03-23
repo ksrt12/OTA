@@ -1,4 +1,44 @@
 ====================
+     03-23-2019
+====================
+
+b8a230671 update sepolicy
+da1465b2b update init.qcom*.rc files
+9f800c04c add miui camera permissions
+1a580286e audio_effects: add JamesDSP effect library
+
+====================
+     03-21-2019
+====================
+
+56c4658fd CAF tag: LA.UM.7.6.2.r1-07300-89xx.0
+1cac4b9a3 update sepolicy
+
+====================
+     03-19-2019
+====================
+
+2eb888511 Revert "Enable workaround for old MCC/MNC format"
+
+====================
+     03-18-2019
+====================
+
+6a02761f3 Enable TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT
+
+====================
+     03-12-2019
+====================
+
+7d8088f26 update tree
+
+====================
+     03-10-2019
+====================
+
+987c94c11 update clang to 9.0.0-20190309
+
+====================
      03-08-2019
 ====================
 
