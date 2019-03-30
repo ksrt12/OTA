@@ -1,21 +1,97 @@
 ====================
+     03-30-2019
+====================
+
+
+   * external/chromium-webview/
+c857034 use Bromite System WebView 73.0.3683.88
+
+====================
+     03-29-2019
+====================
+
+
+====================
+     03-28-2019
+====================
+
+
+   * packages/apps/Settings/
+501f46d418 Revert "Change Battery drawable"
+
+   * system/bt/
+8e407eed7 Bluetooth: Fix BT calls
+
+====================
+     03-27-2019
+====================
+
+
+   * frameworks/base/
+2bfad421e6a0 Revert "hwui: Enable quicksilver"
+ffb83eb07ce3 Ambient music ticker: fix text scrolling on AoD
+
+   * packages/apps/Dialer/
+b56cb3d41 Make proxi sensor smart-case friendly
+4df34762b Fix incorrect proximity sensor behaviour
+
+   * packages/apps/HavocSettings/
+7bf0703 Settings: Adaptive icon system-wide setting [2/3]
+cdfedc5 Interface: Get rid of Controllers
+
+   * system/core/
+47f9f45e6 Fix path for treble default prop
+cde05b220 Allow adb root even in no debuggable builds
+b3b777a81 healthd: make periodic battery status a debug message
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+0fbdd877 fix
+f7168107 NFC: Fix NFC enable issue for CDP or RCM platforms
+
+====================
+     03-26-2019
+====================
+
+
+   * frameworks/base/
+38c5771c6134 base: Adaptive icon system-wide setting [1/3]
+3ec9f6862a19 base: Fix partial screenshot
+8b16537b9c99 SettingsLib: Increase battery saver outline thickness
+
+   * vendor/support/
+9abcdbe Add SystemPropListPreference
+
+====================
+     03-25-2019
+====================
+
+
+   * build/kati/
+64200d7 Sort results of output from the "find" command
+deb7807 Ignore TMPDIR when calculating the kati stamp
+5e93bef Silence FindEmulator
+
+   * frameworks/base/
+f64192921679 SystemUI: Fix multiuser icon glitch in QS footer
+4b53510542a7 SystemUI: Add Cellular tile icon from OOS
+9f4f73efb0d6 Revert "Navbar: Do not fiddle with haptic feedback"
+a0f527fffa00 base: Cleanup SystemUI tuner
+
+   * packages/providers/DownloadProvider/
+0d3a49f DownloadProvider: Stop using Arrays.checkOffsetAndCount
+c4579dd Downloaded content is deleted if Download folder is renamed using MTP
+c61600e DownloadProvider: allow more redirects
+363c0c9 Stop download from the site with invalid certificate
+3ad8e0a Add support to manually pause/resume downloads [2/2]
+983e6cd Remove download notification after preview
+a6c6ab6 Add download speed, remaining time, and percentage in notification
+
+====================
      03-24-2019
 ====================
 
 
    * frameworks/base/
-0d84ba3cabba Keyguard: Don't listen for fingerprint when prox.sensor is covered
-745bd8a47d54 show bt battery for all devices
-465414e38b50 change battery save color
-5d7d542ee44c fix answer from home key
-ce14a24fe3cf toggle torch proximity check [1/2]
-7edfcc265c37 proximity check for all wake keys
-beb7a1a851e5 Havoc Build Date [1/2]
-cd672837cd86 fix button backlight
-16c37b626d4c fix priv-apps permissions
-402d30850bdc Revert "hwui: Enable quicksilver"
-fd984fe9ca08 Revert "Navbar: Do not fiddle with haptic feedback"
-76d033826162 base: Cleanup SystemUI tuner
 0375302fffc2 ColorFade: Silence logspam
 b12bd87ccc98 Revert "Revert "base: screen off animation config [1/2]""
 478e7efeba37 base: Make vendor mismatch message optional
@@ -34,16 +110,11 @@ fd2b666609f8 base: Persistent settings icon on qs panel for 9.x
 c99131b338f7 Revert "base: SystemUI: add tuner to hide qs drag handle"
 
    * packages/apps/HavocSettings/
-c0aeb32 toggle torch proximity check [2/2]
-e55158a Rework hw button illumination
 970692b Settings: Cleanup and fixes
 8647b01 Revert "Revert "Screen off animations [2/2]""
 774d40c Revert "Add toggle for hiding QS drag handle [2/2]"
 
    * packages/apps/Settings/
-03ade1786d Havoc Build Date [2/2]
-d0b0af6aa3 DeviceInfoSettings: Bring back CAF/AOSP tags
-fcd45aa83b my colors
 8cdd773a26 Settings: Fix actionbar title for HAFR
 e4220b2504 Revert "Settings: Move Notch settings to display"
 
@@ -55,21 +126,10 @@ e4220b2504 Revert "Settings: Move Notch settings to display"
 ====================
 
 
-   * system/core/
-53ed75cd8 Fix path for treble default prop
-
 ====================
      03-22-2019
 ====================
 
-   * bootable/recovery/
-37905b69 fix
-a0de3d51 Android.mk: do not include file_contexts for P and up
-cd202d46 applypatch: Link with bmlutils and mtdutils properly.
-3a51f45f mtdutils: Convert makefile to bp.
-4cd328a4 bmlutils: Convert makefile to bp.
-c0a0aa35 libcrecovery: Convert makefile to bp.
-f159b590 otautil: Link with libziparchive.
 
    * frameworks/base/
 e9add4667c34 Revert "services: allow to force "never" mode for display cutout [1/2]"
@@ -78,16 +138,14 @@ e9add4667c34 Revert "services: allow to force "never" mode for display cutout [1
 a06b2c4cb89f Ambient music: do not extend pulse notification when not needed
 ba8c13ff863e Revert "Ambient music: Use animated icon"
 
+   * vendor/MiuiCamera/
+b002a3d Ready For Build
+d9260f9 Fix Buiding Error
+
 ====================
      03-21-2019
 ====================
 
-   * bootable/recovery/
-64e0a652 Use listbox for device-specific advanced menu items
-908442df Merge "Update FDE decrypt to pie from CAF" into android-9.0
-98661c1a Update FDE decrypt to pie from CAF
-af32bb9c MTP FFS updates:
-e9a49efe Adding Edl button in reboot menu
 
    * frameworks/av/
 50b4ed6a98 Fixed audioserver crash in monkey test
@@ -99,117 +157,4 @@ a209cae7bb audio: don't apply ramp if track is paused before the first mix
 
    * packages/apps/HavocSettings/
 c483fad Add mido in devices
-
-====================
-     03-20-2019
-====================
-
-   * bootable/recovery/
-08f91e84 gpt: Add -Wno-format-security
-38d2d526 TWRP: fix compiling on Android 7
-e03158eb Fix gr_clip
-
-====================
-     03-19-2019
-====================
-
-   * bootable/recovery/
-3157f121 Full screen action: simplify by just hiding navbar
-eff335d8 prebuilt: Avoid re-linking ARM64 specific library on other architectures
-d32b7ebf TW_ROTATION: add flag to handle hardware-rotated display panels
-19874f14 AB/Non AB Devices: updates for moving cache
-3ed778ad Vibration: allow BoardConfig to disable vibration for a device.
-9220dbab fix building TWRP for devices without cache
-
-   * frameworks/base/
-76e5e4eeace6 Clean up screenshot if nothing selected
-6edf38977167 IMMS should preserve selected IME upon boot
-a4334517999f Add bluetooth icon.
-322b446a4d51 base: Cleanup FP controller
-
-   * packages/apps/Dirac/
-8329e99 Prevent failures when toggling
-9037c79 Only call setEnabled on boot completed
-d3856fc Refactor Dirac setup
-5d23300 Dirac fixes
-2b01382 Refactor dirac strings
-e0d910d Add summary for dirac
-6515719 Add DiracSound backend
-70b11a0 Introduce Dirac preferences
-
-   * system/core/
-6363d6cf9 Allow adb root even in no debuggable builds
-
-   * vendor/themes/
-07dbfc8 themes: Fix volume panel footer background
-
-====================
-     03-18-2019
-====================
-
-   * bootable/recovery/
-5f8394ca Merge "slot management: add library for slot management." into android-9.0
-
-   * packages/apps/Nfc/
-1c574eee NfcNci: make T3T/Nfc-F HCE optional
-
-   * packages/apps/Settings/
-7a9cc0d166 Update the timestamp used for time zone filtering
-41351028d4 Settings: fix eject sdcard icon color
-
-   * system/core/
-614ff9d8e storaged: change log level for health HAL calls
-
-====================
-     03-17-2019
-====================
-
-
-====================
-     03-16-2019
-====================
-
-
-   * external/roboto-fonts/
-fd30717 Add missing glyphs from Roboto
-
-   * frameworks/base/
-8a6383d3c9f7 SystemUI: Reduce padding between wifi and signal icon
-844892ef4de3 KeyguardStatusBarView: Request batteryview update only when required
-aeb43aa95ada PowerManager: Don't bother devices not using wait for MPCTL
-6d684a1803d8 PerformanceManager: Allow wait for MPCTL to start on boot
-67e063df5c41 AudioService: Fix camera shutter sound toggle
-c48b25b0fe94 Navbar: Do not fiddle with haptic feedback
-c197ee75bcf7 SystemUI: Separate global actions theme from qs
-
-   * packages/apps/DocumentsUI/
-2752868d DocumentsUI: Improve dark theme
-
-   * vendor/themes/
-cc7a998 themes: Dark theme improvements
-
-====================
-     03-15-2019
-====================
-
-   * bootable/recovery/
-3ae89edb Merge "Fix build error on Pie with TW_NO_LEGACY_PROPS := true" into android-9.0
-6b9ee0e0 Merge "Revert "Fix ld.config.txt errors on Android 8.1 system root devices"" into android-9.0
-
-   * frameworks/base/
-1321215e4602 Re-add WPS implementation (2/3)
-d2ceb722e112 base: Fix less frequent notification sounds value
-357ab2a80459 base: Add vibrate util methods
-de6005fee923 base: Turn on display if Doze On Charge is Enabled
-c2ce0cd906e9 Volume panel: Add notification volume row if unlinked
-1c43a913abd0 Code improvements for expanded volume panel
-
-   * frameworks/opt/net/wifi/
-1d20bcb7d Re-add WPS implementation (3/3)
-
-   * packages/apps/HavocSettings/
-e824dff Add cancro in devices
-
-   * packages/apps/Settings/
-7fc597f456 Re-add WPS implementation (1/3)
 
