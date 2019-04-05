@@ -1,4 +1,35 @@
 ====================
+     04-05-2019
+====================
+
+f6d13dfde msm8996-common: Update qseecom daemon service name
+6243f7c7a msm8996-common: init.rc: Changes to stop rtp daemon during shutdown
+602e62ca6 Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' from https://source.codeaurora.org/quic/la/device/qcom/common
+0a6ef0194 Android 9.0.0 release 35 (PQ2A.190405.003) CAF tag: LA.UM.7.5.2.r1-02000-8x96.0
+
+====================
+     04-04-2019
+====================
+
+51e8ab9fe Update blobs
+* daisy_sprout:9/PKQ1.180917.001/V10.0.7.0.PDLMIXM:user/release-keys
+* google/marlin/marlin:9/PQ2A.190405.003/5310204:user/release-keys
+
+====================
+     04-03-2019
+====================
+
+1e063b82b update su sepolicy
+
+====================
+     04-01-2019
+====================
+
+d6a56e4ad capricorn: update brightness overlays
+a98cc39ce try to mount ext4 before f2fs
+d4adae838 priv-app control: fix missing microG permissions
+
+====================
      03-30-2019
 ====================
 
