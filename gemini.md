@@ -1,264 +1,137 @@
 ====================
-     04-08-2019
+     2019-04-09    
 ====================
 
+ * build/make
+acef53c  1  [Kazakov Stepan]
 
-   * frameworks/base/
-1424e0e13582 Revert "hwui: Enable quicksilver"
-70330c89b194 Automatic translation import
-46aaa4168556 SystemUI: fix no service and emergency calls only placement
-4c14c6f1016f qs_footer: Update visibilities after inflate finish
-8b38a1048d90 base: Add OnePlus Red accent [1/3]
-30e596483e77 base: Add Black Pearl theme [1/3]
+ * build/soong
+142c3fc  1  [Kazakov Stepan]
 
-   * packages/apps/HavocSettings/
-58fb26e Fix Russian translation
-e3ed420 Automatic translation import
-63015e7 Settings: Add Black Pearl theme [2/3]
+ * device/xiaomi/gemini
+bf71f30  build kernel with clang 9.0.2  [Kazakov Stepan]
+77090c4  build SyberiaOS  [Kazakov Stepan]
 
-   * packages/apps/Settings/
-9615074f51 Fix Russian translation
-c833e2eec7 Automatic translation import
-2186612247 Settings: Add OnePlus Red accent [2/3]
-da95f0c35d Settings: Add deep sleep info to uptime
-5f329cd65d Settings: Move 'About phone' to the bottom
+ * system/core
+19a0d00  Allow adb root even in no debuggable builds  [Nathan Chancellor]
 
-   * vendor/themes/
-3e7f1f8 themes: Add OnePlus Red accent [3/3]
-68858eb themes: Add Black Pearl theme [3/3]
+ * vendor/nxp/opensource/commonsys/packages/apps/Nfc
+4038040  fix typo  [Kazakov Stepan]
 
-====================
-     04-07-2019
-====================
+ * vendor/qcom/opensource/cryptfs_hw
+3c4cdb5  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/cryptfs_hw into HEAD  [Kazakov Stepan]
 
+ * vendor/qcom/opensource/data-ipa-cfg-mgr
+6b6c850  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie  [Kazakov Stepan]
 
-   * frameworks/base/
-0f6516d6d660 Custom logo customizations [1/2]
-
-   * packages/apps/Contacts/
-313a6aeb4 Automatic translation import
-
-   * packages/apps/CustomDoze/
-536b56c Automatic translation import
-
-   * packages/apps/Dialer/
-f35a412fc Automatic translation import
-
-   * packages/apps/Dirac/
-a92626d Automatic translation import
-
-   * packages/apps/HavocSettings/
-2eaba71 Settings: Add our discord server
-52e28fe Custom logo customizations [2/2]
-
-   * packages/apps/Messaging/
-0455206 Automatic translation import
-
-   * packages/apps/OmniStyle/
-b642673 Automatic translation import
-
-   * packages/apps/PackageInstaller/
-54695789 Automatic translation import
-
-   * packages/apps/SmartNav/
-3646b96 Automatic translation import
-
-   * packages/apps/SmartNavSettings/
-6a19fde Automatic translation import
-
-   * packages/providers/DownloadProvider/
-48883b2 Automatic translation import
-
-   * packages/providers/MediaProvider/
-acde028 Automatic translation import
-
-   * vendor/huawei/kiwi/
-ee14d41 kiwi: Add build rule for libidl and libqmi_cci
-acbd890 kiwi: Add build rule for libmdmdetect
+ * vendor/syberia
+792d5a6  Revert "Drop Lawnchair"  [Kazakov Stepan]
+08ee081  update kernel.mk  [Kazakov Stepan]
 
 ====================
-     04-06-2019
+     2019-04-08    
 ====================
 
+ * hardware/qcom/display-caf/msm8996
+7af887d  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into 9.0  [Kazakov Stepan]
 
-   * frameworks/base/
-1b3f820fa7a6 Use alphaoptimized layout for custom icons on left
+ * hardware/qcom/fm
+d78abd7  Automatic translation import  [Michael Bestas]
 
-   * packages/apps/HavocSettings/
-6534670 Slim recents old enter/exit animation [3/3]
+ * packages/apps/FMRadio
+4743cbc  Automatic translation import  [Michael Bestas]
 
-====================
-     04-05-2019
-====================
+ * packages/apps/Settings
+0398731  Team: add maintainer for Xiaomi 6X (Wayne) Also cleanup "About Team" screen  [blinoff82]
 
+ * prebuilts/clang/host/linux-x86
+01b4a3d  Update prebuilt Clang to r353983b.  [Yi Kong]
 
-   * device/qcom/sepolicy-legacy/
-96f30d3 sepolicy: Label persist partition for all SoCs
-
-   * external/exfat/
-e346c7c exfat: Rename utf conversion symbols
-9e9dc69 exfat: Add static libs for recovery
-
-   * external/f2fs-tools/
-5442202 f2fs-tools: Add sload.f2fs support to libf2fs_fsck
-6e67812 f2fs-tools: Rename utf conversion symbols
-d445c41 f2fs-tools: Rename quota symbols
-20e8f06 f2fs-tools: Add static libs for recovery
-
-   * frameworks/base/
-aeaa4570a2b6 Slim recents old enter/exit animation [1/3]
-1d9d566eb246 base: LS filters: Add 2 more variants
-
-   * frameworks/opt/slimrecent/
-42bbeeb Slim recents old enter/exit animation [2/3]
-
-   * packages/apps/HavocSettings/
-a38bd6c Fix J7 prime codename
-
-   * system/core/
-8a93a8f9e Revert "sdcard: Allow building as a static library"
-b994bc437 fs_mgr: Skip filesystem check unless fs_type matches
-f49bc4c1d Revert "fs_mgr_fstab: removing fs_mgr_get_entry_for_mount_point_after()"
-5aa1b1606 Fix path for treble default prop
-
-   * system/vold/
-97e1b94 vold: Add linkage for fs_mgr changes
-
-   * vendor/huawei/kiwi/
-881bb8e kiwi: Remove 32bit bt blobs
-4068ca5 kiwi: Add build rule for QPerformance jar
-037c15e kiwi: Clean up kiwi-vendor.mk
-2f90567 kiwi: Add ANT, aptX, BT & FM blobs from Huawei Nova 2 Lite
-d525615 kiwi: Refresh makefiles
+ * vendor/syberia
+3318868  jenkins: add Xiaomi 6x (Wayne)  [blinoff82]
 
 ====================
-     04-04-2019
+     2019-04-07    
 ====================
 
-
-   * frameworks/base/
-2408cfa7d3ef base: Optimize toGrayscale function
-5640564aa1a0 base: Intensify the blur amount on LS cover art
-1f0748607e8b base: Fix old mobile signal icons
-4355645372b4 Add wakelock option for flashlight
-ea44fa0a9bf1 Fix screen pinning unlock with hwkeys
-e193ec510060 Allow screen unpinning on devices without navbar
-
-   * packages/apps/HavocSettings/
-6a1f429 Settings: LS filters: Add 2 more variants
-
 ====================
-     04-03-2019
+     2019-04-06    
 ====================
 
+ * device/qcom/sepolicy
+f3b55ee  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into 9.0  [Kazakov Stepan]
 
-   * frameworks/base/
-2fd3c37f9d2a core: Implement Aggressive Battery [1/2]
-2d3e72f6fd8c Smart Pixels: Update default grid pattern
-4ff0ccb6fd56 Smart Pixels: Bypass check for obscured window
-6ece3a62a2ed Smart Pixels: Dynamically register receiver
-df3742a3fe0a EdgeGestures: fix unregistering input filter
-3725afa30494 ImageUtils: Switch blur lib to SimpleImageBlur
-
-   * packages/apps/HavocSettings/
-19da1d7 Settings: Implement Aggressive Battery [2/2]
-8be2d6f Settings: Fix typos
-
-   * prebuilts/clang/host/linux-x86/
-61537703 Update prebuilt Clang to r353983b.
+ * vendor/codeaurora/telephony
+f4a38f6  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into HEAD  [Kazakov Stepan]
 
 ====================
-     04-02-2019
+     2019-04-05    
 ====================
 
+ * device/xiaomi/gemini
+4e5031c  msm8996-common: Update qseecom daemon service name  [Monika Singh]
+cbfb18d  msm8996-common: init.rc: Changes to stop rtp daemon during shutdown  [Sauvik Saha]
+ce03ec1  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' from https://source.codeaurora.org/quic/la/device/qcom/common  [Kazakov Stepan]
+563e398  Android 9.0.0 release 35 (PQ2A.190405.003)  [Kazakov Stepan]
+51e8ab9  Update blobs  [Kazakov Stepan]
 
-   * external/vixl/
-33132247 libvixl: Disable use of dex2oat pgo profile [1/2]
+ * external/exfat
+e346c7c  exfat: Rename utf conversion symbols  [Tom Marshall]
+9e9dc69  exfat: Add static libs for recovery  [Tom Marshall]
 
-   * frameworks/base/
-bac951595126 Merge tag 'android-9.0.0_r35' into pie
-4a127c6ce48f GamingModeTile: stop adjusting volume
+ * hardware/interfaces
+b926507  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into 9.0  [Kazakov Stepan]
 
-   * packages/apps/Bluetooth/
-9cee3b33 Merge tag 'android-9.0.0_r35' into pie
+ * hardware/libhardware_legacy
+f46f6b0  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/libhardware_legacy into 9.0  [Kazakov Stepan]
 
-   * packages/apps/Browser/
-6cf19b0 Browser: Update assets to use outline style
-ac48339 Browser: Increase content padding for search bar
-09e187b Browser: Use round search bar
-ad897aa Browser: Use Pixel blue accent
-c271bf4 Browser: QuickTiles for Favorites, Incognito, and New Tabs
-6807d03 Browser: QuickTiles for Favorites, Incognito, and New Tabs
-309478e Browser: Add save form data setting
-4de469a Browser: Add Adblocker capabilities
-788eecd Browser: Let the system know we're changing bar colors
-c9fe68d Browser: Add a setting to set incognito defaults
-cceb503 Browser: Don't save form data in incognito mode
-9e981e7 Browser: Begin rebase onto newer Jelly
+ * hardware/qcom/audio-caf/msm8996
+0ff5045  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' into 9.0  [Kazakov Stepan]
 
-   * system/bt/
-1128e8c70 Merge tag 'android-9.0.0_r35' into pie
+ * hardware/qcom/bt
+ac84067  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' into 9.0  [Kazakov Stepan]
 
-   * system/netd/
-a5767e1 Merge tag 'android-9.0.0_r35' into pie
+ * hardware/qcom/media-caf/msm8996
+1dd55d3  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' into 9.0  [Kazakov Stepan]
 
-====================
-     04-01-2019
-====================
+ * hardware/qcom/wlan
+8148b24  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' into 9.0  [Kazakov Stepan]
 
+ * packages/apps/SyberiaSettings
+e859827  Merge pull request #54 from governmentissuejoe/patch-1  [Ivan Blinov]
+a55ff19  Fix typo  [governmentissuejoe]
 
-   * external/google/
-39d0cdb SmartNav: Fix NPE when navbar is not set to stock mode
-5d47a24 elmyra: Adapt to smartnav changes
-f3917f0 Init Havoc...
+ * vendor/qcom/opensource/audio
+7f9a5b0  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into pie  [Kazakov Stepan]
 
-   * frameworks/base/
-5e994a3c4a8c LTE tile: Remove oreo style slashes
-24005c2812a8 base: Add Lockscreen cover art filter [1/2]
-77368697353c ImageHelper: add getBlurredImage
-4bfb71245d11 Dreamliner: Disable DockObserver conditionally
-dc5a685b6eb9 Dreamliner: Reorganise the external repo [2/2]
-077ba49cf291 ActionUtils: Reverse actions for QS and notification panel
-5354d7ae854d Active Edge: allow to choose a specific app activity [4/4]
-05ad0b3835d7 Introduce long squeeze action [3/3]
+ * vendor/qcom/opensource/interfaces
+524103b  Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie  [Kazakov Stepan]
 
-   * frameworks/opt/slimrecent/
-e282441 Slimrecents: catch IllegalArgumentException too
+ * vendor/syberia
+aa43400  syberia: qcom: Set proper CAF data-ipa-cfg-mgr pathmap  [Michael Bestas]
+fb6a586  syberia: qcom: Set data-ipa-cfg-mgr pathmap  [Ethan Chen]
 
-   * packages/apps/HavocSettings/
-e79ac79 Settings: Add Lockscreen cover art filter [2/2]
-1264f64 Fallback to "no action" when an application gets removed [2/2]
-3c939ca Active Edge: allow to choose a specific app activity [3/4]
-74a291a Introduce long squeeze action [2/3]
-
-   * system/core/
-db08c342f Filter out QTI performance spam
-0f5db3580 Shut up camera and wcnss debug output
-e0aa9113a Filter GalleryDatab*
-
-   * system/vold/
-f7bdc95 increase timeout for waiting on block device
-
-   * vendor/support/
-66b4a13 Fix displaying units for CustomSeekBarPreference
-a1166d1 App Picker: Add back press override
-261216d Active Edge: allow to choose a specific app activity [2/4]
+ * vendor/xiaomi
+bdff36a  sdm845-common: update blobs from beryllium 9.4.1 beta  [Akhil Narang]
 
 ====================
-     03-31-2019
+     2019-04-04    
 ====================
 
+ * packages/apps/Settings
+35aaf32  Refactoring screen "About Team" [2/2] now the list of team members is in the file "packages/apps/Settings/assets/syberia.json"  [alexxxdev]
 
-   * external/toybox/
-7d5cb84f toybox: Use toybox for dd, getprop and grep in recovery
-fd4a589c Revert "Reland: Stop building getprop"
-fd080612 toybox: Add install to symlinks
+ * packages/apps/SyberiaSettings
+af6cea9  Refactoring screen "About Team" [1/2] now the list of team members is in the file "packages/apps/Settings/assets/syberia.json"  [alexxxdev]
 
-   * kernel/huawei/kiwi/
-c3917bf4ac0 kiwi: defconfig: Set CONFIG_USB_MSM_OTG flag
+ * vendor/syberia
+26c0c22  Syberia: bump to v2.4  [blinoff82]
+5a40059  Fonts: Add CircularStd  [Arghya Chanda]
 
 ====================
-     03-30-2019
+     2019-04-03    
 ====================
 
+ * device/xiaomi/gemini
+1e063b8  update su sepolicy  [Kazakov Stepan]
 
