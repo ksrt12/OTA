@@ -1,186 +1,189 @@
 ====================
-     04-05-2019
+     2019-04-09    
 ====================
 
+ * packages/apps/HavocSettings
+58fb26e  Fix Russian translation  [VisualDrug]
 
-   * frameworks/base/
-46ecd376751b Revert "SystemUI: Add Cellular tile icon from OOS"
-f02c213982e6 Keyguard: Don't listen for fingerprint when prox.sensor is covered
-a70cfa97340a show bt battery for all devices
-656d1af4d7c0 change battery save color
-586895a20a60 fix answer from home key
-2334e1db8a25 toggle torch proximity check [1/2]
-6e7e4fab1d90 proximity check for all wake keys
-0d2dd8a7e6fc Havoc Build Date [1/2]
-26b5183a6892 fix button backlight
-c7bc4341904a fix priv-apps permissions
+ * packages/apps/Settings
+ef8c395  Havoc Build Date [2/2]  [Kazakov Stepan]
+9360e8b  DeviceInfoSettings: Bring back CAF/AOSP tags  [Harsh Shandilya]
+63690d9  my colors  [Kazakov Stepan]
+9615074  Fix Russian translation  [VisualDrug]
 
-   * packages/apps/Dialer/
-512f2874d Revert "Fix in-call buttons layout"
-
-   * packages/apps/HavocSettings/
-4219bf7 toggle torch proximity check [2/2]
-a60a85c Rework hw button illumination
-
-   * packages/apps/Settings/
-6719222405 Havoc Build Date [2/2]
-f2508a3e14 DeviceInfoSettings: Bring back CAF/AOSP tags
-c0f1f31309 my colors
-
-   * system/core/
-0a0f28cb4 Fix path for treble default prop
-4aac16a79 Allow adb root even in no debuggable builds
-
-   * vendor/huawei/kiwi/
-187cf0b kiwi: Remove btnvtool
-
-   * vendor/support/
-7a4a501 add variables for buttom backlight
+ * system/core
+6355546  Allow adb root even in no debuggable builds  [Nathan Chancellor]
 
 ====================
-     04-04-2019
+     2019-04-08    
 ====================
 
+ * frameworks/base
+1424e0e  Revert "hwui: Enable quicksilver"  [SKULSHADY]
+70330c8  Automatic translation import  [SKULSHADY]
+46aaa41  SystemUI: fix no service and emergency calls only placement  [Nick Filmer]
+4c14c6f  qs_footer: Update visibilities after inflate finish  [Kshitij Gupta]
+8b38a10  base: Add OnePlus Red accent [1/3]  [Anushek Prasal]
+30e5964  base: Add Black Pearl theme [1/3]  [Anushek Prasal]
+0f6516d  Custom logo customizations [1/2]  [Pranav Vashi]
 
-   * packages/apps/HavocSettings/
-8be2d6f Settings: Fix typos
+ * packages/apps/Contacts
+313a6ae  Automatic translation import  [SKULSHADY]
 
-   * prebuilts/clang/host/linux-x86/
-61537703 Update prebuilt Clang to r353983b.
+ * packages/apps/CustomDoze
+536b56c  Automatic translation import  [SKULSHADY]
 
-====================
-     04-03-2019
-====================
+ * packages/apps/Dialer
+f35a412  Automatic translation import  [SKULSHADY]
 
+ * packages/apps/Dirac
+a92626d  Automatic translation import  [SKULSHADY]
 
-   * external/vixl/
-33132247 libvixl: Disable use of dex2oat pgo profile [1/2]
+ * packages/apps/HavocSettings
+e3ed420  Automatic translation import  [SKULSHADY]
+63015e7  Settings: Add Black Pearl theme [2/3]  [Anushek Prasal]
+2eaba71  Settings: Add our discord server  [Anushek Prasal]
+52e28fe  Custom logo customizations [2/2]  [neobuddy89]
 
-   * frameworks/base/
-9c97433df831 Revert "hwui: Enable quicksilver"
-bac951595126 Merge tag 'android-9.0.0_r35' into pie
-4a127c6ce48f GamingModeTile: stop adjusting volume
+ * packages/apps/Messaging
+0455206  Automatic translation import  [SKULSHADY]
 
-   * packages/apps/Bluetooth/
-9cee3b33 Merge tag 'android-9.0.0_r35' into pie
+ * packages/apps/OmniStyle
+b642673  Automatic translation import  [SKULSHADY]
 
-   * system/bt/
-1128e8c70 Merge tag 'android-9.0.0_r35' into pie
+ * packages/apps/PackageInstaller
+5469578  Automatic translation import  [SKULSHADY]
 
-   * system/netd/
-a5767e1 Merge tag 'android-9.0.0_r35' into pie
+ * packages/apps/Settings
+c833e2e  Automatic translation import  [SKULSHADY]
+2186612  Settings: Add OnePlus Red accent [2/3]  [Anushek Prasal]
+da95f0c  Settings: Add deep sleep info to uptime  [Stefan Berger]
+5f329cd  Settings: Move 'About phone' to the bottom  [SuperDroidBond]
 
-====================
-     04-02-2019
-====================
+ * packages/apps/SmartNav
+3646b96  Automatic translation import  [SKULSHADY]
 
+ * packages/apps/SmartNavSettings
+6a19fde  Automatic translation import  [SKULSHADY]
 
-   * external/google/
-39d0cdb SmartNav: Fix NPE when navbar is not set to stock mode
-5d47a24 elmyra: Adapt to smartnav changes
-f3917f0 Init Havoc...
+ * packages/providers/DownloadProvider
+48883b2  Automatic translation import  [SKULSHADY]
 
-   * frameworks/base/
-5e994a3c4a8c LTE tile: Remove oreo style slashes
-24005c2812a8 base: Add Lockscreen cover art filter [1/2]
-77368697353c ImageHelper: add getBlurredImage
-4bfb71245d11 Dreamliner: Disable DockObserver conditionally
-dc5a685b6eb9 Dreamliner: Reorganise the external repo [2/2]
-077ba49cf291 ActionUtils: Reverse actions for QS and notification panel
-5354d7ae854d Active Edge: allow to choose a specific app activity [4/4]
-05ad0b3835d7 Introduce long squeeze action [3/3]
+ * packages/providers/MediaProvider
+acde028  Automatic translation import  [SKULSHADY]
 
-   * frameworks/opt/slimrecent/
-e282441 Slimrecents: catch IllegalArgumentException too
+ * vendor/huawei/kiwi
+ee14d41  kiwi: Add build rule for libidl and libqmi_cci  [Adithya R]
 
-   * packages/apps/Browser/
-6cf19b0 Browser: Update assets to use outline style
-ac48339 Browser: Increase content padding for search bar
-09e187b Browser: Use round search bar
-ad897aa Browser: Use Pixel blue accent
-c271bf4 Browser: QuickTiles for Favorites, Incognito, and New Tabs
-6807d03 Browser: QuickTiles for Favorites, Incognito, and New Tabs
-309478e Browser: Add save form data setting
-4de469a Browser: Add Adblocker capabilities
-788eecd Browser: Let the system know we're changing bar colors
-c9fe68d Browser: Add a setting to set incognito defaults
-cceb503 Browser: Don't save form data in incognito mode
-9e981e7 Browser: Begin rebase onto newer Jelly
-
-   * packages/apps/HavocSettings/
-e79ac79 Settings: Add Lockscreen cover art filter [2/2]
-1264f64 Fallback to "no action" when an application gets removed [2/2]
-3c939ca Active Edge: allow to choose a specific app activity [3/4]
-74a291a Introduce long squeeze action [2/3]
-
-   * system/core/
-db08c342f Filter out QTI performance spam
-0f5db3580 Shut up camera and wcnss debug output
-e0aa9113a Filter GalleryDatab*
-
-   * system/vold/
-f7bdc95 increase timeout for waiting on block device
-
-   * vendor/support/
-66b4a13 Fix displaying units for CustomSeekBarPreference
-a1166d1 App Picker: Add back press override
-261216d Active Edge: allow to choose a specific app activity [2/4]
+ * vendor/themes
+3e7f1f8  themes: Add OnePlus Red accent [3/3]  [Anushek Prasal]
+68858eb  themes: Add Black Pearl theme [3/3]  [Anushek Prasal]
 
 ====================
-     04-01-2019
+     2019-04-07    
 ====================
 
+ * frameworks/base
+1b3f820  Use alphaoptimized layout for custom icons on left  [Pranav Vashi]
+
+ * vendor/huawei/kiwi
+acbd890  kiwi: Add build rule for libmdmdetect  [Adithya R]
 
 ====================
-     03-31-2019
+     2019-04-06    
 ====================
 
+ * device/qcom/sepolicy-legacy
+96f30d3  sepolicy: Label persist partition for all SoCs  [Michael Bestas]
 
-   * kernel/huawei/kiwi/
-c3917bf4ac0 kiwi: defconfig: Set CONFIG_USB_MSM_OTG flag
+ * frameworks/base
+aeaa457  Slim recents old enter/exit animation [1/3]  [SpiritCroc]
+1d9d566  base: LS filters: Add 2 more variants  [ElDainosor]
 
-   * vendor/huawei/kiwi/
-46602fc kiwi: Remove 32bit bt blobs
+ * frameworks/opt/slimrecent
+42bbeeb  Slim recents old enter/exit animation [2/3]  [SpiritCroc]
+
+ * packages/apps/HavocSettings
+6534670  Slim recents old enter/exit animation [3/3]  [SpiritCroc]
+
+ * system/core
+8a93a8f  Revert "sdcard: Allow building as a static library"  [Michael Bestas]
+b994bc4  fs_mgr: Skip filesystem check unless fs_type matches  [Dan Pasanen]
+f49bc4c  Revert "fs_mgr_fstab: removing fs_mgr_get_entry_for_mount_point_after()"  [Alessandro Astone]
+5aa1b16  Fix path for treble default prop  [Wei Wang]
+
+ * system/vold
+97e1b94  vold: Add linkage for fs_mgr changes  [Steve Kondik]
+
+ * vendor/huawei/kiwi
+881bb8e  kiwi: Remove 32bit bt blobs  [joelh]
+4068ca5  kiwi: Add build rule for QPerformance jar  [joelh]
+037c15e  kiwi: Clean up kiwi-vendor.mk  [joelh]
+2f90567  kiwi: Add ANT, aptX, BT & FM blobs from Huawei Nova 2 Lite  [joelh]
+d525615  kiwi: Refresh makefiles  [joelh]
 
 ====================
-     03-30-2019
+     2019-04-05    
 ====================
 
+ * external/exfat
+e346c7c  exfat: Rename utf conversion symbols  [Tom Marshall]
+9e9dc69  exfat: Add static libs for recovery  [Tom Marshall]
+
+ * external/f2fs-tools
+5442202  f2fs-tools: Add sload.f2fs support to libf2fs_fsck  [Tom Marshall]
+6e67812  f2fs-tools: Rename utf conversion symbols  [Tom Marshall]
+d445c41  f2fs-tools: Rename quota symbols  [Tom Marshall]
+20e8f06  f2fs-tools: Add static libs for recovery  [Tom Marshall]
+
+ * frameworks/base
+2408cfa  base: Optimize toGrayscale function  [ElDainosor]
+5640564  base: Intensify the blur amount on LS cover art  [ElDainosor]
+1f074860  base: Fix old mobile signal icons  [umikaki]
+
+ * packages/apps/HavocSettings
+a38bd6c  Fix J7 prime codename  [Anushek Prasal]
+6a1f429  Settings: LS filters: Add 2 more variants  [ElDainosor]
 
 ====================
-     03-29-2019
+     2019-04-04    
 ====================
 
+ * frameworks/base
+4355645  Add wakelock option for flashlight  [Dominggoes Isakh]
+ea44fa0  Fix screen pinning unlock with hwkeys  [Henrique Silva]
+e193ec5  Allow screen unpinning on devices without navbar  [Utkarsh Gupta]
+2fd3c37  core: Implement Aggressive Battery [1/2]  [Joe Maples]
+2d3e72f  Smart Pixels: Update default grid pattern  [Adin Kwok]
+4ff0ccb  Smart Pixels: Bypass check for obscured window  [Alex]
+6ece3a6  Smart Pixels: Dynamically register receiver  [Adin Kwok]
+df3742a  EdgeGestures: fix unregistering input filter  [Jens Lody]
+3725afa  ImageUtils: Switch blur lib to SimpleImageBlur  [ElDainosor]
+
+ * packages/apps/HavocSettings
+19da1d7  Settings: Implement Aggressive Battery [2/2]  [Joe Maples]
+8be2d6f  Settings: Fix typos  [governmentissuejoe]
+
+ * prebuilts/clang/host/linux-x86
+6153770  Update prebuilt Clang to r353983b.  [Yi Kong]
 
 ====================
-     03-28-2019
+     2019-04-03    
 ====================
 
+ * external/vixl
+3313224  libvixl: Disable use of dex2oat pgo profile [1/2]  [mydongistiny]
 
-   * packages/apps/HavocSettings/
-18f9e1a Add natrium in devices
+ * frameworks/base
+bac9515  Merge tag 'android-9.0.0_r35' into pie  [Anushek Prasal]
+4a127c6  GamingModeTile: stop adjusting volume  [HolyAngel]
 
-   * system/bt/
-8e407eed7 Bluetooth: Fix BT calls
+ * packages/apps/Bluetooth
+9cee3b3  Merge tag 'android-9.0.0_r35' into pie  [SKULSHADY]
 
-====================
-     03-27-2019
-====================
+ * system/bt
+1128e8c  Merge tag 'android-9.0.0_r35' into pie  [SKULSHADY]
 
-
-   * frameworks/base/
-ffb83eb07ce3 Ambient music ticker: fix text scrolling on AoD
-
-   * packages/apps/Dialer/
-b56cb3d41 Make proxi sensor smart-case friendly
-4df34762b Fix incorrect proximity sensor behaviour
-
-   * packages/apps/HavocSettings/
-50b8b8a Give Tushar a promotion
-8bb45d8 Drop tulip
-7bf0703 Settings: Adaptive icon system-wide setting [2/3]
-cdfedc5 Interface: Get rid of Controllers
-
-   * system/core/
-b3b777a81 healthd: make periodic battery status a debug message
+ * system/netd
+a5767e1  Merge tag 'android-9.0.0_r35' into pie  [SKULSHADY]
 
