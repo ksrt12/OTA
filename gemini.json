@@ -1,36 +1,35 @@
 {
   "addons": [
     {
-      "title":" Firmware",
-      "summary":"Latest firmware for gemini",
-      "url":"https://github.com/XiaomiFirmwareUpdater/firmware_xiaomi_gemini/releases"
+      "title": "Firmware",
+      "summary": "Latest firmware for gemini",
+      "url": "https://github.com/XiaomiFirmwareUpdater/firmware_xiaomi_gemini/releases"
     },
     {
       "title": "Official Open GApps",
-      "summary":"arm64 | pico",
-      "url":"http://opengapps.org/?arch=arm64?api=9.0?variant=pico"
+      "summary": "arm64 | pico",
+      "url": "http://opengapps.org/?arch=arm64?api=9.0?variant=pico"
     },
     {
       "title": "Magisk",
-      "summary":"Latest Stable v19.0",
-      "url":"https://github.com/topjohnwu/Magisk/releases/download/v19.0/Magisk-v19.0.zip"
+      "summary": "Latest Stable v19.0",
+      "url": "https://github.com/topjohnwu/Magisk/releases/download/v19.0/Magisk-v19.0.zip"
     },
     {
       "title": "Device Changelog",
-      "summary":"View gemini changes",
-      "url":"https://raw.githubusercontent.com/ksrt12/OTA/pie/deviceChangelog"
+      "summary": "View gemini changes",
+      "url": "https://raw.githubusercontent.com/ksrt12/OTA/pie/deviceChangelog"
     }
   ],
   "developer": "Stepan Kazakov",
   "developer_url": "https://t.me/ksrt12",
-
-  "filename": "syberia_gemini-v2.4-20190409-1505-VitaPostMortem.zip",
+  "filename": "syberia_gemini-v2.4-20190410-2323-VitaPostMortem.zip",
   "changelog": "",
-  "filesize": "621236534",
-  "md5": "37dc1094cda86acd69119c11cebfa5f4bd56b99785f452dfbc56e61872386527",
+  "filesize": "637957777",
+  "md5": "9bcdb931a0332d53e6565c7cc2e08a23",
   "build_date": "20190410",
-  "url": "https://sourceforge.net/projects/havoc-gemini/files/syberia/gemini/syberia_gemini-v2.4-20190409-1505-VitaPostMortem.zip/download",
-  "news_url": "http://github.com/syberia-project",
+  "url": "https://sourceforge.net/projects/havoc-gemini/files/syberia/gemini/syberia_gemini-v2.4-20190410-2323-VitaPostMortem.zip/download",
+  "news_url": "https://github.com/syberia-project",
   "website_url": "http://syberiaos.com",
   "error": "false"
 }
