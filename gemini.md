@@ -1,21 +1,104 @@
 ====================
+     04-14-2019
+====================
+
+
+   * frameworks/base/
+81793eebcbc9 Revert "SystemUI: Add Cellular tile icon from OOS"
+da15f2c6af22 Keyguard: Don't listen for fingerprint when prox.sensor is covered
+5ac771a3ca1b show bt battery for all devices
+fda24d454564 change battery save color
+1981b4db09c2 fix answer from home key
+cbb2aa866b7a toggle torch proximity check [1/2]
+41aa89035920 proximity check for all wake keys
+4cd37667cb8c Havoc Build Date [1/2]
+965806f1fce3 fix button backlight
+01dc9840f07b fix priv-apps permissions
+28b64d4aa947 Revert "hwui: Enable quicksilver"
+bb59633a8f04 CustomTextClock: Set Text color based on wallpaper
+6174713a4074 CustomTextClock: Match Android Q
+e28d433d52e8 CustomTextClock: Make clock strings translatable
+a9c5198e27f5 CustomTextClock: Improve UI and optimisations
+be0bd1031fbf Lockscreen Clock Styles: Introduce Q style text clock A gist of what happened: - Use a custom TextView to achieve the text - Use Rounded Elegance font cuz why not - Use a attribute to differenciate between hour hand and minute hand - Use a retarded yet simple method to get Strings for given integer - Set text according to system time format (12h/24h) - Set a top margin to push the lockscreen date (Unuglify) - Set a left padding for clock layout (Might need to be overlayed for some devices)
+
+   * packages/apps/Dialer/
+70872618b Revert "Fix in-call buttons layout"
+
+   * packages/apps/HavocSettings/
+4cb5823 toggle torch proximity check [2/2]
+4cd91cd Rework hw button illumination
+6081806 Lockscreen Clock Styles: Introduce Q style TextClock
+
+   * packages/apps/Settings/
+2f6f92383e Havoc Build Date [2/2]
+62f5c2c842 DeviceInfoSettings: Bring back CAF/AOSP tags
+84d8e40d23 my colors
+
+   * system/core/
+50785a3b6 Allow adb root even in no debuggable builds
+
+   * vendor/support/
+b022a7c add variables for buttom backlight
+
+====================
+     04-13-2019
+====================
+
+
+   * packages/apps/Dirac/
+1808d69 Dirac: Change QS tile icon
+
+====================
+     04-12-2019
+====================
+
+
+   * frameworks/base/
+ffb19a13d2de Lockscreen Visualizer: Add pulse magic [1/2]
+cec6977aa299 base: Lockscreen visualizer cleanup
+f9899f7ecae9 The surface hang up when screen on and screen off
+425cf2868551 backup: right way to check canonical file path
+0bb832efa9af Fixes crash/race condition when destroyActivity
+5ccf241d74fa Fixed setting incorrect mode of vibration
+
+   * packages/apps/HavocSettings/
+dd850e2 Settings: Cleanup and fixes
+de2ca53 Lockscreen Visualizer: Add pulse magic [2/2]
+5290321 Settings: Lockscreen visualizer cleanup
+
+   * packages/apps/SmartNavSettings/
+831a937 Automatic translation import
+210d246 SmartNavSettings: Cleanup and fixes
+
+====================
+     04-11-2019
+====================
+
+
+   * frameworks/base/
+46ec3c4d04e6 base: Add overlay for BoostFramework
+f4e7659df7c8 Fix Russian translation
+
+   * packages/apps/Dirac/
+d5ed6ba Dirac: Add QS tile
+
+   * packages/apps/Settings/
+c35d177743 Fix Russian translation
+
+====================
      04-10-2019
 ====================
 
 
    * frameworks/base/
-710548dab88b Fix Russian translation
+801aa2dc7b3d base: Fix crash when changing default phone app
+19dbbcc8a017 Less aggressive way of updating mobile type icons
 
    * packages/apps/HavocSettings/
 c41ee74 Translate more strings in Russian
 
    * packages/apps/Settings/
-c35d177743 Fix Russian translation
 5667fb42c8 Fix Impossible to add fingerprint
-
-   * vendor/havoc
-4169037  Revert "Use SoundPicker instead of AOSP"
-f297e58  vendor: Enable vibrate when ringing by default
 
 ====================
      04-09-2019
@@ -34,7 +117,6 @@ f297e58  vendor: Enable vibrate when ringing by default
 
 
    * frameworks/base/
-1424e0e13582 Revert "hwui: Enable quicksilver"
 70330c89b194 Automatic translation import
 46aaa4168556 SystemUI: fix no service and emergency calls only placement
 4c14c6f1016f qs_footer: Update visibilities after inflate finish
@@ -98,9 +180,6 @@ da95f0c35d Settings: Add deep sleep info to uptime
    * packages/apps/SmartNav/
 3646b96 Automatic translation import
 
-   * packages/apps/SmartNavSettings/
-6a19fde Automatic translation import
-
    * packages/apps/Snap/
 253ab00b0 Snap: Remove Lineage SDK dependency
 
@@ -124,6 +203,7 @@ acde028 Automatic translation import
 
    * frameworks/base/
 0f6516d6d660 Custom logo customizations [1/2]
+1b3f820fa7a6 Use alphaoptimized layout for custom icons on left
 
    * packages/apps/HavocSettings/
 2eaba71 Settings: Add our discord server
@@ -134,19 +214,25 @@ acde028 Automatic translation import
 ====================
 
 
-   * frameworks/base/
-1b3f820fa7a6 Use alphaoptimized layout for custom icons on left
+   * device/qcom/sepolicy-legacy/
+96f30d3 sepolicy: Label persist partition for all SoCs
 
    * packages/apps/HavocSettings/
 6534670 Slim recents old enter/exit animation [3/3]
+
+   * system/core/
+8a93a8f9e Revert "sdcard: Allow building as a static library"
+b994bc437 fs_mgr: Skip filesystem check unless fs_type matches
+f49bc4c1d Revert "fs_mgr_fstab: removing fs_mgr_get_entry_for_mount_point_after()"
+5aa1b1606 Fix path for treble default prop
+
+   * system/vold/
+97e1b94 vold: Add linkage for fs_mgr changes
 
 ====================
      04-05-2019
 ====================
 
-
-   * device/qcom/sepolicy-legacy/
-96f30d3 sepolicy: Label persist partition for all SoCs
 
    * external/exfat/
 e346c7c exfat: Rename utf conversion symbols
@@ -168,127 +254,4 @@ aeaa4570a2b6 Slim recents old enter/exit animation [1/3]
    * packages/apps/HavocSettings/
 a38bd6c Fix J7 prime codename
 6a1f429 Settings: LS filters: Add 2 more variants
-
-   * system/core/
-8a93a8f9e Revert "sdcard: Allow building as a static library"
-b994bc437 fs_mgr: Skip filesystem check unless fs_type matches
-f49bc4c1d Revert "fs_mgr_fstab: removing fs_mgr_get_entry_for_mount_point_after()"
-5aa1b1606 Fix path for treble default prop
-
-   * system/vold/
-97e1b94 vold: Add linkage for fs_mgr changes
-
-====================
-     04-04-2019
-====================
-
-
-   * frameworks/base/
-2408cfa7d3ef base: Optimize toGrayscale function
-5640564aa1a0 base: Intensify the blur amount on LS cover art
-1f0748607e8b base: Fix old mobile signal icons
-4355645372b4 Add wakelock option for flashlight
-ea44fa0a9bf1 Fix screen pinning unlock with hwkeys
-e193ec510060 Allow screen unpinning on devices without navbar
-
-====================
-     04-03-2019
-====================
-
-
-   * external/vixl/
-33132247 libvixl: Disable use of dex2oat pgo profile [1/2]
-
-   * frameworks/base/
-2fd3c37f9d2a core: Implement Aggressive Battery [1/2]
-2d3e72f6fd8c Smart Pixels: Update default grid pattern
-4ff0ccb6fd56 Smart Pixels: Bypass check for obscured window
-6ece3a62a2ed Smart Pixels: Dynamically register receiver
-df3742a3fe0a EdgeGestures: fix unregistering input filter
-3725afa30494 ImageUtils: Switch blur lib to SimpleImageBlur
-bac951595126 Merge tag 'android-9.0.0_r35' into pie
-
-   * packages/apps/Bluetooth/
-9cee3b33 Merge tag 'android-9.0.0_r35' into pie
-
-   * packages/apps/HavocSettings/
-19da1d7 Settings: Implement Aggressive Battery [2/2]
-8be2d6f Settings: Fix typos
-
-   * prebuilts/clang/host/linux-x86/
-61537703 Update prebuilt Clang to r353983b.
-
-   * system/bt/
-1128e8c70 Merge tag 'android-9.0.0_r35' into pie
-
-   * system/netd/
-a5767e1 Merge tag 'android-9.0.0_r35' into pie
-
-====================
-     04-02-2019
-====================
-
-
-   * external/google/
-39d0cdb SmartNav: Fix NPE when navbar is not set to stock mode
-5d47a24 elmyra: Adapt to smartnav changes
-f3917f0 Init Havoc...
-
-   * frameworks/base/
-4a127c6ce48f GamingModeTile: stop adjusting volume
-5e994a3c4a8c LTE tile: Remove oreo style slashes
-24005c2812a8 base: Add Lockscreen cover art filter [1/2]
-77368697353c ImageHelper: add getBlurredImage
-
-   * packages/apps/Browser/
-6cf19b0 Browser: Update assets to use outline style
-ac48339 Browser: Increase content padding for search bar
-09e187b Browser: Use round search bar
-ad897aa Browser: Use Pixel blue accent
-c271bf4 Browser: QuickTiles for Favorites, Incognito, and New Tabs
-6807d03 Browser: QuickTiles for Favorites, Incognito, and New Tabs
-309478e Browser: Add save form data setting
-4de469a Browser: Add Adblocker capabilities
-788eecd Browser: Let the system know we're changing bar colors
-c9fe68d Browser: Add a setting to set incognito defaults
-cceb503 Browser: Don't save form data in incognito mode
-9e981e7 Browser: Begin rebase onto newer Jelly
-
-   * packages/apps/HavocSettings/
-e79ac79 Settings: Add Lockscreen cover art filter [2/2]
-1264f64 Fallback to "no action" when an application gets removed [2/2]
-3c939ca Active Edge: allow to choose a specific app activity [3/4]
-74a291a Introduce long squeeze action [2/3]
-
-====================
-     04-01-2019
-====================
-
-
-   * external/toybox/
-7d5cb84f toybox: Use toybox for dd, getprop and grep in recovery
-fd4a589c Revert "Reland: Stop building getprop"
-
-   * frameworks/base/
-4bfb71245d11 Dreamliner: Disable DockObserver conditionally
-dc5a685b6eb9 Dreamliner: Reorganise the external repo [2/2]
-077ba49cf291 ActionUtils: Reverse actions for QS and notification panel
-5354d7ae854d Active Edge: allow to choose a specific app activity [4/4]
-05ad0b3835d7 Introduce long squeeze action [3/3]
-
-   * frameworks/opt/slimrecent/
-e282441 Slimrecents: catch IllegalArgumentException too
-
-   * system/core/
-db08c342f Filter out QTI performance spam
-0f5db3580 Shut up camera and wcnss debug output
-e0aa9113a Filter GalleryDatab*
-
-   * system/vold/
-f7bdc95 increase timeout for waiting on block device
-
-   * vendor/support/
-66b4a13 Fix displaying units for CustomSeekBarPreference
-a1166d1 App Picker: Add back press override
-261216d Active Edge: allow to choose a specific app activity [2/4]
 
