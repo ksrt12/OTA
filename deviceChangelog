@@ -1,4 +1,54 @@
 ====================
+     04-22-2019
+====================
+
+5b49f7af0 try to build bromite again
+09669a6e9 fix sepolicy warnings
+
+====================
+     04-21-2019
+====================
+
+f1342d3d7 update vendorsetup.sh
+9283b4c79 overlay: PIN critical apps and system services that get swapped
+571f8be5e Revert "PIN critical apps and system services that get swapped"
+
+====================
+     04-20-2019
+====================
+
+26d8818a2 Pin HOME application
+e0bc5895c capricorn: use gcc-arm-8.3-2019.03
+4dee7724b fix SDCLANG_LTO_DEFS path
+06bb8ad20 vndk fixes 2
+
+====================
+     04-18-2019
+====================
+
+d660b1f7e hw-qcom-camera: Completed FR49059 and FR49058
+
+====================
+     04-17-2019
+====================
+
+df2c1e401 kernel: TARGET_KERNEL_USE_LLD := true
+3dae3a761 drop prebuilt Kiwi & Phonograph
+
+====================
+     04-15-2019
+====================
+
+2c2dbe70e add SysUI to PRODUCT_DEXPREOPT_SPEED_APPS
+
+====================
+     04-14-2019
+====================
+
+02bcf0fc4 vndk fixes
+278ea6c99 restore audio from jasmine_sprout
+
+====================
      04-08-2019
 ====================
 
