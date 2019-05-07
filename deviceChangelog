@@ -1,8 +1,50 @@
 ====================
-     04-22-2019
+     05-07-2019
 ====================
 
-5b49f7af0 try to build bromite again
+a142320310 Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' from https://source.codeaurora.org/quic/la/device/qcom/common
+4fff71cb76 Android 9.0.0 Release 37 (PQ3A.190505.002)
+
+====================
+     05-05-2019
+====================
+
+1d56c689dd gemini: Update fingerprint to latest stable V10.2.2.0.OAAMIXM
+
+====================
+     04-30-2019
+====================
+
+6155df6e9f update vendor_framework_compatibility_matrix.xml
+a4823fdbb8 capricorn: Add power off alarm service
+4be647a4e0 Revert "msm8996-common: sepolicy: Label sys.post_boot.parsed"
+0d08e09cc5 manifest: add android.hardware.wifi.offload
+
+====================
+     04-28-2019
+====================
+
+928a6c8a11 Add API to read the device SOC ID.
+c3d43d8aff update mixer_paths_tasha.xml from V10.2.2.0.OAAMIXM
+
+====================
+     04-26-2019
+====================
+
+3ce991aac9 build kernel with clang 9.0.3
+81cfc83d12 init.qcom.rc: label vendor services
+31294e6139 Add power off alarm service
+
+====================
+     04-25-2019
+====================
+
+0a0cfe2996 add PRODUCT_PACKAGE_OVERLAYS
+
+====================
+     04-23-2019
+====================
+
 09669a6e9 fix sepolicy warnings
 
 ====================
