@@ -1,8 +1,52 @@
 
 ====================
+     05-11-2019
+====================
+
+
+   * frameworks/base/
+2a5dcb14869c Support CALLBACK_TYPE_SENSOR_ROUTING
+4c6586400645 Revert "SystemUI: Add Cellular tile icon from OOS"
+c751452ff6c4 Keyguard: Don't listen for fingerprint when prox.sensor is covered
+e61b272d4ba1 show bt battery for all devices
+2b7d429bf20d change battery save color
+3bdc88028bdb fix answer from home key
+1e1253cfa6a1 toggle torch proximity check [1/2]
+5be094561703 proximity check for all wake keys
+8b46dc383f8e Havoc Build Date [1/2]
+2cf7c4ce06a4 fix button backlight
+2221c8157c24 fix priv-apps permissions
+ff1d2b1c66d9 for gemini: Revert "Revert "Proximity check on wake""
+dc1988c8ce23 Revert "hwui: Enable quicksilver"
+3f439014233c SystemUI: Fix notification lag
+0cc9ce5a0597 Fix translation derps
+
+   * packages/apps/HavocSettings/
+9305707 toggle torch proximity check [2/2]
+593e943 Rework hw button illumination
+1663aa6 Revert "Pocket judge"
+
+   * packages/apps/Settings/
+c373eec250 Havoc Build Date [2/2]
+8f88b766a3 DeviceInfoSettings: Bring back CAF/AOSP tags
+af45c7d1fa Revert "Revert "Settings: Add toggle for proximity wake""
+1ceb84b685 my colors
+8772b85d44 Settings: Smart Charging (2/4)
+4af6b3c5af Update Turkish translations
+
+====================
      05-10-2019
 ====================
 
+
+   * frameworks/base/
+910f16a6dc03 pocket: Allow to listen for fingerprint
+b67436c217d7 base: Smart Charging (1/4)
+fe2631fc0daa Android Q text clock Turkish translation
+a73cdc203b91 Fix Russian translation
+
+   * packages/apps/HavocSettings/
+d5825cd Update Turkish translations
 
    * packages/apps/SmartNavSettings/
 e8827d0 Fix typo in Turkish translation
@@ -16,98 +60,7 @@ e8827d0 Fix typo in Turkish translation
 98d2504a Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD
 
    * frameworks/base/
-8cf098072ba2 Support CALLBACK_TYPE_SENSOR_ROUTING
-57fea4042ba9 Revert "SystemUI: Add Cellular tile icon from OOS"
-4ef9144c0fb8 Keyguard: Don't listen for fingerprint when prox.sensor is covered
-225153eee119 show bt battery for all devices
-f16baaf83c5e change battery save color
-8b8274d5e76d fix answer from home key
-b25fec1055de toggle torch proximity check [1/2]
-aebae57d5c27 proximity check for all wake keys
-85c6cfdcc20d Havoc Build Date [1/2]
-11602f64e15e fix button backlight
-67c4f024c793 fix priv-apps permissions
-ec1a4f747cbe for gemini: Revert "Revert "Proximity check on wake""
-0a54d67ca1c2 Add Turkish language
-6cfe6ba8dbee Mini-fix Russian translation
-
-   * packages/apps/Bluetooth/
-5e9dd2a3 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Bluetooth into HEAD
-
-   * packages/apps/Camera2/
-477d68dc5 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Camera2 into HEAD
-
-   * packages/apps/CarrierConfig/
-af43f03 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
-
-   * packages/apps/CellBroadcastReceiver/
-0856286 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
-
-   * packages/apps/Contacts/
-bfa5ce8a8 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Contacts into HEAD
-
-   * packages/apps/Dialer/
-0a150306a Revert "Fix in-call buttons layout"
-
-   * packages/apps/DocumentsUI/
-4a94ca0e Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into HEAD
-
-   * packages/apps/EmergencyInfo/
-f2614ab Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/EmergencyInfo into HEAD
-
-   * packages/apps/HavocSettings/
-ebeccf3 Revert "Pocket judge"
-83d5f75 toggle torch proximity check [2/2]
-6516694 Rework hw button illumination
-4ff7db3 Update and typo fixed
-
-   * packages/apps/Nfc/
-688aa4b7 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Nfc into HEAD
-
-   * packages/apps/PackageInstaller/
-8abb14f7 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/PackageInstaller into HEAD
-
-   * packages/apps/Settings/
-adcef3f27b Revert "Revert "Settings: Add toggle for proximity wake""
-7368897317 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
-1df803b2c8 Havoc Build Date [2/2]
-a32e849063 DeviceInfoSettings: Bring back CAF/AOSP tags
-ee4d7776c4 my colors
-3f793804db Update Turkish language
-
-   * packages/inputmethods/LatinIME/
-fe1079fe5 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
-
-   * packages/providers/DownloadProvider/
-6644967 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into HEAD
-
-   * packages/providers/MediaProvider/
-4f41739 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD
-
-   * system/bt/
-9180f134f Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
-819d5b61e RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
-3fe933b4d Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
-
-   * system/core/
-f4132553c Allow adb root even in no debuggable builds
-
-   * vendor/support/
-593a8a6 add variables for buttom backlight
-
-====================
-     05-08-2019
-====================
-
-
-   * external/turbine/
-2eae284 Merge tag 'android-9.0.0_r37' into pie
-
-   * frameworks/av/
-871d171ec3 Merge tag 'android-9.0.0_r37' into pie
-
-   * frameworks/base/
-37cb75a20d91 Revert "hwui: Enable quicksilver"
+9a5735e92370 Fix derp on "Fix screen pinning unlock with hwkeys"
 af02dafd1d6c carrierlabel & left clock: Properly handle View Visibility
 97245b88ba94 Merge tag 'android-9.0.0_r37' into pie
 659aa372e4a7 LiveDisplay: Disable 'Reduce power consumption'
@@ -151,6 +104,74 @@ aea796be776d Initial support for OnePlus in-display fingerprint sensor
 a055923aa84c Lockscreen Visualizer: Automatic color based on wallpaper if no album art found
 63483fb38d97 Add lockscreen visualizer customization for solid lines [1/2]
 
+   * packages/apps/Bluetooth/
+5e9dd2a3 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Bluetooth into HEAD
+
+   * packages/apps/Camera2/
+477d68dc5 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Camera2 into HEAD
+
+   * packages/apps/CarrierConfig/
+af43f03 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
+
+   * packages/apps/CellBroadcastReceiver/
+0856286 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
+
+   * packages/apps/Contacts/
+bfa5ce8a8 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Contacts into HEAD
+
+   * packages/apps/Dialer/
+0a150306a Revert "Fix in-call buttons layout"
+
+   * packages/apps/DocumentsUI/
+4a94ca0e Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into HEAD
+
+   * packages/apps/EmergencyInfo/
+f2614ab Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/EmergencyInfo into HEAD
+
+   * packages/apps/HavocSettings/
+31541f7 Add new maintainer for Redmi 4 Prime
+c6163d9 Add nx531j to devices
+
+   * packages/apps/Nfc/
+688aa4b7 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Nfc into HEAD
+
+   * packages/apps/PackageInstaller/
+8abb14f7 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/PackageInstaller into HEAD
+
+   * packages/inputmethods/LatinIME/
+fe1079fe5 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
+
+   * packages/providers/DownloadProvider/
+6644967 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into HEAD
+
+   * packages/providers/MediaProvider/
+4f41739 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD
+
+   * system/bt/
+9180f134f Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
+819d5b61e RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
+3fe933b4d Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
+
+   * system/core/
+f4132553c Allow adb root even in no debuggable builds
+
+   * vendor/support/
+593a8a6 add variables for buttom backlight
+
+====================
+     05-08-2019
+====================
+
+
+   * external/turbine/
+2eae284 Merge tag 'android-9.0.0_r37' into pie
+
+   * external/wpa_supplicant_8/
+36dfa10a Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD
+
+   * frameworks/av/
+871d171ec3 Merge tag 'android-9.0.0_r37' into pie
+
    * frameworks/opt/net/wifi/
 b6fe3c4de Merge tag 'android-9.0.0_r37' into pie
 
@@ -176,8 +197,6 @@ f53751077 Merge tag 'android-9.0.0_r37' into pie
 aea52d0 Merge tag 'android-9.0.0_r37' into pie
 
    * packages/apps/HavocSettings/
-31541f7 Add new maintainer for Redmi 4 Prime
-c6163d9 Add nx531j to devices
 8629aea Settings: [2/2] Implement cutout force full screen
 4845d7b Revert "Revert "Pocket judge""
 
@@ -230,9 +249,6 @@ bd9b031cc lmkd: bump process priority and set to FOREGROUND group before kill
 ====================
 
 
-   * external/wpa_supplicant_8/
-36dfa10a Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD
-
    * hardware/havoc/interfaces/
 520c203 interfaces: Add 2.0 livedisplay interfaces
 
@@ -246,11 +262,6 @@ bd9b031cc lmkd: bump process priority and set to FOREGROUND group before kill
 
 ====================
      05-05-2019
-====================
-
-
-====================
-     05-04-2019
 ====================
 
 
