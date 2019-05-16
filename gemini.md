@@ -1,36 +1,131 @@
 
 ====================
+     05-16-2019
+====================
+
+
+   * external/sqlite/
+cc954ee sqlite: upgrade to SQLite 3.28.0
+
+   * frameworks/base/
+5cbeeb56520e Revert "hwui: Enable quicksilver"
+52c48bc81b50 SystemUI: Fix clicking battery icon in QS header
+6d4c6632d551 base: Add toggle to disable battery estimates in QS [1/2]
+
+   * packages/apps/Settings/
+9ef94508eb Settings: Add toggle to disable battery estimates in QS [2/2]
+3071dfd096 Settings: Add Q Green accent [2/3]
+a508b726ab Settings: Add Sweet Q Purple accent [2/3]
+
+====================
+     05-15-2019
+====================
+
+
+   * frameworks/base/
+06ad5054235e LiveDisplay tile: allow FEATURE_MANAGED_OUTDOOR_MODE
+82a23130e6ae Improve checks for lockscreen visualizer
+67f378a349be SystemUI: Improve Circle battery size
+0d33701ab6a2 SettingsLib: Increase Signal icon size
+d5abed856975 SystemUI: Improve battery estimate layout in QS
+36a7ead8b76f base: Add Q Green accent [1/3]
+4a26bdf6daf6 base: Add Sweet Q Purple accent [1/3]
+02f48c75f146 KeyguardUpdateMonitor: Fix SystemUI crash with auto face unlock
+7071a7daa42a Fix conflict between pulse auto color and lockscreen wallpaper
+38a3a9f402b4 Lockscreen Visualizer: Check for media playing before displaying artwork
+9f4d2a9956e8 Lockscreen Visualizer: Automatic color based on wallpaper if no album art found
+efcccaed78cc Update Turkish translations
+da7176dc1e4b base: Add seekbar to media notification
+fe96ed992c65 Q Always-On Display: Add double tap media slice to skip song
+442c2fc80b51 Q Always-On Display: Show media info in keyguard slice
+8b990d24dd12 SystemUI: Fix ambient music ticker double tap detection
+1a4d9b283706 base: Use headline font in notification texts
+9a7df1c69300 SystemUI: Use headline font in various parts
+cbefd388fc70 Fix weird artifact in battery icon
+f5f4b075cc3e Improve Q battery icon and unify with portrait style
+1e68302218b8 SettingsLib: Expose Q battery icon paths
+800bd85bc55f SystemUI: Implement enhanced battery estimates in QS
+
+   * vendor/themes/
+938c917 themes: Add Q Green accent [3/3]
+e8b5a2b themes: Add Sweet Q Purple accent [3/3]
+
+====================
+     05-14-2019
+====================
+
+
+   * frameworks/av/
+51a046ed70 Explicitly initialise base class in copy constructor
+
+   * frameworks/base/
+b4a4ab9ae432 SystemUI: Set proper color for battery text view
+5016d7ee783b base: Add Q style to battery icon chooser [1/2]
+aa20c35a248b Battery icon: Don't force show percentage
+060b13fad9aa Settings: inherit battery meter style in view [1/2]
+3559137908e8 BatteryMeterView: Fix logcat spam
+0ff74b7fde33 Battery icon style: improve text/hidden switch
+f5b1e68a20bd Battery icon: force show pct in QS header and when charging/powersave
+ce23aafedd5d Battery icon: show outside percentage on charging
+8cf773bac3d3 Text battery style: show a bolt ⚡ when charging
+2064e9228f3b SystemUI: clean up battery styles code
+b0ac58eb099b Add the powersave hint to the circle battery
+02a35117efe7 BatteryMeterDrawable: add dotted circle style (1/2)
+36e430a01699 BatteryMeterDrawable: add hidden option (1/2)
+040ad9d475fc BatteryMeterDrawable: add text style (1/2)
+39e1af5b0640 BatteryMeterDrawable: add battery styles
+c1cf0cf6a34a Implement battery percent styles (1/2)
+21d4775ad23b base: Cleanup battery styles implementation
+e9517c501117 CustomTextClock: Improvements and translations
+
+   * packages/apps/CarrierConfig/
+4c189b9 CarrierConfig: Enable VOLTE, WFC, VT on Singapore carriers
+
+   * packages/apps/Settings/
+7514d7a601 Update Turkish translations
+
+====================
+     05-13-2019
+====================
+
+
+   * packages/apps/HavocSettings/
+bfc78b8 Add montana to devices
+
+====================
+     05-12-2019
+====================
+
+   * bootable/recovery/
+214565e5 recovery: Mark unused variable
+
+   * frameworks/base/
+07523095420d base: SystemUI: fix themeing of notification shelf dot
+fb5f843c2614 Remove useless warning when dismissing notification
+8506599337ab KeyguardSliceView: Align as per the Clock Style
+a99fb871186b Don't force show battery percentage while charging or powersave
+ff1bbb393b86 Android Q text clock Portuguese translation
+a958d29cf6ce Update Turkish translations
+7184d38586d8 Android Q text clock Greek translation
+
+   * packages/apps/Settings/
+c274d5ae0e Update Russian translations
+
+====================
      05-11-2019
 ====================
 
 
    * frameworks/base/
-2a5dcb14869c Support CALLBACK_TYPE_SENSOR_ROUTING
-4c6586400645 Revert "SystemUI: Add Cellular tile icon from OOS"
-c751452ff6c4 Keyguard: Don't listen for fingerprint when prox.sensor is covered
-e61b272d4ba1 show bt battery for all devices
-2b7d429bf20d change battery save color
-3bdc88028bdb fix answer from home key
-1e1253cfa6a1 toggle torch proximity check [1/2]
-5be094561703 proximity check for all wake keys
-8b46dc383f8e Havoc Build Date [1/2]
-2cf7c4ce06a4 fix button backlight
-2221c8157c24 fix priv-apps permissions
-ff1d2b1c66d9 for gemini: Revert "Revert "Proximity check on wake""
-dc1988c8ce23 Revert "hwui: Enable quicksilver"
+c92c383d8d37 SystemUI: Fix NavBar tuner crash when using Oreo QS style
 3f439014233c SystemUI: Fix notification lag
 0cc9ce5a0597 Fix translation derps
 
    * packages/apps/HavocSettings/
-9305707 toggle torch proximity check [2/2]
-593e943 Rework hw button illumination
-1663aa6 Revert "Pocket judge"
+6d6235d Update Russian translations
+c2d18a4 Add Potter to devices
 
    * packages/apps/Settings/
-c373eec250 Havoc Build Date [2/2]
-8f88b766a3 DeviceInfoSettings: Bring back CAF/AOSP tags
-af45c7d1fa Revert "Revert "Settings: Add toggle for proximity wake""
-1ceb84b685 my colors
 8772b85d44 Settings: Smart Charging (2/4)
 4af6b3c5af Update Turkish translations
 
@@ -40,245 +135,8 @@ af45c7d1fa Revert "Revert "Settings: Add toggle for proximity wake""
 
 
    * frameworks/base/
-910f16a6dc03 pocket: Allow to listen for fingerprint
 b67436c217d7 base: Smart Charging (1/4)
-fe2631fc0daa Android Q text clock Turkish translation
-a73cdc203b91 Fix Russian translation
-
-   * packages/apps/HavocSettings/
-d5825cd Update Turkish translations
 
    * packages/apps/SmartNavSettings/
 e8827d0 Fix typo in Turkish translation
-
-====================
-     05-09-2019
-====================
-
-
-   * external/wpa_supplicant_8/
-98d2504a Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD
-
-   * frameworks/base/
-9a5735e92370 Fix derp on "Fix screen pinning unlock with hwkeys"
-af02dafd1d6c carrierlabel & left clock: Properly handle View Visibility
-97245b88ba94 Merge tag 'android-9.0.0_r37' into pie
-659aa372e4a7 LiveDisplay: Disable 'Reduce power consumption'
-a7c822b8166b SystemUI: Set proper color for battery text view
-7dd64e2b3202 Improvements for swipe to screenshot
-974e13d556ce Cutout force full screen: Remove fullscreen checks
-ca7289f032ab Android Q text clock Vietnamese translation
-a615e92e7cb0 Android Q text clock Russian translation
-99c92ab648a2 Android Q text clock Spanish translation
-a869526b2baa Android Q text clock Persian translation
-61e41cfe3e8c Pocket lock improvements
-e7a5e359d992 pocket: Don't show immersive mode confirmation when UI showing
-aacd27da7381 pocket: Fix pocket lock view for display cutouts
-75571eaabd4d pocket: Adjust sleep timeout for pocket lock view to 10 secs
-235de4c4a3eb pocket: introduce pocket bridge
-368fb959bb1a PocketService: Adjust light sensor rate to 400ms
-b6ac06ba1511 pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags
-bbc95934c038 policy: introduce pocket lock
-af68b0448769 pocket: introduce pocket judge
-6e89a6738b49 Revert "Proximity check on wake"
-b00b82e02d7e LiveDisplay: Disable by default
-ae247ab7dde9 LiveDisplay: don't start services if phone is encrypted
-c60248eff9e0 SystemUI: Add reading mode tile
-bdd50d730a1f SystemUI: Add LiveDisplay tile
-43549d33fea0 Introduce LiveDisplay from Lineage
-a463a989c1a5 fwb: [1/2] Implement cutout force full screen
-97845224c929 SystemUI: Change NFC icon
-09c6c33db250 Logo: fix warnings
-c1d415635537 SystemUI: Battery icon padding fixes
-81c1634e97ad SystemUI: Fix percentage issues with Q style battery icon
-0cc246b1115b QS: Add advanced location tile options
-cffcc04eb011 Revert "QS: LocationTile: make it cycle modes"
-e80875e07330 SystemUI: Enable/fix QS detail view & adapt to Pie
-bfd7a824c7ee Fix inaccurate power algorithm of mobile radio
-238e249ba6c1 Update Korean translation
-aadf30448246 base: Add Q style to battery icon chooser [1/2]
-7d4e27ac0ccc fod: dont show FP icons if FOD is in use
-fc5402667092 fod: prevent reapplying modes if theres no changes
-15d6f1500e25 fod: differentiate dreaming and pulse
-aea796be776d Initial support for OnePlus in-display fingerprint sensor
-a055923aa84c Lockscreen Visualizer: Automatic color based on wallpaper if no album art found
-63483fb38d97 Add lockscreen visualizer customization for solid lines [1/2]
-
-   * packages/apps/Bluetooth/
-5e9dd2a3 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Bluetooth into HEAD
-
-   * packages/apps/Camera2/
-477d68dc5 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Camera2 into HEAD
-
-   * packages/apps/CarrierConfig/
-af43f03 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
-
-   * packages/apps/CellBroadcastReceiver/
-0856286 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
-
-   * packages/apps/Contacts/
-bfa5ce8a8 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Contacts into HEAD
-
-   * packages/apps/Dialer/
-0a150306a Revert "Fix in-call buttons layout"
-
-   * packages/apps/DocumentsUI/
-4a94ca0e Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into HEAD
-
-   * packages/apps/EmergencyInfo/
-f2614ab Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/EmergencyInfo into HEAD
-
-   * packages/apps/HavocSettings/
-31541f7 Add new maintainer for Redmi 4 Prime
-c6163d9 Add nx531j to devices
-
-   * packages/apps/Nfc/
-688aa4b7 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Nfc into HEAD
-
-   * packages/apps/PackageInstaller/
-8abb14f7 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/apps/PackageInstaller into HEAD
-
-   * packages/inputmethods/LatinIME/
-fe1079fe5 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
-
-   * packages/providers/DownloadProvider/
-6644967 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into HEAD
-
-   * packages/providers/MediaProvider/
-4f41739 Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD
-
-   * system/bt/
-9180f134f Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
-819d5b61e RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
-3fe933b4d Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
-
-   * system/core/
-f4132553c Allow adb root even in no debuggable builds
-
-   * vendor/support/
-593a8a6 add variables for buttom backlight
-
-====================
-     05-08-2019
-====================
-
-
-   * external/turbine/
-2eae284 Merge tag 'android-9.0.0_r37' into pie
-
-   * external/wpa_supplicant_8/
-36dfa10a Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD
-
-   * frameworks/av/
-871d171ec3 Merge tag 'android-9.0.0_r37' into pie
-
-   * frameworks/opt/net/wifi/
-b6fe3c4de Merge tag 'android-9.0.0_r37' into pie
-
-   * hardware/nxp/nfc/
-0aa8b67 Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/Camera2/
-3d314109b Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/CarrierConfig/
-0a273b2 Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/CellBroadcastReceiver/
-a1c4dfe Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/Contacts/
-f53751077 Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/DocumentsUI/
-6087363c Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/EmergencyInfo/
-aea52d0 Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/HavocSettings/
-8629aea Settings: [2/2] Implement cutout force full screen
-4845d7b Revert "Revert "Pocket judge""
-
-   * packages/apps/Nfc/
-77004b0d Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/PackageInstaller/
-643a9971 Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/apps/Settings/
-d54031894b Merge tag 'android-9.0.0_r37' into pie
-ad8520a077 Revert "Settings: Add toggle for proximity wake"
-f3991fa9b3 Settings: Changes for LiveDisplay
-
-   * packages/inputmethods/LatinIME/
-d29bef2c2 Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/providers/DownloadProvider/
-145807f Merge tag 'android-9.0.0_r37' into pie
-
-   * packages/providers/MediaProvider/
-51de237 Merge tag 'android-9.0.0_r37' into pie
-
-   * prebuilts/r8/
-2cfede7 r8: Update D8 and R8 to 1.5.23-dev
-01b10b1 r8: Update D8 and R8 to 1.5.22-dev
-f988252 r8: Update D8 and R8 to 1.5.21-dev
-
-   * system/bt/
-ed00153ec Merge tag 'android-9.0.0_r37' into pie
-
-   * system/core/
-bd9b031cc lmkd: bump process priority and set to FOREGROUND group before kill
-468dccd34 Run BoringSSL self test during startup
-
-   * system/libhwbinder/
-307ab5e Merge tag 'android-9.0.0_r37' into pie
-
-   * system/netd/
-2af70af Merge tag 'android-9.0.0_r37' into pie
-
-   * system/tools/hidl/
-57e363b Merge tag 'android-9.0.0_r37' into pie
-
-   * system/vold/
-5017501 Merge tag 'android-9.0.0_r37' into pie
-
-====================
-     05-07-2019
-====================
-
-
-   * hardware/havoc/interfaces/
-520c203 interfaces: Add 2.0 livedisplay interfaces
-
-====================
-     05-06-2019
-====================
-
-
-   * packages/apps/Settings/
-1b07627044 Settings: Fix missing battery icon
-
-====================
-     05-05-2019
-====================
-
-
-   * packages/apps/Dialer/
-54387b536 Automatic translation import
-db23b54a8 Dialer: fix a few full screen photo issues
-0aab3cf1d Dialer: Add full screen photo option
-35052dab1 Make proxi sensor smart-case friendly
-52ded1e79 Fix incorrect proximity sensor behaviour
-
-   * packages/apps/HavocSettings/
-340ee0e Update Korean translation
-
-   * prebuilts/r8/
-6935423 r8: Update D8 and R8 to 1.5.20-dev
-dbbedca r8: Update D8 and R8 to 1.5.19-dev
-d0f904c r8: Update D8 and R8 to 1.5.18-dev
-7527f3d Update D8 and R8 to 1.5.12-dev
-5392e09 r8: Update D8 and R8 to 1.5.10-dev
 
