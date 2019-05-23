@@ -1,15 +1,94 @@
+
+====================
+     05-23-2019
+====================
+
+e92a4a48 overlays: move HavocSettings to havoc overlays
+016dbf7d msm8996: Add AUDIO_CHANNEL_IN_STEREO to BT SCO Headset Mic
+0ac3901a overlay: override sysfs nodes for smart charge
+a610e0e7 gps: Set SV in use mask based on final fixes
+1fc8c355 gps: fix CFI issues
+2de70d2a gps: Integer overflow leading to a buffer overflow
+3d8d42e5 gps: util to get get symbol from a library
+5a90276c rename some modules
+64c7b4df use QuickPic gallery mod
+d3e1adf4 caf tag: LA.UM.7.5.2.r1-02900-8x96.0
+
+====================
+     05-22-2019
+====================
+
+369ea695 BoardConfig: switch to gcc 9.1 for inline kernel building
+
+====================
+     05-21-2019
+====================
+
+354b4691 update sepolicy
+aeeebf5d gemini: build all modules with sdclang
+
+====================
+     05-20-2019
+====================
+
+0b4e62f0 Snapdragon LLVM Compiler for Android v8.0.6
+
+====================
+     05-19-2019
+====================
+
+3a6abb67 msm8996-common: sepolicy: Address qfp-daemon denials properly
+a962aec8 cparicorn: update overlays
+
+====================
+     05-18-2019
+====================
+
+8390ca04 gemini: convert to Android.bp
+9c7c6a0e move some variables to device.mk
+
+====================
+     05-14-2019
+====================
+
+
+====================
+     05-13-2019
+====================
+
+a1a7c159 mark /data/adb/modules as u:object_r:system_file:s0
+
+====================
+     05-12-2019
+====================
+
+
+====================
+     05-11-2019
+====================
+
+
+====================
+     05-10-2019
+====================
+
+47ec4516 caf tag: LA.UM.7.5.r1-04800-8x96.0
+
+====================
+     05-09-2019
+====================
+
+dfdee3b5 Android 9.0.0 Release 39 (PD2A.190115.032)
+d12538ea msm8996-common: Add 2 more notification icons
+11613cc9 Revert "Add power off alarm service"
+a4ab4cd2 Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' from https://source.codeaurora.org/quic/la/device/qcom/common
+
 ====================
      05-07-2019
 ====================
 
 a142320310 Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' from https://source.codeaurora.org/quic/la/device/qcom/common
 4fff71cb76 Android 9.0.0 Release 37 (PQ3A.190505.002)
-
-====================
-     05-05-2019
-====================
-
-1d56c689dd gemini: Update fingerprint to latest stable V10.2.2.0.OAAMIXM
 
 ====================
      04-30-2019
