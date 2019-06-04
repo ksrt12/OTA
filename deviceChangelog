@@ -1,3 +1,21 @@
+====================
+     06-04-2019
+====================
+
+274a518b update README
+b7eedd4c Android 9.0.0 release 42 (PQ3B.190605.006)
+6449ba2f Migrate to livedisplay 2.0
+0049ca85 audio: fix audio_policy_configuration copy path
+604db03f update .gitignore
+daf68f5e update dump sepolicy
+
+====================
+     06-01-2019
+====================
+
+9b68641d add CROSS_COMPILE_ARM32
+5a808516 update blobs from LA.UM.7.5.r1-04800-8x96.0
+87aec9b0 update overlays
 
 ====================
      05-23-2019
