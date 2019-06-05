@@ -1,62 +1,204 @@
+====================
+     06-05-2019
+====================
+
+   * frameworks/av/
+3092601cd6 Merge tag 'android-9.0.0_r42' into pie
+
+   * frameworks/base/
+a5e4ec936e60 Revert "hwui: Enable quicksilver"
+50eefdf08461 Merge tag 'android-9.0.0_r42' into pie
+473fc03cfbb1 KeyguardSliceProvider: Show dnd icon regardless of suppression mode
+4e7ac60ee9e5 Q Style Clock: Set "It's" to accent color instead of gold / yellow color
+
+   * packages/apps/CellBroadcastReceiver/
+e100c47 Merge tag 'android-9.0.0_r42' into pie
+
+   * packages/apps/Contacts/
+3088d1b0e Merge tag 'android-9.0.0_r42' into pie
+
+   * packages/apps/Dialer/
+c8040055f Revert "Fix in-call buttons layout"
+
+   * packages/apps/DocumentsUI/
+1ec25c71 Merge tag 'android-9.0.0_r42' into pie
+
+   * packages/apps/EmergencyInfo/
+c93fc34 Merge tag 'android-9.0.0_r42' into pie
+
+   * packages/apps/Nfc/
+2636c6df Merge tag 'android-9.0.0_r42' into pie
+
+   * packages/apps/PackageInstaller/
+ed8e1766 Merge tag 'android-9.0.0_r42' into pie
+
+   * packages/apps/Settings/
+a4555eefd9 Merge tag 'android-9.0.0_r42' into pie
+6758f9e75b Settings: Add battery saving mode for location
+03d669d057 livedisplay: Don't show display mode and color tempertature on HWC2
+76383f3983 Revert "Settings: Hide Night Mode suggestion if LiveDisplay feature is present"
+
+   * packages/inputmethods/LatinIME/
+40292fb36 Merge tag 'android-9.0.0_r42' into pie
+
+   * packages/providers/MediaProvider/
+b83152f Merge tag 'android-9.0.0_r42' into pie
+
+   * system/bt/
+dbb4e83f0 sdclang: true
+dd6509256 Merge tag 'android-9.0.0_r42' into pie
+
+   * system/libhwbinder/
+17d29d6 Merge tag 'android-9.0.0_r42' into pie
+
+   * system/vold/
+756a932 Merge tag 'android-9.0.0_r42' into pie
+
+====================
+     06-02-2019
+====================
+
+   * external/zlib/
+593a35c minizip: More build fixes
+99fc328 minizip: Clean up the code
+2c043d6 minizip: Fix build under Android 6.0 and higher
+39df7f0 zlib: enable unaligned memory access
+
+   * frameworks/base/
+0fbb84c08992 Revert "NightDisplayController: report unavailable if livedisplay feature is present"
+
+   * hardware/lineage/livedisplay/
+fd1713f sdm: Fix restoring default mode when using prebuilt vendor
+
+   * packages/apps/HavocSettings/
+015fa4f QS Headers: Fix summary and add missing entry
+
+   * prebuilts/r8/
+51b762f r8: Update D8 and R8 to 1.6.3-dev
+
+====================
+     05-31-2019
+====================
+
+   * frameworks/base/
+341fea02e78f BoostFramework: Trigger IOP at Displayed for duration.
+4f7b9cf349c5 Boostframework: Adding reserved hint types for launch boost
+90c200c88ec3 BoostFramework: Fix - Avoid Null Object Reference.
+31e61fc71b10 BoostFramework : Modified Start Proc trigger and added Kill Hint.
+806a56dd4a11 Revert "base: Add overlay for BoostFramework"
+2df9bfdc877f base: Use wireless charging animation for wired charging too
+d08585770fd7 Add toggle for charging animation [1/2]
+aa88a4ed4827 base: SystemUI: Fix qs-alpha conditions
+8a055c7a22a5 base: Set QS BG alpha even with set qs from resources [1/2]
+
+====================
+     05-29-2019
+====================
+
+   * packages/apps/HavocSettings/
+b92117f Add toggle for charging animation [2/2]
+34cc4e5 Settings: Set QS BG alpha even with set qs from resources [2/2]
+
+====================
+     05-27-2019
+====================
+
+   * frameworks/base/
+0eefaf881216 Q Style Clock: Make it fully translatable
+1ad102b2767f SystemUI: Cleanup keyguard_status_view layout
+5ee5018da97e CustomTextClock: Code style cleanups
+f07c3b2cae12 KeyguardStatusView: Cleanup pointless duplication
+ac14cd09211b CustomTextClock: Cleanup
+a03d881b7b70 base: Double tap to trigger doze [1/2]
+
+   * packages/apps/CustomDoze/
+c174fdf CustomDoze: Double tap to trigger doze [2/2]
+
+====================
+     05-26-2019
+====================
+
+   * external/jemalloc/
+5636650 Fix performance of multiple same size allocations
+0eb3b7d [HAX] background_threads: explictly disable libdl usage
+8bd657b jemalloc: update to version 5.2.0
+8d70d0c jemalloc: Further updates to code
+8e277a1 jemalloc: update to version 5.1.0
+
+   * frameworks/base/
+35982d769905 Add toggle for lockscreen weather and improve code
+d867b6c54b6d AmbientIndicationContainer: Fix crash when adding statusbar view
+3a1da5012866 HeadsUpAppearanceController: allow heads-up to draw beyond bounds
+
+   * packages/apps/HavocSettings/
+41d3596 Add toggle for lockscreen weather
+97f1afe Fix Vietnamese translation
+
+   * prebuilts/build-tools/
+7240fd8 build-tools: Update ccache to 3.7.1
+421a164 build-tools: Update the rest of the prebuilts
+1ef7c1f build-tools: Update ninja using latest source
+de8b5f7 build-tools: Rebuild for new glibc and sources
+
+   * system/netd/
+5170497 Skip permission checking for binder call from system server
+81c9f39 Modernize codebase by replacing NULL with nullptr
+
+====================
+     05-25-2019
+====================
+
+   * frameworks/base/
+612deefc5da5 Update Spanish translations
+cb541e7b4b4f Update French translations
+d07e4539c887 Update Spanish translations
+08f249233a0b Update Portuguese-BR translations
+e86e54b94db2 SystemUI: fix the behavior of QS with isDualTarget=true
+
+   * packages/apps/HavocSettings/
+cab175e Update Hungarian translations
+447469b Add new maintainer for tulip
+
+   * packages/apps/Settings/
+cd95dec45f Update French translations
+59a23b3b9d Update Russian translations
+60716d20dc Update Spanish translations
+9da0a58092 Settings: Update NFC drawable
+
+====================
+     05-24-2019
+====================
+
+   * frameworks/base/
+fc43176e9b3b Use headline font on battery percentage
+ba4ece075327 Fix NPE on navbar
+850708cb6e8c LiveDisplay: Improve sunrise/sunset calculator
 
 ====================
      05-23-2019
 ====================
-
-
-   * frameworks/base/
-3ab70c754fba Revert "HW: Fix Home button during call"
-5f5b5dfe601f Support CALLBACK_TYPE_SENSOR_ROUTING
-a79d0884d8c0 Revert "SystemUI: Add Cellular tile icon from OOS"
-a34afc035404 Keyguard: Don't listen for fingerprint when prox.sensor is covered
-b38438c1984c show bt battery for all devices
-726c4830d1bc change battery save color
-97cc9e3eacc0 fix answer from home key
-351b65366894 toggle torch proximity check [1/2]
-4f3c1182614f proximity check for all wake keys
-3445f081187e Havoc Build Date [1/2]
-dc92ca72b483 fix button backlight
-08bddb0bcf96 fix priv-apps permissions
-6259c1c4f3b3 for gemini: Revert "Revert "Proximity check on wake""
-dd30c04c7520 Revert "hwui: Enable quicksilver"
-
-   * packages/apps/Dialer/
-525c6c42d Revert "Fix in-call buttons layout"
-
-   * packages/apps/HavocSettings/
-1993d4c toggle torch proximity check [2/2]
-8833987 Rework hw button illumination
-618ef24 Revert "Pocket judge"
-e605974 Revert "Settings: : Make FP detection in pocket mode configurable [2/2]"
-033c75f Add a6000 in devices
-
-   * packages/apps/Settings/
-10fd28639c Havoc Build Date [2/2]
-2e6d9dca10 DeviceInfoSettings: Bring back CAF/AOSP tags
-5e656037c2 my colors
-a02f99ce1d Revert "Revert "Settings: Add toggle for proximity wake""
-
-   * system/bt/
-c7997373f Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
-bbcdce43f RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
-d6bcf2de9 Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
-
-   * system/core/
-e19da87df Allow adb root even in no debuggable builds
-
-   * vendor/support/
-de27e5c add variables for buttom backlight
-
-====================
-     05-22-2019
-====================
-
 
    * frameworks/base/
 7f93dc9d015b Add in camera action to bindable actions (1/2)
 16f8f894d250 HW: Fix Home button during call
 5fb97a207dba SmartActions: Turn on Tri-state ringer toggle [1/2]
 1ed16049fd5a SmartActions: Add media controls to bindable actions [1/2]
+
+   * packages/apps/HavocSettings/
+033c75f Add a6000 in devices
+
+   * packages/apps/SmartNav/
+97d8dce SmartActions: Add in camera action to bindable actions (2/2)
+920983b SmartActions: Turn on Tri-state ringer toggle [2/2]
+f02521b SmartActions: Add Play/Pause media to bindable actions [2/2]
+888b755 SmartNav: update smartbar home drawable
+b97a6ef SmartNav: Use correct colors for popup
+
+====================
+     05-22-2019
+====================
+
+   * frameworks/base/
 f6e7afa1266a Fixed auto-brightness first screen update
 6afc419556ea Smart Charging: allow using device overlays
 dca5ad082376 Smart Charging: rework for using more common sysfs node [1/2]
@@ -69,79 +211,15 @@ e2b390a39ca3 Fix NPE on ExpandableNotificationRow
 0c07c4a03b08 appops: put @hide back to opToDefaultMode
 d424bfbe1a35 ActivityThread: Remove Failed to find provider info logspam
 57df0e2bc97d LS Artwork: Intensify blur more to make Clock styles more prominent
+2b87e2de3eb4 CustomTextClock: Fix disappearing clock and SystemUI crash
 
    * packages/apps/HavocSettings/
 3223538 Add rosy in devices
 9ff9c99 Add YUREKA2 to devices
-
-   * packages/apps/SmartNav/
-97d8dce SmartActions: Add in camera action to bindable actions (2/2)
-920983b SmartActions: Turn on Tri-state ringer toggle [2/2]
-f02521b SmartActions: Add Play/Pause media to bindable actions [2/2]
-888b755 SmartNav: update smartbar home drawable
-b97a6ef SmartNav: Use correct colors for popup
 
    * prebuilts/r8/
 eab4308 r8: Update D8 and R8 to 1.6.1-dev
 
    * vendor/themes/
 de10d16 themes: Fix package name
-
-====================
-     05-21-2019
-====================
-
-
-   * frameworks/base/
-2b87e2de3eb4 CustomTextClock: Fix disappearing clock and SystemUI crash
-
-====================
-     05-20-2019
-====================
-
-
-   * frameworks/base/
-e61abc712a89 base: Optimize the size of statusbar icons
-24c3865d7870 Battery Estimates: Show only in QSB Header
-b741785c11fa SystemUI: Allow Pixel 3 live wallpapers to work in Ambient Display
-9c7aeb24d23b Lockscreen visualizer: Fix color transitions
-26087765d628 Revert "Q Always-On Display: Show media info in keyguard slice"
-5e26acb082c3 Revert "Q Always-On Display: Add double tap media slice to skip song"
-
-====================
-     05-19-2019
-====================
-
-
-====================
-     05-18-2019
-====================
-
-
-   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1/
-8f8b95b Add aarch64-elf GCC 9.1.0 toolchain for x86_64 hosts
-c615e81 Initial commit
-
-====================
-     05-17-2019
-====================
-
-
-   * frameworks/base/
-f4ce5749cad6 Battery Estimates: Disable by default [1/2]
-e9434d09fe54 Battery Estimates: Move battery icon to QS header when disabled
-61116db2f680 Aggressive Battery: fix auto enable on battery saver
-0bb14d1fcb2e base: SystemUI: make qs edit repect header image
-7e61cca7ce03 Revert "Network traffic: Retain our notch check"
-f4312b75048e LiveDisplay tile: allow override outdoor capablity
-
-   * hardware/havoc/interfaces/
-a8b523d havoc/interfaces: Remove lineage trust hal
-3dde4e9 havoc/interfaces: Remove lineage power hal
-f99f0f8 Init Havoc...
-
-   * packages/apps/Settings/
-d492b42374 Battery Estimates: Disable by default [2/2]
-3aa40abc7e Settings: Restart SystemUI when toggling battery estimates
-8fcef4284a Settings: Add User icon to the searchbar
 
