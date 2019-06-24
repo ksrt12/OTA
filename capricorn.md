@@ -1,42 +1,348 @@
 
 ====================
-     06-13-2019
+     06-25-2019
+====================
+
+
+   * build/make/
+295d584d9 dex2oat: disable multithreading for WSL
+f915cf5b4 Add detection for WSL
+3f14e9d03 Add the missing dependency on BOARD_PREBUILT_DTBOIMAGE.
+
+   * device/xiaomi/translations/
+0c7f6b8 update RU gaming mode translations
+
+   * vendor/havoc/
+2153e846 update Lawnchair to alpha-2181
+
+   * vendor/xiaomi/
+acd83cdc gemini: Add 60fps Video Recording
+2f93b815 add libsecureui.so
+044f84a6 add camera blobs from 8.11.22
+
+====================
+     06-24-2019
+====================
+
+
+   * build/make/
+99ed86d61 build: Respect fs_config when generating recovery ramdisk
+
+   * frameworks/base/
+d54003dbae4 SystemUI: Expose ambient music ticker bottom margin
+b05590dc5e0 SystemUI: Statusbar layout improvements
+bffada2d905 Allow SBC as HD audio codec in Bluetooth device configuration
+f3ba1ed2f8e Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+9bea6223bbc Add CHANNEL_MODE_DUAL_CHANNEL constant
+a7a2e5f8dfc Revert "Add Dual Channel into Bluetooth Audio Channel Mode developer options menu"
+01602607b6b base: Import Android Q activity animations
+69183cd2bea PhoneWindowManager: Set delay for screenshot shortcut to 0
+50cceca22fa AudioService: Remove Analog Dock from fixed-volume devices
+ac6c605044f Reduce the padding between media controls & seekbar
+4b3e0f87919 fwb: Improve AOSP twilight code
+03d40904670 LiveDisplayService: Disable ColorTemperature when NightDisplay is available
+5a70e8db431 GamingMode: add master switch [1/2]
+e6457044945 GamingMode: cleanup and fix a bit
+95d660b365e GamingMode: Rewrite implementation [1/2]
+c87940305d2 GamingMode: add more ringer modes [1/2]
+47c37cd2835 Gaming Mode: minor improvements
+e6984da5e3e base: FireHound Gaming [1/4]
+085dc0b026d Revert "Gaming Mode"
+3682dffcbb5 Add optional OP cam support
+d98f919be24 Revert "FB: Add oneplus camera support"
+2f1495c5606 base: notch-city: Don't work if the device doesn't have a cutout
+9ea3eba9d66 base: Add 5 more styles for qs
+76dcaf4ffe5 BatteryStatsImpl: Reset battery stats at 95 percent
+f4ac81a6750 Reload Pixel Home Animation without reboot
+ae09953a2c4 Pixel Navbar animation toggle [1/2]
+93861b232ed SystemUI: Add navigation touch animation support
+79a99f68ae5 SystemUI: Remove older Pixel Animation
+1d7c71a8f69 SystemUI: Fix several layout bugs
+
+   * packages/apps/Dialer/
+4db02d01e Revert "Fix in-call buttons layout"
+
+   * packages/apps/HavocSettings/
+8c026ad toggle torch proximity check [2/2]
+8d752ce Rework hw button illumination
+a338504 Revert "Pocket judge"
+5bf80ae Revert "Settings: : Make FP detection in pocket mode configurable [2/2]"
+
+   * packages/apps/Settings/
+fc14d4993b Support to notify connected/disconnected stations
+72cd52a6e5 Havoc Build Date [2/2]
+064fa7faf9 DeviceInfoSettings: Bring back CAF/AOSP tags
+31463692f1 my colors
+6dbdde8038 Revert "Revert "Settings: Add toggle for proximity wake""
+160bc0d3d6 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+db13cdfad6 Revert "Add Dual Channel into Bluetooth Audio Channel Mode developer options menu"
+be473b8991 Use a proper bool check for notification light color option
+dbc6a0387a fuelgauge: Fix NPE
+04fc272c39 Revert "Port "Battery Usage Alerts" feature from factory images"
+
+   * system/bt/
+96f2f0f17 Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
+3531a560d RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
+c0a109cb8 sdclang: true
+f5084a4ec Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
+080c11834 Allow using alternative (higher) SBC HD bitrates with a property
+450c9b9f1 Explicit SBC Dual Channel (SBC HD) support
+d11fba320 Increase maximum Bluetooth SBC codec bitrate for SBC HD
+1a3cab19b Revert "Increase maximum Bluetooth SBC codec bitpool and bitrate values"
+eeef36e66 Revert "Explicit SBC Dual Channel (SBC HD) support"
+64d931724 Revert "Allow using alternative (higher) SBC HD bitrates with a property"
+
+   * system/core/
+0d827ce6f Allow adb root even in no debuggable builds
+
+   * vendor/support/
+e9d91ab add variables for buttom backlight
+
+====================
+     06-23-2019
+====================
+
+
+   * packages/apps/HavocSettings/
+f70dccb Add OnePlus 7 Pro to devices
+a5e5935 Add Xiaomi Redmi 6 Pro (Sakura)
+
+   * system/sepolicy/
+ba555aadf sepolicy: Add missing entry for font service
+
+====================
+     06-22-2019
+====================
+
+
+   * external/expat/
+4f115d6 expat: update to version 2.2.7
+
+   * packages/apps/HavocSettings/
+0482ed3 Cutout force fullscreen: Disable fast scroller
+0267919 GamingMode: cleanup a bit
+029c013 GamingMode: add master switch [2/2]
+fe3e122 GamingMode: Rewrite implementation [2/2]
+
+   * system/sepolicy/
+57821a89a sepolicy: Add Google App build props
+102c06e4d system_server: allow writes to /proc/pid/*
+c474486d4 sepolicy: Add Label to f2fs sysfs files
+
+====================
+     06-21-2019
+====================
+
+
+====================
+     06-20-2019
+====================
+
+
+   * frameworks/native/
+818341590 Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' of https://source.codeaurora.org/quic/la/platform/frameworks/native into HEAD
+
+   * frameworks/opt/net/wifi/
+4114b3280 Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/wifi into pie
+
+   * hardware/qcom/audio-caf/msm8996/
+e1b7160b Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into 9.0
+
+   * hardware/qcom/media-caf/msm8996/
+da64591b Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into 9.0
+
+   * kernel/xiaomi/msm8996/
+d05907cfa913 Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' into drivers/staging/qcacld-2.0
+
+   * packages/apps/HavocSettings/
+e61b992 GamingMode: add more ringer modes [2/2]
+8b79848 Settings: Gaming Mode revamped [2/4]
+
+   * prebuilts/r8/
+213db48 r8: Update D8 and R8 to 1.6.7-dev
+
+   * vendor/codeaurora/telephony/
+c3b8339 Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into pie
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+2438644 Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie
+
+   * vendor/qcom/opensource/interfaces/
+642f3e3 Merge tag 'LA.UM.7.5.2.r1-03200-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie
+
+====================
+     06-19-2019
+====================
+
+
+   * build/make/
+79f160f78 Enable armv8-2a supporting on 2nd arch. variant
+
+   * build/soong/
+c1dd398a Support Qualcomm Kryo 385 CPU variant
+52b65925 Add to support armv8-2a on 2nd arch. variant
+fce1572d Move arch variants registering code to arch.go
+5119a1a5 Configure the default arch variant features per-OS
+
+   * hardware/interfaces/
+d53190555 Merge tag 'LA.UM.7.6.2.r1-09100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into 9.0
+
+   * hardware/qcom/bt-caf/
+dd952b3 Merge tag 'LA.UM.7.6.2.r1-09100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/bt into 9.0
+
+   * system/core/
+e33f6900b fs_mgr: Add MF_WRAPPEDKEY flag
+
+   * system/netd/
+ddc03c7 Copy queries synchronously in DnsTlsSocket
+
+   * system/vold/
+19b3a91 vold: change to upgrade key if export fails
+aa677ab vold: add support for clear key
+3410a89 vold: Use separate flag for wrappedkey
+
+   * vendor/havoc/
+efc39b3a apn: Update German carriers
+257a4033 repopick: cmp() is not available in Python 3, define it manually
+d4d3bda1 apns: Update Singapore's APNs
+5dd7d4ad charger: add 400dpi symlink
+5a6442e4 update Lawnchair to alpha-2152
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+cbf62bc Merge tag 'LA.UM.7.6.2.r1-09100-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie
+
+====================
+     06-18-2019
+====================
+
+
+   * build/soong/
+fad7bd77 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * device/xiaomi/gemini/
+bb471fd7 rebase rootdir
+2913e215 update sepolicy
+06f678e7 msm8996-common: readmac: Convert symbolic permissions to octal
+
+   * frameworks/av/
+8fa5a24668 CameraService: Default to HAL1 for OPCam if not specified
+
+====================
+     06-17-2019
+====================
+
+   * art/
+7503577a73 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/art into pie
+
+   * bionic/
+109dc8aa5 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/bionic into pie
+dc015cebe Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/bionic into pie
+
+   * build/make/
+f3400eb64 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/build into HEAD
+
+   * frameworks/native/
+c91cc94ee [SF] Fix unittest crash
+
+   * system/sepolicy/
+f5203d137 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/system/sepolicy into pie
+
+   * vendor/xiaomi/
+bcf90aa2 capricorn: revert back to stock sensors
+
+====================
+     06-16-2019
+====================
+
+
+   * device/xiaomi/gemini/
+39d26384 capricorn: revert back to stock sensors
+25f27c28 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/device/qcom/common into 9.0
+
+====================
+     06-15-2019
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+da6cf741 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into 9.0
+
+   * hardware/qcom/display-caf/msm8996/
+ce561239 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into 9.0
+
+   * hardware/qcom/media-caf/msm8996/
+e2c18e87 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into 9.0
+
+   * hardware/qcom/wlan-caf/
+6f7406d Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/wlan into 9.0
+
+   * kernel/xiaomi/msm8996/
+7166310c581f Merge tag 'LA.UM.7.5.r1-05300-8x96.0' into drivers/staging/qcacld-2.0
+4dd3c77e97c2 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
+
+   * packages/services/Telecomm/
+f42d9e02 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telecomm into HEAD
+
+   * packages/services/Telephony/
+1b3b39af8 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telephony into HEAD
+5e8a96ec4 Telephony: Remove duplicate definition
+
+   * system/sepolicy/
+5ac083a7a Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/system/sepolicy into pie
+
+   * vendor/qcom/opensource/audio/
+7278b4c Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into pie
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+bbf5baa Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie
+
+   * vendor/qcom/opensource/interfaces/
+606ba09 Merge tag 'LA.UM.7.5.r1-05300-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie
+
+====================
+     06-14-2019
 ====================
 
 
    * bionic/
-53f03e4ec Revert "Revert "Remove __overloadable/__RENAME_CLANG""
-6076c1891 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/bionic into HEAD
+b60dbb09b Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/bionic into pie
 
    * device/qcom/sepolicy/
 0d1764ba Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into 9.0
 
-   * device/xiaomi/gemini/
-edaf4586 capricorn: revert back to stock sensors
-d027de56 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/device/qcom/common into 9.0
+   * device/xiaomi/translations/
+e776f7d update RU 20190613
+
+   * frameworks/native/
+b1d2e195a Merge c8288466da5169f6bfc50cc72cd9df5cb32a069f on remote branch
 
    * frameworks/opt/net/ims/
 85a0433 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into pie
 
    * frameworks/opt/net/wifi/
+340f25a36 Merge 0eaec84e98bf76cc9aa6272658f3fa738ce46899 on remote branch
 5da0d6922 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/wifi into pie
 
    * frameworks/opt/telephony/
 0e8baa5444 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into HEAD
 
    * hardware/interfaces/
+8555daa7b Merge 2f57e8e3ad3588e10bbbcd56c22c03c7c78e5e0e on remote branch
 e6b2eddfe Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into HEAD
 
    * hardware/qcom/audio-caf/msm8996/
+a1bb2f59 Merge 3d42a81fd26cf94ab1e00ca37e96f7b3ff56f898 on remote branch
 ce982b62 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into HEAD
 
    * hardware/qcom/bt-caf/
+989ebd0 Merge b7bdccd743d37f592cf4e407c5ae9c9e1f130043 on remote branch
 aa6520b Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/bt into HEAD
 
    * hardware/qcom/display-caf/msm8996/
 1b1da616 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into HEAD
 
    * hardware/qcom/media-caf/msm8996/
+6512165b Merge 5029253b815df1b49da827dbd5514a6f3c87e3c1 on remote branch
 09dac8a2 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into HEAD
 
    * hardware/qcom/wlan-caf/
@@ -45,21 +351,8 @@ aa6520b Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org
    * hardware/ril/
 9a16b612 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/ril into HEAD
 
-   * packages/apps/Dialer/
-d9e30ab5a Revert "Fix in-call buttons layout"
-
-   * packages/apps/HavocSettings/
-41d1718 toggle torch proximity check [2/2]
-b1f0a15 Rework hw button illumination
-c705cf9 Revert "Pocket judge"
-1b83811 Revert "Settings: : Make FP detection in pocket mode configurable [2/2]"
-
-   * packages/apps/Settings/
-6c7843b7a5 Support to notify connected/disconnected stations
-fef7660af7 Havoc Build Date [2/2]
-f8610440f7 DeviceInfoSettings: Bring back CAF/AOSP tags
-8efc4ad38a my colors
-4672fd75b3 Revert "Revert "Settings: Add toggle for proximity wake""
+   * kernel/xiaomi/msm8996/
+7fa073eeb83a Merge 78aa41ba569c485b91955fc5c0eb3e075fc3ee30 on remote branch
 
    * packages/services/Telecomm/
 694866f4 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telecomm into HEAD
@@ -67,206 +360,16 @@ f8610440f7 DeviceInfoSettings: Bring back CAF/AOSP tags
    * packages/services/Telephony/
 35862ae79 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telephony into HEAD
 
-   * system/bt/
-7edd09359 Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
-54cdcd18e RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
-db7d9b756 sdclang: true
-45c6a1712 Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
-
-   * system/core/
-fa2dfabaf Allow adb root even in no debuggable builds
-
    * system/sepolicy/
 e0904cb19 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/system/sepolicy into pie
 
-   * vendor/support/
-afb614c add variables for buttom backlight
-
-   * vendor/xiaomi/
-e9c6c1bd Revert back to stock sensors
-
-====================
-     06-12-2019
-====================
-
-
-   * external/freetype/
-88fa80fa freetype: update to version 2.10.0
-
-   * external/vim/
-fc4e70ca5 vimrc.android: Set nomodeline
-
-   * frameworks/base/
-f82b87ed95c8 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/frameworks/base into HEAD
-
-   * system/qcom/
-54c6bea fix build warnings
-
-   * vendor/havoc/
-1ffdc5f3 update Lawnchair to alpha-2112
-
-====================
-     06-11-2019
-====================
-
-
-   * device/xiaomi/gemini/
-55e5e082 add vendor.lineage.livedisplay to vendor_framework_compatibility_matrix.xml
-
-   * frameworks/base/
-576f83aa0ed8 fix
-37524965f02d wifi: Add wifi latency level API to WifiManager
-eca56ed280ae wifi: Support to add vendor based Intent namespace
-31703d98e8f4 Wifi: Define DATA_STALL intent to broadcast message
-727a3e95ffad wifi: Notify Connected/Disconnected Mac address on hotspot
-4bab90088e69 Wifi: Send DHCP DISCOVER with rapid commit
-b20155920eb4 Wifi: Add support for repeater mode
-506895b3317a base: add support for SAP+SAP.
-ad924e7196ad Wifi: Allow saving sim_num for EAP-SIM/AKA/AKA_PRIME configurations
-3e326462f811 framework: Add Wifi Simple Configuration support
-d916ea9e9d64 framework: Add WiFi Display R2 device info
-4d9d03f65647 wifi: Add APIs and keymgmt to support WPA3(DPP,SAE,OWE,SuiteB).
-ed97eb18df1a Wifi: Add FILS support in WifiConfiguration
-
-   * frameworks/opt/net/wifi/
-9a289059c Revert "Disable hostapd during wifi initialization."
-b787217d4 Revert "DO NOT MERGE Add data integrity checking for wifi passwords"
-6fcda2bfa Merge tag 'LA.UM.7.5.2.r1-02900-8x96.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/wifi into HEAD
-
    * vendor/codeaurora/telephony/
-61b747c Merge tag 'LA.UM.7.4.r1-05300-8x98.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into HEAD
-
-   * vendor/qcom/opensource/audio/
-fc759a6 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into HEAD
+132f6f2 Merge 3b08f080ab3df40fa80a17d6d01ae3c61fc429ff on remote branch
 
    * vendor/qcom/opensource/data-ipa-cfg-mgr/
-2b41bd3 Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into HEAD
+62e6d45 Merge 298c2caf64ef3efe78430542a5c2852738f50287 on remote branch
+1f4b771 Merge 298c2caf64ef3efe78430542a5c2852738f50287 on remote branch
 
    * vendor/qcom/opensource/interfaces/
-0256dfa Merge tag 'LA.UM.7.6.2.r1-08800-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into HEAD
-
-====================
-     06-10-2019
-====================
-
-
-   * frameworks/base/
-6b08c83e1165 Support CALLBACK_TYPE_SENSOR_ROUTING
-cd66dc3609e5 Revert "SystemUI: Add Cellular tile icon from OOS"
-6c970393d96d Keyguard: Don't listen for fingerprint when prox.sensor is covered
-6ef20e8b7cd7 show bt battery for all devices
-604055af24a2 change battery save color
-8b6942971341 fix answer from home key
-2db5080674a6 toggle torch proximity check [1/2]
-1a27b3018ed8 proximity check for all wake keys
-c0797a755ec8 Havoc Build Date [1/2]
-e63801109b42 fix button backlight
-5ba57310b8ae fix priv-apps permissions
-fab5130d96cc for gemini: Revert "Revert "Proximity check on wake""
-28d1664c669d Revert "HW: Fix Home button during call"
-
-   * packages/apps/Bluetooth/
-b381d3bf Merge branch '9.0' of https://github.com/syberia-   */platform_packages_apps_Bluetooth into HEAD
-
-====================
-     06-09-2019
-====================
-
-
-   * bionic/
-41932b7de bionic: Enable -O3
-e9cad93c8 bionic: update for glibc 2.17
-968772988 bionic: update for using jemalloc 5+
-
-   * external/nano/
-ae26fda9 nano: Regenerate config.h
-9f2c790e nano: fix another implicit declaration of time()
-
-   * external/vim/
-00fa77daa vim: Add spacehi plugin
-96dfaad56 vim: Update xml plugin
-1a97a0904 vim/syntax: Add android logcat syntax
-c1e3494c6 vim: Add autogenerated configs
-1f66998d1 vim: Don't ingore generated configs
-dad7e0af5 vim: Import Android makefiles
-ac2450a9a patch 8.1.1511: matches in a popup window are not displayed properly
-80dad48c5 patch 8.1.1510: a plugin cannot easily expand a command like done internally
-954bb0636 patch 8.1.1509: cmdline_row can become negative, causing a crash
-541faf7a7 patch 8.1.1508: sound keeps failing on Travis
-a90998d93 patch 8.1.1507: sound test still fails on Travis
-b29cfb8c2 patch 8.1.1506: syntax error in Travis config
-8ed75cb0b patch 8.1.1505: running "make clean" twice gives errors
-ef23c527b patch 8.1.1504: sound test still fails on Travis
-ffa60dda0 patch 8.1.1503: sound test fails on Travis
-427f5b66c patch 8.1.1502: cannot play any sound
-
-   * packages/apps/HavocSettings/
-71633d2 Add Xiaomi Redmi Note 7 (lavender)
-
-====================
-     06-08-2019
-====================
-
-
-   * device/xiaomi/gemini/
-359a0368 update com.android.vending privapp-permissions
-
-   * external/vim/
-260addf79 patch 8.1.1501: new behavior of b:changedtick not tested
-21f8d93c7 patch 8.1.1500: wrong shell command when building with VIMDLL and "!" in 'go'
-24a5ac5d4 patch 8.1.1499: ruler not updated after popup window was removed
-c024b4667 patch 8.1.1498: ":write" increments b:changedtick even though nothing changed
-aef5c62a6 patch 8.1.1497: accessing memory beyond allocated space
-acc682bd7 patch 8.1.1496: popup window height is not recomputed
-1748c7f77 patch 8.1.1495: memory access error
-6c009a397 patch 8.1.1494: build failure
-33796b39b patch 8.1.1493: redrawing with popups is slow and causes flicker
-7c348bb5a patch 8.1.1492: MS-Windows: when "!" is in 'guioptions' ":!start" fails
-606407384 patch 8.1.1491: when skipping over code a function call may cause trouble
-4e0bf8462 patch 8.1.1490: when a single test fails the exit code is not set
-
-   * frameworks/base/
-043ab77f0d89 Revert "hwui: Enable quicksilver"
-8dc5c5e6d2d1 Q Style Clock: Animate change in time
-b554e35f8ded Q Style Clock: Align owner info as per the clock style
-f3fa721e83a7 SystemUI: Fix analog clocks not refreshing in AOD
-cd913a82b857 Utils: Introduce method to determine countries that use Fahrenheit
-f28cca15b3e3 Utils: Add method to determine battery temp
-8744d702c6dc base: Add toggle to disable charging animation [1/2]
-
-   * frameworks/opt/net/ims/
-1f10d68 Merge tag 'LA.UM.7.5.2.r1-02900-8x96.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into pie
-
-   * frameworks/opt/net/wifi/
-c42164527 Merge tag 'android-9.0.0_r42' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into HEAD
-
-   * hardware/qcom/fm/
-2140e05 Automatic translation import
-
-   * packages/apps/FMRadio/
-b74e30b Automatic translation import
-
-   * packages/apps/HavocSettings/
-682d3cb Add new maintainer for GSIs
-adb83b0 Settings: Add toggle to disable charging animation [2/2]
-
-   * packages/apps/Settings/
-82db524638 Settings: Add drawable for Private DNS
-9d93f715b4 Battery temp: Use MCC to determine the scale type
-40563cc6c3 Battery temp: Ensure preference is updated
-8e8d5d4b1d Battery stats: Display battery temperature
-
-   * packages/apps/Terminal/
-4a764c0 Automatic translation import
-
-====================
-     06-07-2019
-====================
-
-
-   * external/vim/
-64416127f patch 8.1.1489: sign order wrong when priority was changed
-150f0550f patch 8.1.1488: summary of tests has incorrect failed count
-62a88f498 patch 8.1.1487: older msgfmt cannot generate proper .desktop file
-125370459 patch 8.1.1486: a listener change is merged even when it adds a line
+147d103 Merge 93071bf7476a2fe0bfb1f42074d19af7975425e2 on remote branch
 
