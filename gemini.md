@@ -1,26 +1,523 @@
 
 ====================
-     07-05-2019
+     07-18-2019
 ====================
 
 
    * device/xiaomi/gemini/
-d8033cd3 Android 9.0.0 Release 45 (PQ3B.190705.003)
+cbe62860 update priv_app sepolicy
+e559f1f9 add snapcam priv-app permissions
+1a22e353 Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' into 9.0
 
-   * external/freetype/
-883523e7 freetype: update to version 2.10.1
+   * frameworks/base/
+196d6839a94 wifi: Filter unsupported networks from scan results
+c8783a6dbe4 Wifi: Connect indication on UI for STA when AP supports SAE+PSK
 
-   * frameworks/native/
-98e204332 Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/frameworks/native into pie
+   * frameworks/opt/net/wifi/
+524f3e98a Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/wifi into pie
+
+   * frameworks/opt/telephony/
+d9c81fa23b Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into HEAD
+
+   * hardware/interfaces/
+60df6dd80 Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into 9.0
 
    * hardware/qcom/audio-caf/msm8996/
-996a0a40 Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into 9.0
+979aa2e7 Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into 9.0
+
+   * hardware/qcom/bt-caf/
+fa39bcc Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/bt into 9.0
 
    * hardware/qcom/display-caf/msm8996/
-55184b8e Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into 9.0
+aed97947 Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into 9.0
 
    * hardware/qcom/media-caf/msm8996/
-64be1662 Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into 9.0
+82b1c1ad Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into 9.0
+
+   * kernel/xiaomi/msm8996/
+4b9eca1dbcbc Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' into drivers/staging/qcacld-2.0
+
+   * vendor/qcom/opensource/audio/
+6c72725 Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into pie
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+2fa4b28 Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie
+
+   * vendor/qcom/opensource/interfaces/
+4d73d69 Merge tag 'LA.UM.7.5.2.r1-03300-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie
+
+====================
+     07-17-2019
+====================
+
+
+   * vendor/havoc/
+69574b39 update prebuilt apps
+
+====================
+     07-16-2019
+====================
+
+   * art/
+37b0c5e2f1 oatdump: Only compile CompactDex conversion for host
+755171d29e oatdump: Convert CompactDex to StandardDex before exporting
+
+   * external/skia/
+fbc77220c5 Add private save-behind and draw-behind methods to canvas.
+780f94a577 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/external/skia into pie
+
+   * frameworks/base/
+6e369bdd7f4 GamingMode: Fix unnecessary unloading of gaming mode
+ea9ea9904db MusicTile: Clean up redundant code
+31ae1f2143e Improve performance of unclipped save layers.
+8e257625331 base: Add Gaming Mode icons from OOS
+480861a3f65 Aggressive Battery: Improve value substitution
+e11a7a7af1e Guard in short-circuit evaluations for stringSplit methods
+d2674eedef0 GamingMode: allow disable navigation gestures [1/2]
+5b3f832bdde GamingModeTile: Long press to open settings [1/2]
+36eba01ac6c base: Add Gaming mode tile
+1e2d58c47f9 GamingMode: Exempt calls and alarms when headsup disabled
+9b6d0b8beab core: Import more animations from Android Q
+ae42c3ae424 SystemUI: Disable wellbeing grayscale tile if reading mode available
+4c3b20c3316 LiveDisplay: Refactor for HWC devices and cleanup
+e5789c10b81 Revert "SystemUI: Add LiveDisplay tile"
+4ed2b1a2019 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/frameworks/base into pie
+
+   * frameworks/opt/net/ims/
+f047cdf Merge branch 'pie-gsi' of https://android.googlesource.com/platform/frameworks/opt/net/ims into pie
+
+   * packages/apps/Dialer/
+d5d1ef657 Revert "Fix in-call buttons layout"
+
+   * packages/apps/HavocSettings/
+eb06423 toggle torch proximity check [2/2]
+ea8fc68 Rework hw button illumination
+44d53c1 Revert "Pocket judge"
+a7cb375 Revert "Settings: : Make FP detection in pocket mode configurable [2/2]"
+
+   * packages/apps/Settings/
+337bbbee29 Support to notify connected/disconnected stations
+87fbab07ad Havoc Build Date [2/2]
+b1016017e2 DeviceInfoSettings: Bring back CAF/AOSP tags
+0d7a1b5d23 my colors
+df95413012 Revert "Revert "Settings: Add toggle for proximity wake""
+
+   * packages/services/Telecomm/
+2b6280f1 Merge branch 'pie-gsi' of https://android.googlesource.com/platform/packages/services/Telecomm into pie
+
+   * system/bt/
+4f2602e61 Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
+96f6eba6f RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
+4806fab69 sdclang: true
+38fa15e14 Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
+
+   * system/core/
+7bc7ce328 Allow adb root even in no debuggable builds
+
+   * vendor/havoc/
+751160af vendor: Dynamically add custom APNs
+dfbd9bde common: Add getcap/setcap to PRODUCT_PACKAGES
+
+   * vendor/support/
+4125e3c add variables for buttom backlight
+
+====================
+     07-15-2019
+====================
+
+
+   * packages/apps/HavocSettings/
+9620bcb Use SeekBar for OP gestures feedback duration
+5af7426 Settings: Improve a few strings
+e972e46 GamingMode: Allow disable navigation gestures [2/2]
+0b35939 GamingMode: Move game add summary at bottom
+8802e91 GamingMode: Disable modifying settings when GamingMode is turned on
+
+====================
+     07-14-2019
+====================
+
+
+   * kernel/xiaomi/msm8996/
+377bad6c74ea ext4 crypto: Avoid dynamically allocating memory for file names
+5737f06bff98 ANDROID: sdcardfs: Allocate temporary name buffer on the stack
+
+   * system/core/
+56d74c085 fs_mgr_fstab: Add Adiantum support
+ff07f4613 Revert "Support Speck encryption."
+
+   * system/vold/
+61facd5 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+====================
+     07-13-2019
+====================
+
+
+   * bootable/recovery/
+6136f9dd Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * build/blueprint/
+6c23f79 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * build/kati/
+69cb715 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * build/soong/
+eca3f313 Give Blueprint modules access to all namespaces
+
+   * development/
+9b8a35f8e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/f2fs-tools/
+bd0159a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/fsck_msdos/
+8eea348 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/icu/
+c555ad468 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/jemalloc/
+3c5b1fb Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * external/proguard/
+56c2bf7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/turbine/
+4cba3b5 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * frameworks/av/
+a768b60268 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * frameworks/support/
+63e2472598 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * hardware/broadcom/wlan/
+9610886 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/havoc/interfaces/
+7d39191 Introduce camera motor hal
+
+   * hardware/nxp/nfc/
+6ea5be3 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * hardware/qcom/data/ipacfg-mgr/
+7367dc7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/gps/
+a62882c9 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Camera2/
+741cefaa1 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/CarrierConfig/
+b45beb0 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/CellBroadcastReceiver/
+43089af Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/Contacts/
+1c882fb88 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/DocumentsUI/
+664edc29 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/EmergencyInfo/
+d666d24 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/Nfc/
+5fea3075 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/PackageInstaller/
+615aabbc Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/apps/Settings/
+2afaa963c3 BatteryUtils: Show anomalies of pre-O apps
+22a1af3091 GamingMode: Long press tile to open settings [2/2]
+d50018b91b LiveDisplay: Refactor
+448c5a55c8 LiveDisplay: Rebrand to keep consistency
+2a73fcb4bb LiveDisplaySettings: Fix outdoor mode preference on hwc2
+79995fcde4 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/inputmethods/LatinIME/
+7117b96ce Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/providers/DownloadProvider/
+fed244c Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * packages/providers/MediaProvider/
+2a3ab8e Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * system/bt/
+f5b67d1e4 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * system/core/
+569b60869 tombstoned: fixed tombstones failed issue
+416039080 health: Add CAP_WAKE_ALARM to service via init
+7c79b7ba2 Fix two clang-tidy issues in crasher.cpp.
+564a7f79d Add native vsock support to ADB.
+
+   * system/extras/
+64531acb Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * system/libhwbinder/
+26a8e76 Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * system/netd/
+b3d581f Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * system/timezone/
+de4a2bf Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/tools/hidl/
+843066d Merge remote-tracking branch 'aosp/pie-gsi' into pie
+
+   * system/update_engine/
+5be3b00 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * vendor/havoc/
+3e596962 update Lawnchair to alpha-2319
+
+====================
+     07-12-2019
+====================
+
+
+   * external/nano/
+1d23c7f7 nano: Zero entire struct sigaction struct
+5f71cf2e nano: Bump PACKAGE_STRING to 4.3 too
+
+   * frameworks/av/
+c24c924da9 CameraService: Support hooks for motorized camera
+
+====================
+     07-11-2019
+====================
+
+
+   * external/nano/
+37aec986 Properly 0 initialize sigaction
+10fe4835 Merge tag 'v4.3' into HEAD
+
+   * kernel/xiaomi/msm8996/
+1f5d51b1f324 qcacld-2.0: limit time for scan when miracast is running
+
+====================
+     07-10-2019
+====================
+
+
+   * frameworks/base/
+f43265ba00a SystemUI: Protect against terrible music players
+266e6c68dac perfLock: Enable ActivityBoost
+2d685898458 Prevent crash in TTS engine due to improper configuration
+
+   * frameworks/opt/net/wifi/
+949794745 Merge 11660e39288d6f63a017fd92dade956de8746176 on remote branch
+
+   * frameworks/opt/telephony/
+3baad630a5 Merge b2cba5ec1e7dc77ad76c136f31aab57bc927ce4e on remote branch
+
+   * hardware/interfaces/
+64020a935 Merge 2f57e8e3ad3588e10bbbcd56c22c03c7c78e5e0e on remote branch
+
+   * hardware/qcom/audio-caf/msm8996/
+a638831c Merge 880800db1da4ae6b90e0670e65af240bbbc66f49 on remote branch
+
+   * hardware/qcom/bt-caf/
+9cd3b55 Merge b7bdccd743d37f592cf4e407c5ae9c9e1f130043 on remote branch
+
+   * hardware/qcom/display-caf/msm8996/
+30c4250c Merge b361ad8b63a12b11bbadd6adca4ffcb632bba8dc on remote branch
+
+   * hardware/qcom/media-caf/msm8996/
+96d2d1e4 Merge 429b73b3990f743f16b292cbd6a78ccfb80b1222 on remote branch
+
+   * kernel/xiaomi/msm8996/
+b70247d7b061 Merge f66a9554da973ef80498e3f0a6547fa31a7b9872 on remote branch
+
+   * prebuilts/r8/
+1e2b56a r8: Update D8 and R8 to 1.6.13-local
+efa16a4 Fix d8 and r8-compat-proguard scripts to handle quoted options
+63493ac Provide 2GB of heap space to the Java VM when running D8 and R8
+
+   * vendor/qcom/opensource/audio/
+18ed1b6 Merge 97376a9080990e1bd2929eb865f691b8e9b7f37e on remote branch
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+a95d12a Merge 98278cbab83c8bc876c7c6f041576de599233fb3 on remote branch
+
+   * vendor/qcom/opensource/interfaces/
+cfc0872 Merge b2d3ce3b31cdf6090b88ed7623262af69379b893 on remote branch
+
+====================
+     07-09-2019
+====================
+
+
+   * development/
+ff5079718 Merge "Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b" into pie-gsi
+6207d9d0c Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b
+8ef31cb46 Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release
+
+   * external/icu/
+bd4c5fe40 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release am: 16b3c0277e
+b9cd61962 Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release am: a63df92ad9
+16b3c0277 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release
+
+   * external/skia/
+1193a855ff Merge "Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202" into pie-gsi
+afe8ba9906 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202
+9d46f09202 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release
+
+   * frameworks/av/
+377dd121d8 Merge "Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release am: bcb87e5568" into pie-gsi
+1997ff037c Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release am: bcb87e5568
+6d33ddd453 Merge "Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release am: 8a898328aa" into pie-gsi
+98bc67e01b Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release am: 8a898328aa
+bcb87e5568 Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release
+
+   * frameworks/base/
+4cf1c0fbbbe Merge "Snap for 5622519 from b869620327dabaebe715a7d8fb3d12cdddd5a221 to pi-platform-release am: 5c3946d093" into pie-gsi
+01577783a25 Snap for 5622519 from b869620327dabaebe715a7d8fb3d12cdddd5a221 to pi-platform-release am: 5c3946d093
+b1cec28b95d Merge "Snap for 5600800 from b3f4ac23836263a1f7844b12455a81150c92bace to pi-platform-release am: f84f3454c7" into pie-gsi
+d8814cdc190 Snap for 5600800 from b3f4ac23836263a1f7844b12455a81150c92bace to pi-platform-release am: f84f3454c7
+5c3946d0935 Snap for 5622519 from b869620327dabaebe715a7d8fb3d12cdddd5a221 to pi-platform-release
+
+   * hardware/qcom/power/
+2846b24 qcom: power: Stop log spam "QCOM PowerHAL: Failed to acquire lock"
+
+   * packages/apps/CellBroadcastReceiver/
+54e2dfb Merge "Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751" into pie-gsi
+6d13c9a Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751
+cb84ec2 Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release
+
+   * packages/apps/Contacts/
+29db2b04d Merge "Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669" into pie-gsi
+c106966d7 Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669
+5889de766 Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release
+
+   * packages/apps/DocumentsUI/
+0252d26f Snap for 5622519 from 9b6f2643661e4667493debdcccbba3ec518eb963 to pi-platform-release am: 003bac8220
+003bac82 Snap for 5622519 from 9b6f2643661e4667493debdcccbba3ec518eb963 to pi-platform-release
+
+   * packages/apps/EmergencyInfo/
+5c9a761 Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release am: 9a5e31527f
+9a5e315 Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release
+
+   * packages/apps/Nfc/
+bd9db4f5 Merge "Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e" into pie-gsi
+59960655 Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e
+f6d7678d Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release
+
+   * packages/apps/PackageInstaller/
+80892d48 Merge "Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release am: dbd2ae2b63" into pie-gsi
+fed0811f Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release am: dbd2ae2b63
+f39dc13e Merge "Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release am: b5641733bf" into pie-gsi
+1ca66ade Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release am: b5641733bf
+dbd2ae2b Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release
+
+   * packages/apps/Settings/
+dabc81c058 Merge "Snap for 5622519 from fd365ae91ebe924197c5f443c889928eb07bd02c to pi-platform-release am: ec58694ae8" into pie-gsi
+783d0549dd Snap for 5622519 from fd365ae91ebe924197c5f443c889928eb07bd02c to pi-platform-release am: ec58694ae8
+ec58694ae8 Snap for 5622519 from fd365ae91ebe924197c5f443c889928eb07bd02c to pi-platform-release
+
+   * packages/inputmethods/LatinIME/
+3f40ccc26 Merge "Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6" into pie-gsi
+55f5ab770 Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6
+8c6c1e2be Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release
+
+   * packages/providers/MediaProvider/
+62abcea Merge "Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5" into pie-gsi
+6525cbc Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5
+f5e8f5b Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release
+
+   * packages/services/Telecomm/
+e0f8071b Snap for 5622519 from b65ecc5a1264c78e2543dc6beade501c4d60b282 to pi-platform-release am: c83df82dbc
+c83df82d Snap for 5622519 from b65ecc5a1264c78e2543dc6beade501c4d60b282 to pi-platform-release
+
+   * prebuilts/clang/host/linux-x86/
+39dbc541 Update prebuilt Clang to r353983e.
+
+   * system/bt/
+4b1d4904a Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release am: db4e774cab
+abff8cd5f Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release am: 1e2fde1e24
+db4e774ca Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release
+
+   * system/libhwbinder/
+4959830 Snap for 5622519 from aa22afd88b4ff0fc467fa57d88ebc87de3021319 to pi-platform-release am: a5a8a516d4
+b0c7f46 Snap for 5600800 from 109b4ae7734e85c094c9446bb2f63932dcfa7207 to pi-platform-release am: 592f9f276b
+a5a8a51 Snap for 5622519 from aa22afd88b4ff0fc467fa57d88ebc87de3021319 to pi-platform-release
+
+   * system/netd/
+76448f5 Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release am: 02ebe2a46c
+6dcdfc8 Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release am: f138d4c17e
+02ebe2a Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release
+
+   * system/tools/hidl/
+25a76d8 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release am: a5f1137806
+607da63 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release am: 1df6c91f83
+a5f1137 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release
+
+   * system/vold/
+ca19a84 Merge "Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1" into pie-gsi
+f2fb54f Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1
+ec0cb71 Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release
+
+====================
+     07-08-2019
+====================
+
+
+   * external/icu/
+a63df92ad Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release
+
+   * frameworks/av/
+8a898328aa Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release
+
+   * frameworks/base/
+f84f3454c7f Snap for 5600800 from b3f4ac23836263a1f7844b12455a81150c92bace to pi-platform-release
+
+   * packages/apps/PackageInstaller/
+b5641733 Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release
+
+   * system/bt/
+1e2fde1e2 Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release
+
+   * system/libhwbinder/
+592f9f2 Snap for 5600800 from 109b4ae7734e85c094c9446bb2f63932dcfa7207 to pi-platform-release
+
+   * system/netd/
+f138d4c Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release
+
+   * system/tools/hidl/
+1df6c91 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release
+
+====================
+     07-07-2019
+====================
+
+
+====================
+     07-06-2019
+====================
+
+
+   * hardware/qcom/fm/
+647ae02 Automatic translation import
+
+   * kernel/xiaomi/msm8996/
+b10c66ab6149 mbcache2: Speed up cache entry creation
+bf2a2cdbf3f0 Makefile: Force ARCH to be arm64
+3f40b5396126 dmaengine: Fix memory leak in dma_async_device_register
+b1185ab52571 msm: kgsl: Avoid dynamically allocating small command buffers
+2c2058cbf59a ext4 crypto: Use a larger on-stack file name buffer
+
+====================
+     07-05-2019
+====================
+
 
    * kernel/xiaomi/msm8996/
 5d3ae62631f3 Update defconfigs
@@ -29,304 +526,6 @@ d8033cd3 Android 9.0.0 Release 45 (PQ3B.190705.003)
 a5fd062f1fbd selinux: Avoid dynamic memory allocation for small context buffers
 ef32d8aac4c9 soc: qcom: smp2p: Fix compile errors when testing is disabled
 
-   * packages/apps/Dialer/
-82cb23f1a Revert "Fix in-call buttons layout"
-
-   * packages/apps/HavocSettings/
-a5189f8 toggle torch proximity check [2/2]
-f2a114e Rework hw button illumination
-fc4545c Revert "Pocket judge"
-1abe30c Revert "Settings: : Make FP detection in pocket mode configurable [2/2]"
-
-   * packages/apps/Settings/
-a043ea001f Support to notify connected/disconnected stations
-4bf1e5dbb6 Havoc Build Date [2/2]
-8e856dd52c DeviceInfoSettings: Bring back CAF/AOSP tags
-3b5a5f449a my colors
-8461705999 Revert "Revert "Settings: Add toggle for proximity wake""
-
-   * system/bt/
-d28240d3e Fix handling of BLE create connection when all PHYs are set When all PHYs are set during BLE create connection, there is an assert error seen in BT stack. This change fixes this issue.
-5319930d0 RFCOMM: Add new API to check port state based on SCN As there is no API in RFCOMM to check exact port status, AG checking port opening state and continuing outgoing connection even incoming port already opened.
-8b15509b2 sdclang: true
-ca386b0e4 Add BLE Scan Phy parameter to scan API Add BLE Scan Phy parameter to set scan parameters API.
-
-   * system/core/
-f8304af56 Allow adb root even in no debuggable builds
-
-   * vendor/codeaurora/telephony/
-f192d11 Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into pie
-
    * vendor/havoc/
 fa356e62 update Lawnchair to alpha-2268
-
-   * vendor/qcom/opensource/audio/
-5df76d7 Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into pie
-
-   * vendor/qcom/opensource/data-ipa-cfg-mgr/
-d1c44d0 Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie
-
-   * vendor/qcom/opensource/interfaces/
-2e03a84 Merge tag 'LA.UM.7.6.2.r1-09200-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie
-
-   * vendor/support/
-72c97ac add variables for buttom backlight
-
-====================
-     07-04-2019
-====================
-
-
-====================
-     07-03-2019
-====================
-
-
-   * build/make/
-31f4a43d4 Merge tag 'android-9.0.0_r45' of https://android.googlesource.com/platform/build into pie
-
-   * frameworks/base/
-dcc548fc5f7 Merge tag 'android-9.0.0_r45' of https://android.googlesource.com/platform/frameworks/base into pie
-2a484a6d2d8 base: Q seekbar: make the seekbar transparent for non-seekable notifs
-44b9be092cf Frameworks: Slightly refactor Parcel code
-5f1c7c38e79 Stable seek bar positioning
-1472d68d043 GamingMode: Clean up and refine [1/3]
-f2821480540 SmartCharging: add reset battery stats option [1/2]
-30365a6ab3f SmartCharging: allow user set resume level [1/2]
-8815af4b6e6 Revert "ActivityRecord: add fw boost after r33 merge"
-e0255c1f837 SystemUI: Use proper lock icon scale on dismissing notification panel view
-0382f7c7a68 SystemUI: Handle orientation and screenSize changes for TunerActivity
-93a6310d301 SystemUI: Adjust battery and location icon size
-5a752034702 Revert "Keyguard: Forward port lockscreen quick unlock (1/2)"
-
-   * frameworks/native/
-85f026a5d Merge tag 'android-9.0.0_r45' of https://android.googlesource.com/platform/frameworks/native into HEAD
-
-   * frameworks/opt/net/wifi/
-81ee77957 Prevent scan searching overhead
-
-   * kernel/xiaomi/msm8996/
-e37eec1d192b crypto: msm: Don't bail out when debugfs creation fails
-
-   * vendor/havoc/
-79662562 Havoc 2.7
-078398aa extract_utils: Add functions to extract vendor blobs from vendor.img
-2d9f1644 build: Separate platform macros from QCOM platform definition
-d6966062 build: Reorganize inclusion of QCOM macros
-e7a520ad build: Use ifeq/else ifeq/else construction in board config
-3d60c80a build: Set mode for makefiles
-eb15bf27 update Lawnchair to alpha-2238
-
-====================
-     07-02-2019
-====================
-
-
-   * bootable/recovery/
-f8ec73cb recovery: wipe bootloader message from index 0 when using custom offsets
-bd5023de recovery: Blank screen on init
-
-   * frameworks/av/
-02261bd80c Merge tag 'android-9.0.0_r44' into pie
-
-   * packages/apps/PackageInstaller/
-89494f01 Merge tag 'android-9.0.0_r44' into pie
-
-   * system/bt/
-ab457be83 Merge tag 'android-9.0.0_r44' into pie
-
-   * system/core/
-c893af2f4 DO NOT MERGE Start update_verifier early in late-fs.
-
-   * system/libhwbinder/
-3fcb895 Merge tag 'android-9.0.0_r44' into pie
-
-   * system/netd/
-1bceea1 Merge tag 'android-9.0.0_r44' into pie
-
-   * system/tools/hidl/
-ae51c8c Merge tag 'android-9.0.0_r44' into pie
-
-====================
-     07-01-2019
-====================
-
-
-   * kernel/xiaomi/msm8996/
-82c47d336abf config: disable KALLSYMS & MODULES
-7acd70da8e11 update .gitignore
-
-====================
-     06-30-2019
-====================
-
-
-   * device/xiaomi/gemini/
-fb580e18 msm8996-common: wifi: Enable DFS channel scanning in P2P search
-
-   * packages/apps/HavocSettings/
-186bcf8 GamingMode: Clean up and refine [3/3]
-
-   * packages/apps/Settings/
-cdcda73a8c GamingMode: Clean up and refine [2/3]
-
-====================
-     06-29-2019
-====================
-
-
-====================
-     06-28-2019
-====================
-
-
-   * packages/apps/Settings/
-0267a81fae SmartCharging: add reset battery stats option [2/2]
-f19fe3d111 SmartCharging: allow user set resume level [2/2]
-
-   * vendor/support/
-3db3055 Add missing methods in CustomSeekBarPreference
-
-====================
-     06-27-2019
-====================
-
-
-   * hardware/qcom/audio-caf/msm8996/
-0b1121ea Merge b0701bdc1d9161042f70db4ea335023f162f6b19 on remote branch
-
-   * hardware/qcom/display-caf/msm8996/
-a47563f4 Merge e2add2e51bfce096053110c55199da7dc8f4e5a3 on remote branch
-
-   * hardware/qcom/media-caf/msm8996/
-f1451b06 Merge 429b73b3990f743f16b292cbd6a78ccfb80b1222 on remote branch
-
-   * vendor/qcom/opensource/audio/
-3892e0e Merge 97376a9080990e1bd2929eb865f691b8e9b7f37e on remote branch
-
-   * vendor/qcom/opensource/data-ipa-cfg-mgr/
-24f74a0 Merge 98278cbab83c8bc876c7c6f041576de599233fb3 on remote branch
-
-   * vendor/qcom/opensource/interfaces/
-6b6345e Merge b8d91476053d0e8b17f6338839a452d58413b8ef on remote branch
-
-====================
-     06-26-2019
-====================
-
-
-   * frameworks/base/
-d0e02f20f9e Update JPN language
-
-   * packages/apps/HavocSettings/
-7933398 Add Bacon to devices
-
-   * system/vold/
-0558ab5 Use wrapped key for metadata encryption
-
-====================
-     06-25-2019
-====================
-
-
-   * device/xiaomi/translations/
-0c7f6b8 update RU gaming mode translations
-
-   * packages/apps/HavocSettings/
-109796c Add OnePlus 7 Pro to devices
-6e953ca Add Xiaomi Redmi 6 Pro (Sakura)
-70a246e Cutout force fullscreen: Disable fast scroller
-8d5d358 GamingMode: cleanup a bit
-8be52e4 GamingMode: add master switch [2/2]
-
-   * packages/apps/Settings/
-045b871c1a Revert "Keyguard: Forward port lockscreen quick unlock (2/2)"
-1b8e98cef8 Settings: appops: Drop GET_UNINSTALLED_PACKAGES from getApplicationInfo()
-
-   * prebuilts/build-tools/
-61dbccf build-tools: Update for new sources and clang
-
-   * prebuilts/clang/host/linux-x86/
-7fadab54 Update prebuilt Clang to r353983d.
-
-   * vendor/xiaomi/
-acd83cdc gemini: Add 60fps Video Recording
-2f93b815 add libsecureui.so
-044f84a6 add camera blobs from 8.11.22
-
-====================
-     06-24-2019
-====================
-
-
-   * build/make/
-295d584d9 dex2oat: disable multithreading for WSL
-f915cf5b4 Add detection for WSL
-3f14e9d03 Add the missing dependency on BOARD_PREBUILT_DTBOIMAGE.
-99ed86d61 build: Respect fs_config when generating recovery ramdisk
-
-   * frameworks/base/
-d54003dbae4 SystemUI: Expose ambient music ticker bottom margin
-b05590dc5e0 SystemUI: Statusbar layout improvements
-bffada2d905 Allow SBC as HD audio codec in Bluetooth device configuration
-f3ba1ed2f8e Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
-9bea6223bbc Add CHANNEL_MODE_DUAL_CHANNEL constant
-a7a2e5f8dfc Revert "Add Dual Channel into Bluetooth Audio Channel Mode developer options menu"
-01602607b6b base: Import Android Q activity animations
-69183cd2bea PhoneWindowManager: Set delay for screenshot shortcut to 0
-50cceca22fa AudioService: Remove Analog Dock from fixed-volume devices
-ac6c605044f Reduce the padding between media controls & seekbar
-4b3e0f87919 fwb: Improve AOSP twilight code
-03d40904670 LiveDisplayService: Disable ColorTemperature when NightDisplay is available
-5a70e8db431 GamingMode: add master switch [1/2]
-e6457044945 GamingMode: cleanup and fix a bit
-95d660b365e GamingMode: Rewrite implementation [1/2]
-c87940305d2 GamingMode: add more ringer modes [1/2]
-47c37cd2835 Gaming Mode: minor improvements
-e6984da5e3e base: FireHound Gaming [1/4]
-085dc0b026d Revert "Gaming Mode"
-3682dffcbb5 Add optional OP cam support
-d98f919be24 Revert "FB: Add oneplus camera support"
-2f1495c5606 base: notch-city: Don't work if the device doesn't have a cutout
-9ea3eba9d66 base: Add 5 more styles for qs
-76dcaf4ffe5 BatteryStatsImpl: Reset battery stats at 95 percent
-f4ac81a6750 Reload Pixel Home Animation without reboot
-ae09953a2c4 Pixel Navbar animation toggle [1/2]
-93861b232ed SystemUI: Add navigation touch animation support
-79a99f68ae5 SystemUI: Remove older Pixel Animation
-1d7c71a8f69 SystemUI: Fix several layout bugs
-
-   * hardware/qcom/media-caf/msm8996/
-429b73b3 Merge "venc: Disable RGBA direct input to Venus"
-
-   * packages/apps/Settings/
-160bc0d3d6 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
-db13cdfad6 Revert "Add Dual Channel into Bluetooth Audio Channel Mode developer options menu"
-be473b8991 Use a proper bool check for notification light color option
-dbc6a0387a fuelgauge: Fix NPE
-04fc272c39 Revert "Port "Battery Usage Alerts" feature from factory images"
-
-====================
-     06-23-2019
-====================
-
-
-   * system/bt/
-080c11834 Allow using alternative (higher) SBC HD bitrates with a property
-450c9b9f1 Explicit SBC Dual Channel (SBC HD) support
-d11fba320 Increase maximum Bluetooth SBC codec bitrate for SBC HD
-1a3cab19b Revert "Increase maximum Bluetooth SBC codec bitpool and bitrate values"
-eeef36e66 Revert "Explicit SBC Dual Channel (SBC HD) support"
-64d931724 Revert "Allow using alternative (higher) SBC HD bitrates with a property"
-
-====================
-     06-22-2019
-====================
-
-
-   * external/expat/
-4f115d6 expat: update to version 2.2.7
-
-   * system/sepolicy/
-ba555aadf sepolicy: Add missing entry for font service
 

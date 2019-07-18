@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "filename": "Havoc-OS-v2.7-20190705-0516-capricorn-Unofficial.zip",
+      "filename": "Havoc-OS-v2.7-20190718-2121-capricorn-Unofficial.zip",
       "romtype": "Unofficial",
       "version": "2.7",
-      "size": "598998669",
-      "datetime": 1562303578,
-      "id": "b20b447458d9472039bcc9e614d613b3a8c30f5e21ce70f847968cdf0355208f",
-      "url": "https://sourceforge.net/projects/havoc-gemini/files/havoc/capricorn/Havoc-OS-v2.7-20190705-0516-capricorn-Unofficial.zip/download"
+      "size": "605581268",
+      "datetime": 1563484604,
+      "id": "d2cac6d0024c4134f117a639f477d2e8319782379b943591e47102afaacf005b",
+      "url": "https://sourceforge.net/projects/havoc-gemini/files/havoc/capricorn/Havoc-OS-v2.7-20190718-2121-capricorn-Unofficial.zip/download"
     }
   ]
 }
