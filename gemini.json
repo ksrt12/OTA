@@ -1,13 +1,13 @@
 {
   "response": [
-    {
-      "filename": "Havoc-OS-v2.9-20190927-0837-gemini-Unofficial.zip",
-      "romtype": "Unofficial",
+     {
+      "filename": "Havoc-OS-v2.9-20191020-1540-gemini-3.18.zip",
+      "romtype": "3.18",
       "version": "2.9",
-      "size": "597317116",
-      "datetime": 1569538642,
-      "id": "915a517a91a2c038a867964e5c362fb989ad2fc98e77722c94d4f1fb4b840e5d",
-      "url": "https://sourceforge.net/projects/havoc-gemini/files/havoc/gemini/Havoc-OS-v2.9-20190927-0837-gemini-Unofficial.zip/download"
-    }
+      "size": "597938582",
+      "datetime": 1571585781,
+      "id": "672668804a239c1d4de69e15c46cb279c5ce99279ee6ad293720ca8e12fad5da",
+      "url": "https://sourceforge.net/projects/havoc-gemini/files/havoc/gemini/Havoc-OS-v2.9-20191020-1540-gemini-3.18.zip/download"
+     }
   ]
 }
