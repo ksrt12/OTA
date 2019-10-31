@@ -1,282 +1,265 @@
-====================
-     2019-05-10    
-====================
-
- * build/make
-bce73a2  1  [Kazakov Stepan]
-
- * build/soong
-d65354b  1  [Kazakov Stepan]
-
- * device/qcom/sepolicy
-8dc6d73  Merge tag 'LA.UM.7.5.r1-04800-8x96.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into 9.0  [Kazakov Stepan]
-
- * device/xiaomi/gemini
-47ec451  caf tag: LA.UM.7.5.r1-04800-8x96.0  [Kazakov Stepan]
-
- * hardware/interfaces
-aa3fea9  Merge tag 'LA.UM.7.5.r1-04800-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into 9.0  [Kazakov Stepan]
-
- * hardware/qcom/audio-caf/msm8996
-cb1865e  Merge tag 'LA.UM.7.5.r1-04800-8x96.0' into 9.0  [Kazakov Stepan]
-
- * hardware/qcom/media-caf/msm8996
-24e758f  Merge tag 'LA.UM.7.5.r1-04800-8x96.0' into 9.0  [Kazakov Stepan]
-
- * hardware/qcom/wlan
-67f676a  Merge tag 'LA.UM.7.5.r1-04800-8x96.0' into 9.0  [Kazakov Stepan]
-
- * packages/apps/Settings
-33ae54f  my colors  [Kazakov Stepan]
-
- * system/core
-2c21784  Allow adb root even in no debuggable builds  [Nathan Chancellor]
-
- * vendor/qcom/opensource/interfaces
-1a45ac2  Merge tag 'LA.UM.7.5.r1-04800-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie  [Kazakov Stepan]
-
- * vendor/syberia
-e58715b  1  [Kazakov Stepan]
-461086c  Revert "Drop Lawnchair"  [Kazakov Stepan]
-574b365  update kernel.mk  [Kazakov Stepan]
 
 ====================
-     2019-05-09    
+     2019-10-31
 ====================
+ ▼ art/
+ ▪ 24269d2  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/art into HEAD  [Kazakov Stepan]
 
- * device/xiaomi/gemini
-dfdee3b  Android 9.0.0 Release 39 (PD2A.190115.032)  [Kazakov Stepan]
-d12538e  msm8996-common: Add 2 more notification icons  [eray orçunus]
-11613cc  Revert "Add power off alarm service"  [Kazakov Stepan]
-a4ab4cd  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' from https://source.codeaurora.org/quic/la/device/qcom/common  [Kazakov Stepan]
+ ▼ build/kati/
+ ▪ b22096b  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/build/kati into HEAD  [Kazakov Stepan]
 
- * frameworks/av
-da3171c  Camera: consider all cameras in flash light control  [Yin-Chia Yeh]
-7f6d6f0  Camera: extend getBuffer wait timeout  [Yin-Chia Yeh]
-b0192ed  Camera3: Handle stream format override for shared output stream  [Shuzhen Wang]
-bd78522  Camera: Use physical camera's capability for physical stream check  [Shuzhen Wang]
+ ▼ build/make/
+ ▪ 37bcd6f  Bump Security String to 2019-10-05  [Kevin F. Haggerty]
+ ▪ 3bf41a2  update gcc to 9.2   [Kazakov Stepan]
 
- * frameworks/base
-e8d3683  SwipeToScreenshot: Import MIUI implementation  [Henrique Silva]
-7c9d8a0  Update RU translation  [blinoff82]
-f4467b3  LiveDisplay: Disable by default  [Henrique Silva]
-89864c0  LiveDisplay: don't start services if phone is encrypted  [Henrique Silva]
-fd8b4a5  SystemUI: Add reading mode tile  [Joey]
-6c5b4e3  SystemUI: Add LiveDisplay tile  [Steve Kondik]
-31dc682  Introduce LiveDisplay from Lineage  [Henrique Silva]
-13f992d  Cutout force full screen: Remove fullscreen checks  [Henrique Silva]
-f29de67  fwb: [1/2] Implement cutout force full screen  [Henrique Silva]
-136fabc  Add Google Sound Search tile  [ezio84]
-60fd132  Improvements for swipe to screenshot  [Henrique Silva]
-addb8a4  Camera: Skip stream size check for whitelisted apps..  [Gaoxiang Chen]
-182d314  Select the proper request list size  [Guruprasad Gaonkar]
-5e44703  Merge "Hide arrows in Network Traffic indicators [1/2]" into 9.0  [dennyspb]
+ ▼ build/soong/
+ ▪ 9507043  update gcc to 9.2   [Kazakov Stepan]
 
- * packages/apps/Settings
-06d02e0  Merge "Revert "Multi user: Allow user name and profile photo editing"" into 9.0  [blinov.in]
-70aa03f  Merge "Remove fullscreen cutout mode if device doesn't have notch" into 9.0  [blinov.in]
-09205b5  Remove fullscreen cutout mode if device doesn't have notch  [blinoff82]
-95b96d7  Revert "Multi user: Allow user name and profile photo editing"  [blinoff82]
-4be2401  Settings: Update RU transation for LiveDisplay  [blinoff82]
-7b8a39b  LiveDisplay: Add illustration into picture and color adjustment  [Henrique Silva]
-d65354c  Settings: Changes for LiveDisplay  [Henrique Silva]
-e9781f7  Merge "DisplaySettings: comment out color mode settings" into 9.0  [dennyspb]
-1196092  Multi user: Allow user name and profile photo editing  [Henrique Silva]
+ ▼ external/jemalloc/
+ ▪ 804056f  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/external/jemalloc into HEAD  [Kazakov Stepan]
 
- * packages/apps/SyberiaSettings
-2815bfc  Merge "SyberiaSettings: Hide arrows in Network Traffic indicators [2/2]" into 9.0  [dennyspb]
+ ▼ external/libjpeg-turbo/
+ ▪ 278709c  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/external/libjpeg-turbo into HEAD  [Kazakov Stepan]
 
- * packages/providers/DownloadProvider
-e5e196a  DownloadProvider: Stop using Arrays.checkOffsetAndCount  [Pete Gillin]
-73bc5be  Downloaded content is deleted if Download folder is renamed using MTP  [Kaushalendra Mishra]
-09f383e  DownloadProvider: allow more redirects  [Simon Dubray]
+ ▼ external/libpng/
+ ▪ 9067acf  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/external/libpng into HEAD  [Kazakov Stepan]
 
- * vendor/syberia
-4d5bef1  ready for v2.5  [DennySPB]
-780d00f  vendor: Import LiveDisplay init file  [Henrique Silva]
-1c8c546  vendor: Whitelist LiveDisplay permissions  [Henrique Silva]
+ ▼ external/llvm/
+ ▪ ae37bdd  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/external/llvm into HEAD  [Kazakov Stepan]
 
-====================
-     2019-05-08    
-====================
+ ▼ external/proguard/
+ ▪ 054b7b7  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/external/proguard into HEAD  [Kazakov Stepan]
 
- * device/syberia/sepolicy
-85ca413  sepolicy: Import LiveDisplay rules  [Henrique Silva]
+ ▼ external/webp/
+ ▪ 9c68547  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/external/webp into HEAD  [Kazakov Stepan]
 
- * frameworks/base
-f317f47  Ambient music ticker: fix text scrolling glitches  [ezio84]
-2b29602  StatusBar battery: Toggle for left/right percentage position [1/2]  [a.derendyaev]
+ ▼ frameworks/av/
+ ▪ b836f05  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/frameworks/av into HEAD  [Kazakov Stepan]
 
- * hardware/interfaces
-8af0151  Merge tag 'android-9.0.0_r39' of https://android.googlesource.com/platform/hardware/interfaces into 9.0  [Kazakov Stepan]
-f9dcbc2  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into 9.0  [Kazakov Stepan]
+ ▼ frameworks/base/
+ ▪ d89672d  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/frameworks/base into HEAD  [Kazakov Stepan]
 
- * hardware/qcom/audio-caf/msm8996
-4441a1a  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' into 9.0  [Kazakov Stepan]
+ ▼ frameworks/rs/
+ ▪ da94181  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/frameworks/rs into HEAD  [Kazakov Stepan]
 
- * hardware/qcom/bt
-f22bc5a  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' into 9.0  [Kazakov Stepan]
+ ▼ libcore/
+ ▪ 00114b8  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/libcore into HEAD  [Kazakov Stepan]
 
- * hardware/qcom/media-caf/msm8996
-fe2cf05  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' into 9.0  [Kazakov Stepan]
+ ▼ packages/apps/MusicFX/
+ ▪ 35474ba  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/packages/apps/MusicFX into HEAD  [Kazakov Stepan]
 
- * hardware/qcom/wlan
-5d816fb  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' into 9.0  [Kazakov Stepan]
+ ▼ packages/apps/Nfc/
+ ▪ 883c7da  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/packages/apps/Nfc into HEAD  [Kazakov Stepan]
 
- * packages/apps/Settings
-20e21e9  DisplaySettings: comment out color mode settings  [DennySPB]
-58b8a0d  Settings: [2/2] Implement cutout force full screen  [Henrique Silva]
+ ▼ packages/apps/Settings/
+ ▪ 4d9595e  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [Kazakov Stepan]
 
- * vendor/interfaces
-04e7d3d  interfaces: Add 2.0 livedisplay interfaces  [Paul Keith]
-
- * vendor/qcom/opensource/data-ipa-cfg-mgr
-e6d5507  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie  [Kazakov Stepan]
-
- * vendor/qcom/opensource/interfaces
-6a364f8  add missing Android.bp for vendor.qti.hardware.wifi@1.0  [Kazakov Stepan]
-ca81ee4  Merge tag 'LA.UM.7.5.2.r1-02600-8x96.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie  [Kazakov Stepan]
+ ▼ system/update_engine/
+ ▪ 251c81d  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/system/update_engine into HEAD  [Kazakov Stepan]
 
 ====================
-     2019-05-07    
+     2019-10-29
 ====================
 
- * bionic
-b3dc7a9  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/bionic into HEAD  [DennySPB]
+ ▼ device/xiaomi/gemini/
+ ▪ dc8298f  rootdir: clean up  [Kazakov Stepan]
+ ▪ 492ac64  rootdir: restore time_daemon  [Kazakov Stepan]
+ ▪ 4b0e2e0  Revert "msm8996-common: Enable clearkey drm plugin v1.2"  [Kazakov Stepan]
 
- * bootable/recovery
-97dcb71  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/bootable/recovery into HEAD  [DennySPB]
-
- * build/make
-ab8db85  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/build into HEAD  [DennySPB]
-
- * external/skia
-71de33e  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/skia into HEAD  [DennySPB]
-
- * external/sqlite
-cb8a165  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/sqlite into HEAD  [DennySPB]
-
- * external/wpa_supplicant_8
-36dfa10  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD  [DennySPB]
-
- * frameworks/av
-5adc977  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/av into HEAD  [DennySPB]
-a59b297  amrnb: Fix memory leaks  [George Burgess IV]
-
- * frameworks/base
-e4bb5f2  Hide arrows in Network Traffic indicators [1/2]  [Nico60]
-eeda3c1  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/base into HEAD  [DennySPB]
-
- * frameworks/native
-0cd1173  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/native into HEAD  [DennySPB]
-
- * frameworks/opt/net/wifi
-f94139c  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into HEAD  [DennySPB]
-
- * frameworks/opt/telephony
-5ddf6a1  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [DennySPB]
-
- * hardware/interfaces
-4c758f8  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/hardware/interfaces into 9.0  [Kazakov Stepan]
-
- * hardware/nxp/nfc
-08e0fa6  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/hardware/nxp/nfc into HEAD  [DennySPB]
-
- * packages/apps/Bluetooth
-80be884  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Bluetooth into HEAD  [DennySPB]
-
- * packages/apps/DeskClock
-e8fbcd9  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/DeskClock into HEAD  [DennySPB]
-
- * packages/apps/DocumentsUI
-cc5aede  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into HEAD  [DennySPB]
-
- * packages/apps/EmergencyInfo
-a81a7a8  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/EmergencyInfo into HEAD  [DennySPB]
-
- * packages/apps/Nfc
-eebd560  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Nfc into HEAD  [DennySPB]
-
- * packages/apps/Settings
-2f9deb1  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [DennySPB]
-
- * packages/apps/SyberiaSettings
-d50d4c5  StatusBar battery: Toggle for left/right percentage position [2/2]  [a.derendyaev]
-4ac8406  SyberiaSettings: Hide arrows in Network Traffic indicators [2/2]  [Nico60]
-
- * packages/providers/DownloadProvider
-d4f976f  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into HEAD  [DennySPB]
-
- * packages/providers/MediaProvider
-b882a1b  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD  [DennySPB]
-
- * packages/services/Telecomm
-86a830e  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD  [DennySPB]
-
- * packages/services/Telephony
-7d32681  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD  [DennySPB]
-
- * system/bt
-e45c6bf  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/bt into HEAD  [DennySPB]
-
- * system/core
-231920e  usbd: Do not join the thread pool  [Badhri Jagan Sridharan]
-aab956f  lmkd: bump process priority and set to FOREGROUND group before kill  [Wei Wang]
-ca37fcf  Run BoringSSL self test during startup  [Branden Archer]
-a07d0f1  Fix path for treble default prop  [Wei Wang]
-
- * system/netd
-6f4771d  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/netd into HEAD  [DennySPB]
-
- * system/sepolicy
-a3d69cd  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/sepolicy into HEAD  [DennySPB]
+ ▼ vendor/xiaomi/
+ ▪ 16dabd7  drop land  [Kazakov Stepan]
 
 ====================
-     2019-05-06    
+     2019-10-27
 ====================
 
- * frameworks/base
-b09afe5  Improved display of battery percent in the status bar  [a.derendyaev]
-
- * packages/apps/Dialer
-530bac0  Merge pull request #2 from Astridxx/9.0  [Stanislav Bukovetsiy]
-08487c5  dialer: Add TR translation  [Murat Kozan]
-
- * packages/apps/Settings
-ef77e02  Added strings (#25)  [Lukáš Sýkora]
-
- * packages/apps/SyberiaSettings
-1309bd0  Merge pull request #59 from MrLookas/9.0  [Ivan Blinov]
-a3d0034  Added values-cs and strings with Czech translation  [Lukáš Sýkora]
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ bd391c8  Merge tag 'LA.UM.8.6.r1-02300-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into 9.0  [Kazakov Stepan]
 
 ====================
-     2019-05-05    
+     2019-10-24
 ====================
 
- * bionic
-4f8cbdf  libc: Optimize ARM memcmp by using NEON.  [Kyle Repinski]
-c28bfb5  bionic: Prefer /sbin/sh if it exists  [Tom Marshall]
-f8a953d  Optimize the clone() system call on ARM(64)  [Anton Kirilov]
-4c69d28  bionic: linker: Fix fd leak  [Vic Yang]
-ccd3c98  linker: Disable linker debugging  [Miguel Martinez]
-
- * packages/apps/Messaging
-620e5ca  Merge pull request #2 from Astridxx/9.0  [Ivan Blinov]
-37106f7  Update RU translation  [blinoff82]
-ed651a2  Update TR translation  [Murat Kozan]
-
- * packages/apps/Settings
-bcaac93  Merge pull request #23 from Astridxx/9.0  [Ivan Blinov]
-92408ca  Update TR translation  [Murat Kozan]
-
- * packages/apps/SyberiaSettings
-16caf1d  Merge pull request #57 from Astridxx/9.0  [Ivan Blinov]
-634073a  Update TR translation  [Murat Kozan]
+ ▼ hardware/qcom/fm/
+ ▪ 01d5bff  FM: Add backward compatiblity support for oreo FM configs  [Erfan Abdi]
 
 ====================
-     2019-05-04    
+     2019-10-20
 ====================
 
- * packages/apps/Settings
-75e8ccb  Update RU translation  [blinoff82]
+ ▼ device/xiaomi/gemini/
+ ▪ ced4cd9  vendor_prop: add some tweaks  [xNombre]
+ ▪ 414a17c  Revert "msm8996: use stock USB hal"  [xNombre]
+ ▪ c168909  Revert "msm8996-common: add prop persist.vendor.usb.config.extra"  [xNombre]
+ ▪ e56f850  rootdir: update usb to LA.UM.7.5.2.r1-03700-8x96  [Kazakov Stepan]
+ ▪ abaef7e  msm8996-common: Remove firmware class path for kernel firmware loading  [Vinay Verma]
+ ▪ f1da56a  msm8996-common: Add /vendor/firmware_mnt/image to firmware_directory path  [Vinay Verma]
+ ▪ 1f403a6  msm8996-common: Change ownership of /vendor/firmware_mnt/image  [Vinay Verma]
+ ▪ a71f299  BoardConfig: use gcc 9.2 for TARGET_KERNEL_CROSS_COMPILE_ARM32  [Kazakov Stepan]
+ ▪ efda28d  Revert "msm8996: use vidc from msm8998"  [xNombre]
+
+====================
+     2019-10-19
+====================
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ 22478dc  audio-hal: always treat v4 as NULL  [xNombre]
+
+====================
+     2019-10-15
+====================
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ e3257a1  Merge 872acb95ba1f98e59b7f7dc5888edbe6a6418475 on remote branch  [Linux Build Service Account]
+
+====================
+     2019-10-14
+====================
+
+ ▼ device/xiaomi/gemini/
+ ▪ 7d11f99  Merge tag 'LA.UM.7.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/device/qcom/common into HEAD  [Kazakov Stepan]
+ ▪ 1fe195b  Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/device/common into HEAD  [Kazakov Stepan]
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ 8094d5e  correct audio features for gemini  [Kazakov Stepan]
+
+====================
+     2019-10-13
+====================
+
+ ▼ hardware/interfaces/
+ ▪ e48a125  Merge tag 'LA.UM.7.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into 9.0  [Kazakov Stepan]
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ 4997af1  Merge tag 'LA.UM.7.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into 9.0  [Kazakov Stepan]
+
+ ▼ hardware/qcom/media-caf/msm8996/
+ ▪ 27d7e64  Merge tag 'LA.UM.7.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into 9.0  [Kazakov Stepan]
+
+ ▼ vendor/qcom/opensource/audio/
+ ▪ cd76f92  Merge tag 'LA.UM.7.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into pie  [Kazakov Stepan]
+
+ ▼ vendor/qcom/opensource/interfaces/
+ ▪ 6daae03  Merge tag 'LA.UM.7.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie  [Kazakov Stepan]
+
+====================
+     2019-10-07
+====================
+
+ ▼ device/xiaomi/gemini/
+ ▪ 7602780  msm8996-common: configs: Remove 2 instance support for "primary input"  [Samyak Jain]
+ ▪ 5b12495  msm8996-common: Enable clearkey drm plugin v1.2  [Jeff Tinker]
+
+ ▼ packages/apps/FMRadio/
+ ▪ 5a56adc  jni: Add broadcom FM to the guard  [Arian]
+
+====================
+     2019-10-04
+====================
+
+ ▼ hardware/interfaces/
+ ▪ 410cad1  Merge 063247cc2a3cbd90f52bf1de191bad17d6a3d961 on remote branch  [Linux Build Service Account]
+ ▪ f7d2262  Merge tag 'LA.UM.7.6.2.r1-10100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/interfaces into 9.0  [Kazakov Stepan]
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ de34d82  Merge 6b015e0b353fedf409a5c5ecf51582308341e462 on remote branch  [Linux Build Service Account]
+ ▪ 17c900a  Merge tag 'LA.UM.7.6.2.r1-10100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into 9.0  [Kazakov Stepan]
+
+ ▼ hardware/qcom/media-caf/msm8996/
+ ▪ 3f7ecbe  Merge c89450b6a36d1a73bd97843d73e5656294a09858 on remote branch  [Linux Build Service Account]
+ ▪ 3d88ae9  Merge tag 'LA.UM.7.6.2.r1-10100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into 9.0  [Kazakov Stepan]
+
+ ▼ vendor/qcom/opensource/audio/
+ ▪ ccf33dc  Merge tag 'LA.UM.7.6.2.r1-10100-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into pie  [Kazakov Stepan]
+
+ ▼ vendor/qcom/opensource/data-ipa-cfg-mgr/
+ ▪ e3e4246  Merge tag 'LA.UM.7.6.2.r1-10100-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into pie  [Kazakov Stepan]
+
+ ▼ vendor/qcom/opensource/interfaces/
+ ▪ 6ae63b5  Merge b8e4183b95aa72ad25ff2bdd1890cf73003f0030 on remote branch  [Linux Build Service Account]
+ ▪ f45d900  Merge tag 'LA.UM.7.6.2.r1-10100-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into pie  [Kazakov Stepan]
+
+====================
+     2019-10-03
+====================
+
+ ▼ device/xiaomi/gemini/
+ ▪ 4a65812  msm8996-common: bluetooth: Push×pop PROPERTY_VALUE_MAX in buildcfg header  [LuK1337]
+ ▪ a448126  msm8996-common: Append 'Xiaomi' to BT name  [Luca Stefani]
+ ▪ b36bb34  merge bdroid_buildcfg.h  [Kazakov Stepan]
+ ▪ 92f2cc7  change HAVOC_BUILD_TYPE logic  [Kazakov Stepan]
+ ▪ 5dc0221  drop wcnss_filter sepolicy rules  [Kazakov Stepan]
+
+====================
+     2019-10-01
+====================
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ 6b015e0  Merge "A2dp: Send default channel mapping for TWS+ mono." into audio-hal.lnx.5.0  [Linux Build Service Account]
+ ▪ 637433f  Merge "hal: Unload modem wrt peripheral manager update" into audio-hal.lnx.5.0  [Linux Build Service Account]
+
+====================
+     2019-09-30
+====================
+
+ ▼ hardware/interfaces/
+ ▪ 0564c33  Merge 063247cc2a3cbd90f52bf1de191bad17d6a3d961 on remote branch  [Linux Build Service Account]
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ 052dba0  Merge d033707810af0d64b1df7c9e8684ea6209783d32 on remote branch  [Linux Build Service Account]
+ ▪ 872acb9  Merge "configs:sdm429: Add mixer ctl for Headphone and WSA combo" into audio-hal.lnx.5.0.c5  [Linux Build Service Account]
+ ▪ 06e2b9a  Merge "hal: Allow hal to open Telephony RX as attached device" into audio-hal.lnx.5.0.c5  [Linux Build Service Account]
+
+ ▼ hardware/qcom/media-caf/msm8996/
+ ▪ 0273e0e  Merge c89450b6a36d1a73bd97843d73e5656294a09858 on remote branch  [Linux Build Service Account]
+
+ ▼ vendor/qcom/opensource/interfaces/
+ ▪ fbd0516  Merge b8e4183b95aa72ad25ff2bdd1890cf73003f0030 on remote branch  [Linux Build Service Account]
+
+====================
+     2019-09-27
+====================
+
+ ▼ device/xiaomi/gemini/
+ ▪ 78cab3a  Restore ANT+  [Kazakov Stepan]
+ ▪ 9f4829b  gps: LocIpc derefs nullptr if stopping blocking listener  [Kevin Tang]
+ ▪ f4e4507  gps: Set SV in use mask based on final fixes  [Mike Cailean]
+
+ ▼ vendor/xiaomi/
+ ▪ 2ea7c30  Revert "msm8996-common: Update Bluetooth blobs from LA.UM.7.5.r1-05300-8x96.0"  [Kazakov Stepan]
+ ▪ 4e85d19  msm8996-common: Restore ANT+  [Kazakov Stepan]
+ ▪ 10feabd  convert some modules to Android.bp  [Kazakov Stepan]
+
+====================
+     2019-09-26
+====================
+
+ ▼ external/ant-wireless/ant_service/
+ ▪ f760ac5  Merge tag 'LA.UM.7.5.2.r1-03700-8x96.0' of https://source.codeaurora.org/quic/la/platform/external/ant-wireless/ant_service into HEAD  [Kazakov Stepan]
+
+====================
+     2019-09-24
+====================
+
+ ▼ device/xiaomi/gemini/
+ ▪ c1267fa  overlays: move some values to fwb  [Kazakov Stepan]
+
+ ▼ hardware/interfaces/
+ ▪ ad3e3bc  replace <cutils/log.h> with <log/log.h>  [Kazakov Stepan]
+
+====================
+     2019-09-22
+====================
+
+ ▼ device/qcom/sepolicy-legacy/
+ ▪ 2f39c9e  common: permit libqdutils operation (linked by mediaserver) during WFD  [Vladimir Oltean]
+
+ ▼ device/xiaomi/gemini/
+ ▪ 344d928  move PRODUCT_BRAND var back to $(PRODUCT_NAME).mk  [Kazakov Stepan]
+
+ ▼ hardware/qcom/audio-caf/msm8996/
+ ▪ 6e8c782  Merge "hal: fix voip usecase selection for voice_tx path" into audio-hal.lnx.5.0.c5  [Linux Build Service Account]
+
+ ▼ vendor/nxp/opensource/commonsys/external/libnfc-nci/
+ ▪ 145f3dd  fix warnings  [Kazakov Stepan]
 

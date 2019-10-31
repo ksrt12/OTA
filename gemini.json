@@ -12,23 +12,18 @@
     },
     {
       "title": "Magisk",
-      "summary": "Latest Stable v19.0",
-      "url": "https://github.com/topjohnwu/Magisk/releases/download/v19.0/Magisk-v19.0.zip"
+      "summary": "Latest Stable v20.0",
+      "url": "https://github.com/topjohnwu/Magisk/releases/download/v20.0/Magisk-v20.0.zip"
     },
-    {
-      "title": "Device Changelog",
-      "summary": "View gemini changes",
-      "url": "https://raw.githubusercontent.com/ksrt12/OTA/pie/deviceChangelog"
-    }
   ],
   "developer": "Stepan Kazakov",
   "developer_url": "https://t.me/ksrt12",
-  "filename": "syberia_gemini-v2.5-20190510-1055-VitaPostMortem.zip",
+  "filename": "syberia_gemini-v2.9-20191031-2024-VitaPostMortem.zip",
   "changelog": "",
-  "filesize": "601598722",
-  "md5": "ded1fb8a42471f045ebf50bac67cb582",
-  "build_date": "20190410",
-  "url": "https://sourceforge.net/projects/havoc-gemini/files/syberia/gemini/syberia_gemini-v2.5-20190510-1055-VitaPostMortem.zip/download",
+  "filesize": "628233790",
+  "md5": "83a6db298b0910dd311466738aa863c3",
+  "build_date": "20191031",
+  "url": "https://sourceforge.net/projects/havoc-gemini/files/syberia/gemini/syberia_gemini-v2.9-20191031-2024-VitaPostMortem.zip/download",
   "news_url": "https://github.com/syberia-project",
   "website_url": "http://syberiaos.com",
   "error": "false"
